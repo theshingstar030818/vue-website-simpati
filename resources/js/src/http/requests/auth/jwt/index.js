@@ -31,15 +31,22 @@ export default {
               isAlreadyFetchingAccessToken = false
               onAccessTokenFetched(access_token)
             })
-        }
+            .catch(error => { 
+            })
+          }
 
-        const retryOriginalRequest = new Promise((resolve) => {
-          addSubscriber(access_token => {
-            originalRequest.headers.Authorization = 'Bearer ' + access_token
-            resolve(axios(originalRequest))
-          })
-        })
-        return retryOriginalRequest
+        // console.log(originalRequest);
+        // const retryOriginalRequest = new Promise((resolve) => {
+        //   addSubscriber(access_token => {
+        //     console.log("aaaaaaaaaaaa");
+        //     originalRequest.headers.Authorization = 'Bearer ' + access_token
+        //     resolve(axios(originalRequest))
+        //   })
+        // })
+        // console.log("bbbbbbbbb");
+        // console.log(retryOriginalRequest)
+        // return retryOriginalRequest
+        return originalRequest;
       }
       return Promise.reject(error)
     })

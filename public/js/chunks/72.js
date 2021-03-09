@@ -1,17 +1,19 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[72],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormWizardNumberTab_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormWizardNumberTab.vue */ "./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue");
-/* harmony import */ var _FormWizardIconTab_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormWizardIconTab.vue */ "./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue");
-/* harmony import */ var _FormWizardValidation_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormWizardValidation.vue */ "./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue");
+/* harmony import */ var _TooltipDefault_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TooltipDefault.vue */ "./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue");
+/* harmony import */ var _TooltipPosition_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TooltipPosition.vue */ "./resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue");
+/* harmony import */ var _TooltipDelay_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TooltipDelay.vue */ "./resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue");
+/* harmony import */ var _TooltipColor_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./TooltipColor.vue */ "./resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue");
+/* harmony import */ var _TooltipTitle_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TooltipTitle.vue */ "./resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue");
 //
 //
 //
@@ -32,32 +34,32 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    FormWizardNumberTab: _FormWizardNumberTab_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    FormWizardIconTab: _FormWizardIconTab_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    FormWizardValidation: _FormWizardValidation_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+    TooltipDefault: _TooltipDefault_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    TooltipPosition: _TooltipPosition_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    TooltipDelay: _TooltipDelay_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    TooltipTitle: _TooltipTitle_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    TooltipColor: _TooltipColor_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-form-wizard */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.js");
-/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-form-wizard/dist/vue-form-wizard.min.css */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.min.css");
-/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -117,908 +119,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      firstName: "",
-      lastName: "",
-      email: "",
-      city: "new-york",
-      proposalTitle: "",
-      jobTitle: "",
-      textarea: "",
-      eventName: "",
-      eventLocation: "san-francisco",
-      status: "plannning",
-      cityOptions: [{
-        text: "New York",
-        value: "new-york"
-      }, {
-        text: "Chicago",
-        value: "chicago"
-      }, {
-        text: "San Francisco",
-        value: "san-francisco"
-      }, {
-        text: "Boston",
-        value: "boston"
-      }],
-      statusOptions: [{
-        text: "Plannning",
-        value: "plannning"
-      }, {
-        text: "In Progress",
-        value: "in progress"
-      }, {
-        text: "Finished",
-        value: "finished"
-      }],
-      LocationOptions: [{
-        text: "New York",
-        value: "new-york"
-      }, {
-        text: "Chicago",
-        value: "chicago"
-      }, {
-        text: "San Francisco",
-        value: "san-francisco"
-      }, {
-        text: "Boston",
-        value: "boston"
-      }]
+      switch1: true,
+      number1: 10
     };
-  },
-  methods: {
-    formSubmitted: function formSubmitted() {
-      alert("Form submitted!");
-    }
-  },
-  components: {
-    FormWizard: vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__["FormWizard"],
-    TabContent: vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__["TabContent"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-form-wizard */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.js");
-/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-form-wizard/dist/vue-form-wizard.min.css */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.min.css");
-/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_1__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      firstName: "",
-      lastName: "",
-      email: "",
-      city: "new-york",
-      proposalTitle: "",
-      jobTitle: "",
-      textarea: "",
-      eventName: "",
-      eventLocation: "san-francisco",
-      status: "plannning",
-      cityOptions: [{
-        text: "New York",
-        value: "new-york"
-      }, {
-        text: "Chicago",
-        value: "chicago"
-      }, {
-        text: "San Francisco",
-        value: "san-francisco"
-      }, {
-        text: "Boston",
-        value: "boston"
-      }],
-      statusOptions: [{
-        text: "Plannning",
-        value: "plannning"
-      }, {
-        text: "In Progress",
-        value: "in progress"
-      }, {
-        text: "Finished",
-        value: "finished"
-      }],
-      LocationOptions: [{
-        text: "New York",
-        value: "new-york"
-      }, {
-        text: "Chicago",
-        value: "chicago"
-      }, {
-        text: "San Francisco",
-        value: "san-francisco"
-      }, {
-        text: "Boston",
-        value: "boston"
-      }]
-    };
-  },
-  methods: {
-    formSubmitted: function formSubmitted() {
-      alert("Form submitted!");
-    }
-  },
-  components: {
-    FormWizard: vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__["FormWizard"],
-    TabContent: vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__["TabContent"]
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-form-wizard */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.js");
-/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-form-wizard/dist/vue-form-wizard.min.css */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.min.css");
-/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var vee_validate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vee-validate */ "./node_modules/vee-validate/dist/vee-validate.esm.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
- // For custom error message
-
-
-var dict = {
-  custom: {
-    first_name: {
-      required: 'First name is required',
-      alpha: "First name may only contain alphabetic characters"
-    },
-    last_name: {
-      required: 'Last name is required',
-      alpha: "Last name may only contain alphabetic characters"
-    },
-    email: {
-      required: 'Email is required',
-      email: "Please enter valid email"
-    },
-    job_title: {
-      required: 'Job title name is required',
-      alpha: "Job title may only contain alphabetic characters"
-    },
-    proposal_title: {
-      required: 'Proposal title name is required',
-      alpha: "Proposal title may only contain alphabetic characters"
-    },
-    event_name: {
-      required: 'Event name is required',
-      alpha: "Event name may only contain alphabetic characters"
-    }
-  }
-}; // register custom messages
-
-vee_validate__WEBPACK_IMPORTED_MODULE_2__["Validator"].localize('en', dict);
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      firstName: "",
-      lastName: "",
-      email: "",
-      city: "new-york",
-      proposalTitle: "",
-      jobTitle: "",
-      textarea: "",
-      eventName: "",
-      eventLocation: "san-francisco",
-      status: "plannning",
-      cityOptions: [{
-        text: "New York",
-        value: "new-york"
-      }, {
-        text: "Chicago",
-        value: "chicago"
-      }, {
-        text: "San Francisco",
-        value: "san-francisco"
-      }, {
-        text: "Boston",
-        value: "boston"
-      }],
-      statusOptions: [{
-        text: "Plannning",
-        value: "plannning"
-      }, {
-        text: "In Progress",
-        value: "in progress"
-      }, {
-        text: "Finished",
-        value: "finished"
-      }],
-      LocationOptions: [{
-        text: "New York",
-        value: "new-york"
-      }, {
-        text: "Chicago",
-        value: "chicago"
-      }, {
-        text: "San Francisco",
-        value: "san-francisco"
-      }, {
-        text: "Boston",
-        value: "boston"
-      }]
-    };
-  },
-  methods: {
-    validateStep1: function validateStep1() {
-      var _this = this;
-
-      return new Promise(function (resolve, reject) {
-        _this.$validator.validateAll('step-1').then(function (result) {
-          if (result) {
-            resolve(true);
-          } else {
-            reject("correct all values");
-          }
-        });
-      });
-    },
-    validateStep2: function validateStep2() {
-      var _this2 = this;
-
-      return new Promise(function (resolve, reject) {
-        _this2.$validator.validateAll("step-2").then(function (result) {
-          if (result) {
-            resolve(true);
-          } else {
-            reject("correct all values");
-          }
-        });
-      });
-    },
-    validateStep3: function validateStep3() {
-      var _this3 = this;
-
-      return new Promise(function (resolve, reject) {
-        _this3.$validator.validateAll("step-3").then(function (result) {
-          if (result) {
-            alert("Form submitted!");
-            resolve(true);
-          } else {
-            reject("correct all values");
-          }
-        });
-      });
-    }
-  },
-  components: {
-    FormWizard: vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__["FormWizard"],
-    TabContent: vue_form_wizard__WEBPACK_IMPORTED_MODULE_0__["TabContent"]
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=template&id=199af4b4&":
-/*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=template&id=199af4b4& ***!
-  \******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=template&id=f6d8ed2a&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=template&id=f6d8ed2a& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1032,376 +147,21 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { attrs: { id: "extra-component-form-wizard-demo" } },
+    { attrs: { id: "tooltip-demo" } },
     [
-      _vm._m(0),
+      _c("tooltip-default"),
       _vm._v(" "),
-      _c("form-wizard-number-tab"),
+      _c("tooltip-position"),
       _vm._v(" "),
-      _c("form-wizard-icon-tab"),
+      _c("tooltip-delay"),
       _vm._v(" "),
-      _c("form-wizard-validation")
+      _c("tooltip-color"),
+      _vm._v(" "),
+      _c("tooltip-title")
     ],
     1
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("p", { staticClass: "mb-4" }, [
-      _c(
-        "a",
-        {
-          attrs: {
-            href: "https://binarcode.github.io/vue-form-wizard/#/",
-            target: "_blank",
-            rel: "nofollow"
-          }
-        },
-        [_vm._v("vue-form-wizard")]
-      ),
-      _vm._v(
-        " is a vue based component with no external depenendcies which simplifies tab wizard management and allows you to focus on the functional part of your app rather than wasting time on details."
-      )
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=template&id=34c6bf38&":
-/*!*************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=template&id=34c6bf38& ***!
-  \*************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "vx-card",
-    { attrs: { title: "Form wizard with icon tabs", "code-toggler": "" } },
-    [
-      _c("p", [
-        _vm._v("Add feather icon class to "),
-        _c("code", [_vm._v("icon")]),
-        _vm._v(" prop in "),
-        _c("code", [_vm._v("tab-content")]),
-        _vm._v(" component to get desired icon in tab.")
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "mt-5" },
-        [
-          _c(
-            "form-wizard",
-            {
-              attrs: {
-                color: "rgba(var(--vs-primary), 1)",
-                title: null,
-                subtitle: null,
-                finishButtonText: "Submit"
-              },
-              on: { "on-complete": _vm.formSubmitted }
-            },
-            [
-              _c(
-                "tab-content",
-                {
-                  staticClass: "mb-5",
-                  attrs: { title: "Step 1", icon: "feather icon-home" }
-                },
-                [
-                  _c("div", { staticClass: "vx-row" }, [
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full",
-                          attrs: { label: "First Name" },
-                          model: {
-                            value: _vm.firstName,
-                            callback: function($$v) {
-                              _vm.firstName = $$v
-                            },
-                            expression: "firstName"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full",
-                          attrs: { label: "Last Name" },
-                          model: {
-                            value: _vm.lastName,
-                            callback: function($$v) {
-                              _vm.lastName = $$v
-                            },
-                            expression: "lastName"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full",
-                          attrs: { type: "email", label: "Email" },
-                          model: {
-                            value: _vm.email,
-                            callback: function($$v) {
-                              _vm.email = $$v
-                            },
-                            expression: "email"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c(
-                          "vs-select",
-                          {
-                            staticClass: "w-full select-large",
-                            attrs: { label: "City" },
-                            model: {
-                              value: _vm.city,
-                              callback: function($$v) {
-                                _vm.city = $$v
-                              },
-                              expression: "city"
-                            }
-                          },
-                          _vm._l(_vm.cityOptions, function(item, index) {
-                            return _c("vs-select-item", {
-                              key: index,
-                              staticClass: "w-full",
-                              attrs: { value: item.value, text: item.text }
-                            })
-                          }),
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "tab-content",
-                {
-                  staticClass: "mb-5",
-                  attrs: { title: "Step 2", icon: "feather icon-briefcase" }
-                },
-                [
-                  _c("div", { staticClass: "vx-row" }, [
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full mt-4",
-                          attrs: { label: "Proposal Title" },
-                          model: {
-                            value: _vm.proposalTitle,
-                            callback: function($$v) {
-                              _vm.proposalTitle = $$v
-                            },
-                            expression: "proposalTitle"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("vs-input", {
-                          staticClass: "w-full mt-4",
-                          attrs: { label: "Job Title" },
-                          model: {
-                            value: _vm.jobTitle,
-                            callback: function($$v) {
-                              _vm.jobTitle = $$v
-                            },
-                            expression: "jobTitle"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full" },
-                      [
-                        _c("vs-textarea", {
-                          staticClass: "mb-0 md:mt-10 mt-6",
-                          attrs: { label: "Short discription", rows: "3" },
-                          model: {
-                            value: _vm.textarea,
-                            callback: function($$v) {
-                              _vm.textarea = $$v
-                            },
-                            expression: "textarea"
-                          }
-                        })
-                      ],
-                      1
-                    )
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "tab-content",
-                {
-                  staticClass: "mb-5",
-                  attrs: { title: "Step 3", icon: "feather icon-image" }
-                },
-                [
-                  _c("div", { staticClass: "vx-row" }, [
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full mt-5",
-                          attrs: { label: "Event Name" },
-                          model: {
-                            value: _vm.eventName,
-                            callback: function($$v) {
-                              _vm.eventName = $$v
-                            },
-                            expression: "eventName"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full" },
-                      [
-                        _c(
-                          "vs-select",
-                          {
-                            staticClass: "w-full select-large mt-5",
-                            attrs: { label: "Event Location" },
-                            model: {
-                              value: _vm.city,
-                              callback: function($$v) {
-                                _vm.city = $$v
-                              },
-                              expression: "city"
-                            }
-                          },
-                          _vm._l(_vm.cityOptions, function(item, index) {
-                            return _c("vs-select-item", {
-                              key: index,
-                              staticClass: "w-full",
-                              attrs: { value: item.value, text: item.text }
-                            })
-                          }),
-                          1
-                        )
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c(
-                          "vs-select",
-                          {
-                            staticClass: "w-full select-large",
-                            attrs: { label: "Event Status" },
-                            model: {
-                              value: _vm.status,
-                              callback: function($$v) {
-                                _vm.status = $$v
-                              },
-                              expression: "status"
-                            }
-                          },
-                          _vm._l(_vm.statusOptions, function(item, index) {
-                            return _c("vs-select-item", {
-                              key: index,
-                              staticClass: "w-full",
-                              attrs: { value: item.value, text: item.text }
-                            })
-                          }),
-                          1
-                        )
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full md:mt-8" },
-                      [
-                        _c("div", { staticClass: "demo-alignment" }, [
-                          _c("span", [_vm._v("Requirements:")]),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            { staticClass: "flex" },
-                            [
-                              _c("vs-checkbox", [_vm._v("Staffing")]),
-                              _vm._v(" "),
-                              _c("vs-checkbox", [_vm._v("Catering")])
-                            ],
-                            1
-                          )
-                        ])
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("template", { slot: "codeContainer" }, [
-        _vm._v(
-          '\n<template>\n  <form-wizard color="rgba(var(--vs-primary), 1)" :title="null" :subtitle="null" finishButtonText="Submit" @on-complete="formSubmitted">\n      <tab-content title="Step 1" class="mb-5" icon="feather icon-home">\n\n          <!-- tab 1 content -->\n          <div class="vx-row">\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-input label="First Name" v-model="firstName" class="w-full" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-input label="Last Name"  v-model="lastName" class="w-full" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-input type="email" label="Email"  v-model="email" class="w-full" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-select v-model="city" class="w-full select-large" label="City">\n                      <vs-select-item :key="index" :value="item.value" :text="item.text" v-for="(item,index) in cityOptions" class="w-full" />\n                  </vs-select>\n              </div>\n          </div>\n      </tab-content>\n\n      <!-- tab 2 content -->\n      <tab-content title="Step 2" class="mb-5" icon="feather icon-briefcase">\n          <div class="vx-row">\n              <div class="vx-col md:w-1/2 w-full">\n                  <vs-input label="Proposal Title" v-model="proposalTitle" class="w-full mt-4" />\n                  <vs-input label="Job Title"  v-model="jobTitle" class="w-full mt-4" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full">\n                  <vs-textarea v-model="textarea" label="Short discription" class="mb-0 md:mt-10 mt-6" rows="3" />\n              </div>\n          </div>\n      </tab-content>\n\n      <!-- tab 3 content -->\n      <tab-content title="Step 3" class="mb-5" icon="feather icon-image">\n          <div class="vx-row">\n              <div class="vx-col md:w-1/2 w-full">\n                  <vs-input label="Event Name" v-model="eventName" class="w-full mt-5" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full">\n                  <vs-select v-model="city" class="w-full select-large mt-5" label="Event Location">\n                      <vs-select-item :key="index" :value="item.value" :text="item.text" v-for="(item,index) in cityOptions" class="w-full" />\n                  </vs-select>\n              </div>\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-select v-model="status" class="w-full select-large" label="Event Status">\n                      <vs-select-item :key="index" :value="item.value" :text="item.text" v-for="(item,index) in statusOptions" class="w-full" />\n                  </vs-select>\n              </div>\n              <div class="vx-col md:w-1/2 w-full md:mt-8">\n                  <div class="demo-alignment">\n                      <span>Requirements:</span>\n                      <div class="flex">\n                        <vs-checkbox>Staffing</vs-checkbox>\n                        <vs-checkbox>Catering</vs-checkbox>\n                      </div>\n                  </div>\n              </div>\n          </div>\n      </tab-content>\n  </form-wizard>\n</template>\n\n<script>\nimport {FormWizard, TabContent} from \'vue-form-wizard\'\nimport \'vue-form-wizard/dist/vue-form-wizard.min.css\'\n\nexport default {\n  data() {\n    return {\n      firstName: "",\n      /// other data....\n    }\n  },\n  methods: {\n    formSubmitted() {\n      alert("Form submitted!");\n    }\n  },\n  components: {\n    FormWizard,\n    TabContent\n  }\n}\n</script>\n        '
-        )
-      ])
-    ],
-    2
-  )
-}
 var staticRenderFns = []
 render._withStripped = true
 
@@ -1409,335 +169,9 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=template&id=38c95530&":
-/*!***************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=template&id=38c95530& ***!
-  \***************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "vx-card",
-    { attrs: { title: "Form wizard with number tabs", "code-toggler": "" } },
-    [
-      _c("p", [
-        _vm._v("Create neat and clean form wizard using "),
-        _c("code", [_vm._v("form-wizard")]),
-        _vm._v(" and "),
-        _c("code", [_vm._v("tab-content")]),
-        _vm._v(" components")
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "mt-5" },
-        [
-          _c(
-            "form-wizard",
-            {
-              attrs: {
-                color: "rgba(var(--vs-primary), 1)",
-                title: null,
-                subtitle: null,
-                finishButtonText: "Submit"
-              },
-              on: { "on-complete": _vm.formSubmitted }
-            },
-            [
-              _c(
-                "tab-content",
-                { staticClass: "mb-5", attrs: { title: "Step 1" } },
-                [
-                  _c("div", { staticClass: "vx-row" }, [
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full",
-                          attrs: { label: "First Name" },
-                          model: {
-                            value: _vm.firstName,
-                            callback: function($$v) {
-                              _vm.firstName = $$v
-                            },
-                            expression: "firstName"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full",
-                          attrs: { label: "Last Name" },
-                          model: {
-                            value: _vm.lastName,
-                            callback: function($$v) {
-                              _vm.lastName = $$v
-                            },
-                            expression: "lastName"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full",
-                          attrs: { type: "email", label: "Email" },
-                          model: {
-                            value: _vm.email,
-                            callback: function($$v) {
-                              _vm.email = $$v
-                            },
-                            expression: "email"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c(
-                          "vs-select",
-                          {
-                            staticClass: "w-full select-large",
-                            attrs: { label: "City" },
-                            model: {
-                              value: _vm.city,
-                              callback: function($$v) {
-                                _vm.city = $$v
-                              },
-                              expression: "city"
-                            }
-                          },
-                          _vm._l(_vm.cityOptions, function(item, index) {
-                            return _c("vs-select-item", {
-                              key: index,
-                              staticClass: "w-full",
-                              attrs: { value: item.value, text: item.text }
-                            })
-                          }),
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "tab-content",
-                { staticClass: "mb-5", attrs: { title: "Step 2" } },
-                [
-                  _c("div", { staticClass: "vx-row" }, [
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full mt-4",
-                          attrs: { label: "Proposal Title" },
-                          model: {
-                            value: _vm.proposalTitle,
-                            callback: function($$v) {
-                              _vm.proposalTitle = $$v
-                            },
-                            expression: "proposalTitle"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("vs-input", {
-                          staticClass: "w-full mt-4",
-                          attrs: { label: "Job Title" },
-                          model: {
-                            value: _vm.jobTitle,
-                            callback: function($$v) {
-                              _vm.jobTitle = $$v
-                            },
-                            expression: "jobTitle"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full" },
-                      [
-                        _c("vs-textarea", {
-                          staticClass: "mb-0 md:mt-10 mt-6",
-                          attrs: { label: "Short discription", rows: "3" },
-                          model: {
-                            value: _vm.textarea,
-                            callback: function($$v) {
-                              _vm.textarea = $$v
-                            },
-                            expression: "textarea"
-                          }
-                        })
-                      ],
-                      1
-                    )
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "tab-content",
-                { staticClass: "mb-5", attrs: { title: "Step 3" } },
-                [
-                  _c("div", { staticClass: "vx-row" }, [
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full" },
-                      [
-                        _c("vs-input", {
-                          staticClass: "w-full mt-5",
-                          attrs: { label: "Event Name" },
-                          model: {
-                            value: _vm.eventName,
-                            callback: function($$v) {
-                              _vm.eventName = $$v
-                            },
-                            expression: "eventName"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full" },
-                      [
-                        _c(
-                          "vs-select",
-                          {
-                            staticClass: "w-full select-large mt-5",
-                            attrs: { label: "Event Location" },
-                            model: {
-                              value: _vm.city,
-                              callback: function($$v) {
-                                _vm.city = $$v
-                              },
-                              expression: "city"
-                            }
-                          },
-                          _vm._l(_vm.cityOptions, function(item, index) {
-                            return _c("vs-select-item", {
-                              key: index,
-                              staticClass: "w-full",
-                              attrs: { value: item.value, text: item.text }
-                            })
-                          }),
-                          1
-                        )
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                      [
-                        _c(
-                          "vs-select",
-                          {
-                            staticClass: "w-full select-large",
-                            attrs: { label: "Event Status" },
-                            model: {
-                              value: _vm.status,
-                              callback: function($$v) {
-                                _vm.status = $$v
-                              },
-                              expression: "status"
-                            }
-                          },
-                          _vm._l(_vm.statusOptions, function(item, index) {
-                            return _c("vs-select-item", {
-                              key: index,
-                              staticClass: "w-full",
-                              attrs: { value: item.value, text: item.text }
-                            })
-                          }),
-                          1
-                        )
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "vx-col md:w-1/2 w-full md:mt-8" },
-                      [
-                        _c("div", { staticClass: "demo-alignment" }, [
-                          _c("span", [_vm._v("Requirements:")]),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            { staticClass: "flex" },
-                            [
-                              _c("vs-checkbox", [_vm._v("Staffing")]),
-                              _vm._v(" "),
-                              _c("vs-checkbox", [_vm._v("Catering")])
-                            ],
-                            1
-                          )
-                        ])
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("template", { slot: "codeContainer" }, [
-        _vm._v(
-          '\n<template>\n  <form-wizard color="rgba(var(--vs-primary), 1)" :title="null" :subtitle="null" finishButtonText="Submit" @on-complete="formSubmitted">\n      <tab-content title="Step 1" class="mb-5">\n\n          <!-- tab 1 content -->\n          <div class="vx-row">\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-input label="First Name" v-model="firstName" class="w-full" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-input label="Last Name"  v-model="lastName" class="w-full" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-input type="email" label="Email"  v-model="email" class="w-full" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-select v-model="city" class="w-full select-large" label="City">\n                      <vs-select-item :key="index" :value="item.value" :text="item.text" v-for="(item,index) in cityOptions" class="w-full" />\n                  </vs-select>\n              </div>\n          </div>\n      </tab-content>\n\n      <!-- tab 2 content -->\n      <tab-content title="Step 2" class="mb-5">\n          <div class="vx-row">\n              <div class="vx-col md:w-1/2 w-full">\n                  <vs-input label="Proposal Title" v-model="proposalTitle" class="w-full mt-4" />\n                  <vs-input label="Job Title"  v-model="jobTitle" class="w-full mt-4" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full">\n                  <vs-textarea v-model="textarea" label="Short discription" class="mb-0 md:mt-10 mt-6" rows="3" />\n              </div>\n          </div>\n      </tab-content>\n\n      <!-- tab 3 content -->\n      <tab-content title="Step 3" class="mb-5">\n          <div class="vx-row">\n              <div class="vx-col md:w-1/2 w-full">\n                  <vs-input label="Event Name" v-model="eventName" class="w-full mt-5" />\n              </div>\n              <div class="vx-col md:w-1/2 w-full">\n                  <vs-select v-model="city" class="w-full select-large mt-5" label="Event Location">\n                      <vs-select-item :key="index" :value="item.value" :text="item.text" v-for="(item,index) in cityOptions" class="w-full" />\n                  </vs-select>\n              </div>\n              <div class="vx-col md:w-1/2 w-full mt-5">\n                  <vs-select v-model="status" class="w-full select-large" label="Event Status">\n                      <vs-select-item :key="index" :value="item.value" :text="item.text" v-for="(item,index) in statusOptions" class="w-full" />\n                  </vs-select>\n              </div>\n              <div class="vx-col md:w-1/2 w-full md:mt-8">\n                  <div class="demo-alignment">\n                      <span>Requirements:</span>\n                      <div class="flex">\n                        <vs-checkbox>Staffing</vs-checkbox>\n                        <vs-checkbox>Catering</vs-checkbox>\n                      </div>\n                  </div>\n              </div>\n          </div>\n      </tab-content>\n  </form-wizard>\n</template>\n\n<script>\nimport {FormWizard, TabContent} from \'vue-form-wizard\'\nimport \'vue-form-wizard/dist/vue-form-wizard.min.css\'\n\nexport default {\n  data() {\n    return {\n      firstName: "",\n      lastName: "",\n      email: "",\n      city: "new-york",\n      proposalTitle: "",\n      jobTitle: "",\n      textarea: "",\n      eventName: "",\n      eventLocation: "san-francisco",\n      status: "plannning",\n      cityOptions: [\n        {text: "New York", value:"new-york"},\n        {text: "Chicago", value:"chicago"},\n        {text: "San Francisco", value:"san-francisco"},\n        {text: "Boston", value:"boston"},\n      ],\n      statusOptions: [\n        {text: "Plannning", value:"plannning"},\n        {text: "In Progress", value:"in progress"},\n        {text: "Finished", value:"finished"},\n      ],\n      LocationOptions: [\n        {text: "New York", value:"new-york"},\n        {text: "Chicago", value:"chicago"},\n        {text: "San Francisco", value:"san-francisco"},\n        {text: "Boston", value:"boston"},\n      ],\n    }\n  },\n  methods: {\n    formSubmitted() {\n      alert("Form submitted!");\n    }\n  },\n  components: {\n    FormWizard,\n    TabContent\n  }\n}\n</script>\n        '
-        )
-      ])
-    ],
-    2
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=template&id=11b19c66&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue?vue&type=template&id=6b9b0d68&":
 /*!****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=template&id=11b19c66& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue?vue&type=template&id=6b9b0d68& ***!
   \****************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1752,409 +186,125 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Form wizard with validation", "code-toggler": "" } },
+    { attrs: { title: "Color", "code-toggler": "" } },
     [
       _c("p", [
-        _vm._v("Implement Form validation with form wizard using popular "),
-        _c(
-          "strong",
-          [
-            _c("router-link", { attrs: { to: "/forms/form-validation" } }, [
-              _vm._v("VeeValidate")
-            ])
-          ],
-          1
-        )
+        _vm._v(
+          "To change the color of the tooltip, use the property color. You are able to use the Main Colors or "
+        ),
+        _c("strong", [_vm._v("RGB")]),
+        _vm._v(" and "),
+        _c("strong", [_vm._v("HEX")]),
+        _vm._v(" colors")
       ]),
       _vm._v(" "),
       _c(
+        "vs-alert",
+        {
+          staticClass: "mt-5",
+          attrs: { icon: "warning", active: "true", color: "warning" }
+        },
+        [
+          _c("span", [
+            _vm._v("Only "),
+            _c("strong", [_vm._v("RGB")]),
+            _vm._v(" and "),
+            _c("strong", [_vm._v("HEX")]),
+            _vm._v(" colors are supported.")
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
         "div",
-        { staticClass: "mt-5" },
+        { staticClass: "demo-alignment" },
         [
           _c(
-            "form-wizard",
-            {
-              attrs: {
-                color: "rgba(var(--vs-primary), 1)",
-                errorColor: "rgba(var(--vs-danger), 1)",
-                title: null,
-                subtitle: null,
-                finishButtonText: "Submit"
-              }
-            },
+            "vx-tooltip",
+            { attrs: { text: "Tooltip default" } },
+            [
+              _c("vs-button", { attrs: { type: "gradient" } }, [
+                _vm._v("Default Color")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { color: "primary", text: "Tooltip Primary" } },
+            [
+              _c("vs-button", { attrs: { type: "border" } }, [
+                _vm._v("Color primary")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { color: "success", text: "Tooltip Success" } },
+            [
+              _c("vs-button", { attrs: { color: "success", type: "border" } }, [
+                _vm._v("Color success")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { color: "danger", text: "Tooltip Danger" } },
+            [
+              _c("vs-button", { attrs: { color: "danger", type: "border" } }, [
+                _vm._v("Color danger")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { color: "warning", text: "Tooltip Warning" } },
+            [
+              _c("vs-button", { attrs: { color: "warning", type: "border" } }, [
+                _vm._v("Color warning")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { color: "dark", text: "Tooltip Dark" } },
+            [
+              _c("vs-button", { attrs: { color: "dark", type: "border" } }, [
+                _vm._v("Color dark")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { color: "rgb(42, 207, 133)", text: "Tooltip RGB" } },
             [
               _c(
-                "tab-content",
-                {
-                  staticClass: "mb-5",
-                  attrs: {
-                    title: "Step 1",
-                    icon: "feather icon-home",
-                    "before-change": _vm.validateStep1
-                  }
-                },
-                [
-                  _c("form", { attrs: { "data-vv-scope": "step-1" } }, [
-                    _c("div", { staticClass: "vx-row" }, [
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                        [
-                          _c("vs-input", {
-                            directives: [
-                              {
-                                name: "validate",
-                                rawName: "v-validate",
-                                value: "required|alpha",
-                                expression: "'required|alpha'"
-                              }
-                            ],
-                            staticClass: "w-full",
-                            attrs: { label: "First Name", name: "first_name" },
-                            model: {
-                              value: _vm.firstName,
-                              callback: function($$v) {
-                                _vm.firstName = $$v
-                              },
-                              expression: "firstName"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _c("span", { staticClass: "text-danger" }, [
-                            _vm._v(
-                              _vm._s(_vm.errors.first("step-1.first_name"))
-                            )
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                        [
-                          _c("vs-input", {
-                            directives: [
-                              {
-                                name: "validate",
-                                rawName: "v-validate",
-                                value: "required|alpha",
-                                expression: "'required|alpha'"
-                              }
-                            ],
-                            staticClass: "w-full",
-                            attrs: { label: "Last Name", name: "last_name" },
-                            model: {
-                              value: _vm.lastName,
-                              callback: function($$v) {
-                                _vm.lastName = $$v
-                              },
-                              expression: "lastName"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _c("span", { staticClass: "text-danger" }, [
-                            _vm._v(_vm._s(_vm.errors.first("step-1.last_name")))
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                        [
-                          _c("vs-input", {
-                            directives: [
-                              {
-                                name: "validate",
-                                rawName: "v-validate",
-                                value: "required|email",
-                                expression: "'required|email'"
-                              }
-                            ],
-                            staticClass: "w-full",
-                            attrs: {
-                              type: "email",
-                              label: "Email",
-                              name: "email"
-                            },
-                            model: {
-                              value: _vm.email,
-                              callback: function($$v) {
-                                _vm.email = $$v
-                              },
-                              expression: "email"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _c("span", { staticClass: "text-danger" }, [
-                            _vm._v(_vm._s(_vm.errors.first("step-1.email")))
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                        [
-                          _c(
-                            "vs-select",
-                            {
-                              staticClass: "w-full select-large",
-                              attrs: { label: "City" },
-                              model: {
-                                value: _vm.city,
-                                callback: function($$v) {
-                                  _vm.city = $$v
-                                },
-                                expression: "city"
-                              }
-                            },
-                            _vm._l(_vm.cityOptions, function(item, index) {
-                              return _c("vs-select-item", {
-                                key: index,
-                                staticClass: "w-full",
-                                attrs: { value: item.value, text: item.text }
-                              })
-                            }),
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ])
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "tab-content",
-                {
-                  staticClass: "mb-5",
-                  attrs: {
-                    title: "Step 2",
-                    icon: "feather icon-briefcase",
-                    "before-change": _vm.validateStep2
-                  }
-                },
-                [
-                  _c("form", { attrs: { "data-vv-scope": "step-2" } }, [
-                    _c("div", { staticClass: "vx-row" }, [
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full" },
-                        [
-                          _c("vs-input", {
-                            directives: [
-                              {
-                                name: "validate",
-                                rawName: "v-validate",
-                                value: "required|alpha_spaces",
-                                expression: "'required|alpha_spaces'"
-                              }
-                            ],
-                            staticClass: "w-full mt-4",
-                            attrs: {
-                              label: "Proposal Title",
-                              name: "proposal_title"
-                            },
-                            model: {
-                              value: _vm.proposalTitle,
-                              callback: function($$v) {
-                                _vm.proposalTitle = $$v
-                              },
-                              expression: "proposalTitle"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _c("span", { staticClass: "text-danger" }, [
-                            _vm._v(
-                              _vm._s(_vm.errors.first("step-2.proposal_title"))
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("vs-input", {
-                            directives: [
-                              {
-                                name: "validate",
-                                rawName: "v-validate",
-                                value: "required|alpha_spaces",
-                                expression: "'required|alpha_spaces'"
-                              }
-                            ],
-                            staticClass: "w-full mt-4",
-                            attrs: { label: "Job Title", name: "job_title" },
-                            model: {
-                              value: _vm.jobTitle,
-                              callback: function($$v) {
-                                _vm.jobTitle = $$v
-                              },
-                              expression: "jobTitle"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _c("span", { staticClass: "text-danger" }, [
-                            _vm._v(_vm._s(_vm.errors.first("step-2.job_title")))
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full" },
-                        [
-                          _c("vs-textarea", {
-                            staticClass: "md:mt-10 mt-6 mb-0",
-                            attrs: { label: "Short discription", rows: "3" },
-                            model: {
-                              value: _vm.textarea,
-                              callback: function($$v) {
-                                _vm.textarea = $$v
-                              },
-                              expression: "textarea"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ])
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "tab-content",
-                {
-                  staticClass: "mb-5",
-                  attrs: {
-                    title: "Step 3",
-                    icon: "feather icon-image",
-                    "before-change": _vm.validateStep3
-                  }
-                },
-                [
-                  _c("form", { attrs: { "data-vv-scope": "step-3" } }, [
-                    _c("div", { staticClass: "vx-row" }, [
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full" },
-                        [
-                          _c("vs-input", {
-                            directives: [
-                              {
-                                name: "validate",
-                                rawName: "v-validate",
-                                value: "required|alpha_spaces",
-                                expression: "'required|alpha_spaces'"
-                              }
-                            ],
-                            staticClass: "w-full mt-5",
-                            attrs: { label: "Event Name", name: "event_name" },
-                            model: {
-                              value: _vm.eventName,
-                              callback: function($$v) {
-                                _vm.eventName = $$v
-                              },
-                              expression: "eventName"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _c("span", { staticClass: "text-danger" }, [
-                            _vm._v(
-                              _vm._s(_vm.errors.first("step-3.event_name"))
-                            )
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full" },
-                        [
-                          _c(
-                            "vs-select",
-                            {
-                              staticClass: "w-full select-large mt-5",
-                              attrs: { label: "Event Location" },
-                              model: {
-                                value: _vm.city,
-                                callback: function($$v) {
-                                  _vm.city = $$v
-                                },
-                                expression: "city"
-                              }
-                            },
-                            _vm._l(_vm.cityOptions, function(item, index) {
-                              return _c("vs-select-item", {
-                                key: index,
-                                staticClass: "w-full",
-                                attrs: { value: item.value, text: item.text }
-                              })
-                            }),
-                            1
-                          )
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full mt-5" },
-                        [
-                          _c(
-                            "vs-select",
-                            {
-                              staticClass: "w-full select-large",
-                              attrs: { label: "Event Status" },
-                              model: {
-                                value: _vm.status,
-                                callback: function($$v) {
-                                  _vm.status = $$v
-                                },
-                                expression: "status"
-                              }
-                            },
-                            _vm._l(_vm.statusOptions, function(item, index) {
-                              return _c("vs-select-item", {
-                                key: index,
-                                staticClass: "w-full",
-                                attrs: { value: item.value, text: item.text }
-                              })
-                            }),
-                            1
-                          )
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "vx-col md:w-1/2 w-full md:mt-8" },
-                        [
-                          _c("div", { staticClass: "demo-alignment" }, [
-                            _c("span", [_vm._v("Requirements:")]),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "flex" },
-                              [
-                                _c("vs-checkbox", [_vm._v("Staffing")]),
-                                _vm._v(" "),
-                                _c("vs-checkbox", [_vm._v("Catering")])
-                              ],
-                              1
-                            )
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]
+                "vs-button",
+                { attrs: { color: "rgb(42, 207, 133)", type: "border" } },
+                [_vm._v("Color RGB")]
               )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { color: "#4a0d6b", text: "Tooltip HEX" } },
+            [
+              _c("vs-button", { attrs: { color: "#4a0d6b", type: "border" } }, [
+                _vm._v("Color HEX")
+              ])
             ],
             1
           )
@@ -2164,19 +314,7 @@ var render = function() {
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <form-wizard color="rgba(var(--vs-primary), 1)" errorColor="rgba(var(--vs-danger), 1)" :title="null" :subtitle="null" finishButtonText="Submit">\n    <tab-content title="Step 1" class="mb-5" icon="feather icon-home" :before-change="validateStep1">\n\n      <!-- tab 1 content -->\n      <form data-vv-scope="step-1">\n      <div class="vx-row">\n        <div class="vx-col md:w-1/2 w-full mt-5">\n          <vs-input label="First Name" v-model="firstName" class="w-full" name="first_name" v-validate="\'required|alpha\'" />\n          <span class="text-danger">' +
-            _vm._s(_vm.errors.first("step-1.first_name")) +
-            '</span>\n        </div>\n        <div class="vx-col md:w-1/2 w-full mt-5">\n          <vs-input label="Last Name"  v-model="lastName" class="w-full" name="last_name" v-validate="\'required|alpha\'" />\n          <span class="text-danger">' +
-            _vm._s(_vm.errors.first("step-1.last_name")) +
-            '</span>\n        </div>\n        <div class="vx-col md:w-1/2 w-full mt-5">\n          <vs-input type="email" label="Email"  v-model="email" class="w-full" name="email" v-validate="\'required|email\'" />\n          <span class="text-danger">' +
-            _vm._s(_vm.errors.first("step-1.email")) +
-            '</span>\n        </div>\n        <div class="vx-col md:w-1/2 w-full mt-5">\n          <vs-select v-model="city" class="w-full select-large" label="City">\n            <vs-select-item :key="index" :value="item.value" :text="item.text" v-for="(item,index) in cityOptions" class="w-full" />\n          </vs-select>\n        </div>\n      </div>\n      </form>\n    </tab-content>\n\n    <!-- tab 2 content -->\n    <tab-content title="Step 2" class="mb-5" icon="feather icon-briefcase" :before-change="validateStep2">\n      <form data-vv-scope="step-2">\n      <div class="vx-row">\n        <div class="vx-col md:w-1/2 w-full">\n          <vs-input label="Proposal Title" v-model="proposalTitle" class="w-full mt-4" name="proposal_title" v-validate="\'required|alpha_spaces\'" />\n          <span class="text-danger">' +
-            _vm._s(_vm.errors.first("step-2.proposal_title")) +
-            '</span>\n\n          <vs-input label="Job Title"  v-model="jobTitle" class="w-full mt-4" name="job_title" v-validate="\'required|alpha_spaces\'" />\n          <span class="text-danger">' +
-            _vm._s(_vm.errors.first("step-2.job_title")) +
-            '</span>\n        </div>\n        <div class="vx-col md:w-1/2 w-full">\n          <vs-textarea v-model="textarea" label="Short discription" class="md:mt-10 mt-6 mb-0" rows="3" />\n        </div>\n      </div>\n      </form>\n    </tab-content>\n\n    <!-- tab 3 content -->\n    <tab-content title="Step 3" class="mb-5" icon="feather icon-image" :before-change="validateStep3">\n      <form data-vv-scope="step-3">\n      <div class="vx-row">\n        <div class="vx-col md:w-1/2 w-full">\n          <vs-input label="Event Name" v-model="eventName" class="w-full mt-5" name="event_name" v-validate="\'required|alpha_spaces\'" />\n          <span class="text-danger">' +
-            _vm._s(_vm.errors.first("step-3.event_name")) +
-            '</span>\n        </div>\n        <div class="vx-col md:w-1/2 w-full">\n          <vs-select v-model="city" class="w-full select-large mt-5" label="Event Location">\n            <vs-select-item :key="index" :value="item.value" :text="item.text" v-for="(item,index) in cityOptions" class="w-full" />\n          </vs-select>\n        </div>\n        <div class="vx-col md:w-1/2 w-full mt-5">\n          <vs-select v-model="status" class="w-full select-large" label="Event Status">\n            <vs-select-item :key="index" :value="item.value" :text="item.text" v-for="(item,index) in statusOptions" class="w-full" />\n          </vs-select>\n        </div>\n        <div class="vx-col md:w-1/2 w-full md:mt-8">\n          <div class="demo-alignment">\n            <span>Requirements:</span>\n            <div class="flex">\n              <vs-checkbox>Staffing</vs-checkbox>\n              <vs-checkbox>Catering</vs-checkbox>\n            </div>\n          </div>\n        </div>\n      </div>\n      </form>\n    </tab-content>\n  </form-wizard>\n</template>\n\n<script>\nimport { FormWizard, TabContent } from \'vue-form-wizard\'\nimport \'vue-form-wizard/dist/vue-form-wizard.min.css\'\n\n// For custom error message\nimport { Validator } from \'vee-validate\';\nconst dict = {\n  custom: {\n    first_name: {\n      required: \'First name is required\',\n      alpha: "First name may only contain alphabetic characters"\n    },\n    last_name: {\n      required: \'Last name is required\',\n      alpha: "Last name may only contain alphabetic characters"\n    },\n    email: {\n      required: \'Email is required\',\n      email: "Please enter valid email"\n    },\n    job_title: {\n      required: \'Job title name is required\',\n      alpha: "Job title may only contain alphabetic characters"\n    },\n    proposal_title: {\n      required: \'Proposal title name is required\',\n      alpha: "Proposal title may only contain alphabetic characters"\n    },\n    event_name: {\n      required: \'Event name is required\',\n      alpha: "Event name may only contain alphabetic characters"\n    },\n  }\n};\n\n// register custom messages\nValidator.localize(\'en\', dict);\n\nexport default {\n  data() {\n    return {\n      firstName: "",\n      lastName: "",\n      email: "",\n      city: "new-york",\n      proposalTitle: "",\n      jobTitle: "",\n      textarea: "",\n      eventName: "",\n      eventLocation: "san-francisco",\n      status: "plannning",\n      cityOptions: [\n        { text: "New York", value: "new-york" },\n        { text: "Chicago", value: "chicago" },\n        { text: "San Francisco", value: "san-francisco" },\n        { text: "Boston", value: "boston" },\n      ],\n      statusOptions: [\n        { text: "Plannning", value: "plannning" },\n        { text: "In Progress", value: "in progress" },\n        { text: "Finished", value: "finished" },\n      ],\n      LocationOptions: [\n        { text: "New York", value: "new-york" },\n        { text: "Chicago", value: "chicago" },\n        { text: "San Francisco", value: "san-francisco" },\n        { text: "Boston", value: "boston" },\n      ],\n    }\n  },\n  methods: {\n    validateStep1() {\n      return new Promise((resolve, reject) => {\n        this.$validator.validateAll(\'step-1\').then(result => {\n          if (result) {\n            resolve(true)\n          } else {\n            reject("correct all values");\n          }\n        })\n      })\n    },\n    validateStep2() {\n      return new Promise((resolve, reject) => {\n        this.$validator.validateAll("step-2").then(result => {\n          if (result) {\n            resolve(true)\n          } else {\n            reject("correct all values");\n          }\n        })\n      })\n    },\n    validateStep3() {\n      return new Promise((resolve, reject) => {\n        this.$validator.validateAll("step-3").then(result => {\n          if (result) {\n            alert("Form submitted!");\n            resolve(true)\n          } else {\n            reject("correct all values");\n          }\n        })\n      })\n    }\n  },\n  components: {\n    FormWizard,\n    TabContent\n  }\n}\n</script>\n    '
+          '\n<template>\n  <vx-tooltip text="Tooltip default">\n    <vs-button type="gradient">Default Color</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip color="primary" text="Tooltip Primary">\n    <vs-button type="border">Color primary</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip color="success" text="Tooltip Success">\n    <vs-button color="success" type="border">Color success</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip color="danger" text="Tooltip Danger">\n    <vs-button color="danger" type="border">Color danger</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip color="warning" text="Tooltip Warning">\n    <vs-button color="warning" type="border">Color warning</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip color="dark" text="Tooltip Dark">\n    <vs-button color="dark" type="border">Color dark</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip color="rgb(42, 207, 133)" text="Tooltip RGB">\n    <vs-button color="rgb(42, 207, 133)" type="border">Color RGB</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip color="#4a0d6b" text="Tooltip HEX">\n    <vs-button color="#4a0d6b" type="border">Color HEX</vs-button>\n  </vx-tooltip>\n</template>\n        '
         )
       ])
     ],
@@ -2190,18 +328,334 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizard.vue":
-/*!*****************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizard.vue ***!
-  \*****************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=template&id=4928e3f4&":
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=template&id=4928e3f4& ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Default", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v("To add a tooltip we have the component "),
+        _c("code", [_vm._v("vx-tooltip")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-alignment" },
+        [
+          _c(
+            "vx-tooltip",
+            { attrs: { text: "Tooltip Default" } },
+            [
+              _c("vs-switch", {
+                model: {
+                  value: _vm.switch1,
+                  callback: function($$v) {
+                    _vm.switch1 = $$v
+                  },
+                  expression: "switch1"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { text: "Tooltip Default" } },
+            [
+              _c("vs-input-number", {
+                model: {
+                  value: _vm.number1,
+                  callback: function($$v) {
+                    _vm.number1 = $$v
+                  },
+                  expression: "number1"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { text: "Tooltip Default" } },
+            [
+              _c("vs-button", { attrs: { color: "primary", type: "border" } }, [
+                _vm._v("Button")
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<template>\n  <vx-tooltip text="Tooltip Default">\n    <vs-switch v-model="switch1" />\n  </vx-tooltip>\n\n  <vx-tooltip text="Tooltip Default">\n    <vs-input-number v-model="number1" />\n  </vx-tooltip>\n\n  <vx-tooltip text="Tooltip Default">\n    <vs-button color="primary" type="border">Button</vs-button>\n  </vx-tooltip>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      switch1:true,\n      number1:10,\n    }\n  }\n}\n</script>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue?vue&type=template&id=4cdaf0f0&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue?vue&type=template&id=4cdaf0f0& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Delay", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v(
+          "You can change the delay in appearing the tooltip with the property "
+        ),
+        _c("code", [_vm._v("delay")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-alignment" },
+        [
+          _c(
+            "vx-tooltip",
+            { attrs: { text: "Tooltip default delay" } },
+            [_c("vs-button", [_vm._v("Delay default")])],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { delay: ".5s", text: "Tooltip delay 0.5s" } },
+            [_c("vs-button", [_vm._v("Delay 0.5s")])],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { delay: "2s", text: "Tooltip delay 2s" } },
+            [_c("vs-button", [_vm._v("Delay 2s")])],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<template>\n  <vx-tooltip text="Tooltip default delay">\n    <vs-button>Delay default</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip delay=".5s" text="Tooltip delay 0.5s">\n    <vs-button>Delay 0.5s</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip delay="2s" text="Tooltip delay 2s">\n    <vs-button>Delay 2s</vs-button>\n  </vx-tooltip>\n</template>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue?vue&type=template&id=851f9198&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue?vue&type=template&id=851f9198& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Position", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v(
+          "You can change the position at which the tooltip appears with the property "
+        ),
+        _c("code", [_vm._v("position")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-alignment" },
+        [
+          _c(
+            "vx-tooltip",
+            { attrs: { text: "Tooltip position Top", position: "top" } },
+            [_c("vs-button", { attrs: { type: "gradient" } }, [_vm._v("Top")])],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { text: "Tooltip position Bottom", position: "bottom" } },
+            [
+              _c("vs-button", { attrs: { type: "gradient" } }, [
+                _vm._v("Bottom")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { text: "Tooltip position Left", position: "left" } },
+            [
+              _c("vs-button", { attrs: { type: "gradient" } }, [_vm._v("Left")])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "vx-tooltip",
+            { attrs: { text: "Tooltip position Right", position: "right" } },
+            [
+              _c("vs-button", { attrs: { type: "gradient" } }, [
+                _vm._v("Right")
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<template>\n  <vx-tooltip text="Tooltip position Top" position="top">\n    <vs-button type="gradient">Top</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip text="Tooltip position Bottom" position="bottom">\n    <vs-button type="gradient">Bottom</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip text="Tooltip position Left" position="left">\n    <vs-button type="gradient">Left</vs-button>\n  </vx-tooltip>\n\n  <vx-tooltip text="Tooltip position Right" position="right">\n    <vs-button type="gradient">Right</vs-button>\n  </vx-tooltip>\n</template>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue?vue&type=template&id=763b7ddd&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue?vue&type=template&id=763b7ddd& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Title", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v(
+          "If necessary, you can add a title to the tooltip with the property "
+        ),
+        _c("code", [_vm._v("title")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-alignment" },
+        [
+          _c(
+            "vx-tooltip",
+            {
+              attrs: {
+                title: "Are you sure?",
+                color: "warning",
+                text:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque non neque sed aliquet."
+              }
+            },
+            [
+              _c("vs-button", { attrs: { color: "warning", type: "flat" } }, [
+                _vm._v("Title Tooltip")
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<template>\n  <vx-tooltip\n    title="Are you sure?"\n    color="warning"\n    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque non neque sed aliquet.">\n\n    <vs-button color="warning" type="flat">Title Tooltip</vs-button>\n  </vx-tooltip>\n</template>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue":
+/*!**********************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue ***!
+  \**********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormWizard_vue_vue_type_template_id_199af4b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormWizard.vue?vue&type=template&id=199af4b4& */ "./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=template&id=199af4b4&");
-/* harmony import */ var _FormWizard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormWizard.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Tooltip_vue_vue_type_template_id_f6d8ed2a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tooltip.vue?vue&type=template&id=f6d8ed2a& */ "./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=template&id=f6d8ed2a&");
+/* harmony import */ var _Tooltip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Tooltip.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2210,9 +664,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormWizard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormWizard_vue_vue_type_template_id_199af4b4___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormWizard_vue_vue_type_template_id_199af4b4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Tooltip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Tooltip_vue_vue_type_template_id_f6d8ed2a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Tooltip_vue_vue_type_template_id_f6d8ed2a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2222,204 +676,64 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-wizard/FormWizard.vue"
+component.options.__file = "resources/js/src/views/components/vuesax/tooltip/Tooltip.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************/
+/***/ "./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormWizard.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tooltip.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltip_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=template&id=199af4b4&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=template&id=199af4b4& ***!
-  \************************************************************************************************/
+/***/ "./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=template&id=f6d8ed2a&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=template&id=f6d8ed2a& ***!
+  \*****************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizard_vue_vue_type_template_id_199af4b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormWizard.vue?vue&type=template&id=199af4b4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizard.vue?vue&type=template&id=199af4b4&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizard_vue_vue_type_template_id_199af4b4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltip_vue_vue_type_template_id_f6d8ed2a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tooltip.vue?vue&type=template&id=f6d8ed2a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/Tooltip.vue?vue&type=template&id=f6d8ed2a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltip_vue_vue_type_template_id_f6d8ed2a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizard_vue_vue_type_template_id_199af4b4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue":
-/*!************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormWizardIconTab_vue_vue_type_template_id_34c6bf38___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormWizardIconTab.vue?vue&type=template&id=34c6bf38& */ "./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=template&id=34c6bf38&");
-/* harmony import */ var _FormWizardIconTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormWizardIconTab.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormWizardIconTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormWizardIconTab_vue_vue_type_template_id_34c6bf38___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormWizardIconTab_vue_vue_type_template_id_34c6bf38___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardIconTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormWizardIconTab.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardIconTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=template&id=34c6bf38&":
-/*!*******************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=template&id=34c6bf38& ***!
-  \*******************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardIconTab_vue_vue_type_template_id_34c6bf38___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormWizardIconTab.vue?vue&type=template&id=34c6bf38& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardIconTab.vue?vue&type=template&id=34c6bf38&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardIconTab_vue_vue_type_template_id_34c6bf38___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardIconTab_vue_vue_type_template_id_34c6bf38___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltip_vue_vue_type_template_id_f6d8ed2a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue":
-/*!**************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormWizardNumberTab_vue_vue_type_template_id_38c95530___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormWizardNumberTab.vue?vue&type=template&id=38c95530& */ "./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=template&id=38c95530&");
-/* harmony import */ var _FormWizardNumberTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormWizardNumberTab.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormWizardNumberTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormWizardNumberTab_vue_vue_type_template_id_38c95530___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormWizardNumberTab_vue_vue_type_template_id_38c95530___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardNumberTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormWizardNumberTab.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardNumberTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=template&id=38c95530&":
-/*!*********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=template&id=38c95530& ***!
-  \*********************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardNumberTab_vue_vue_type_template_id_38c95530___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormWizardNumberTab.vue?vue&type=template&id=38c95530& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardNumberTab.vue?vue&type=template&id=38c95530&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardNumberTab_vue_vue_type_template_id_38c95530___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardNumberTab_vue_vue_type_template_id_38c95530___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue":
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue":
 /*!***************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue ***!
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue ***!
   \***************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormWizardValidation_vue_vue_type_template_id_11b19c66___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormWizardValidation.vue?vue&type=template&id=11b19c66& */ "./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=template&id=11b19c66&");
-/* harmony import */ var _FormWizardValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormWizardValidation.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _TooltipColor_vue_vue_type_template_id_6b9b0d68___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TooltipColor.vue?vue&type=template&id=6b9b0d68& */ "./resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue?vue&type=template&id=6b9b0d68&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-
-
+var script = {}
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormWizardValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormWizardValidation_vue_vue_type_template_id_11b19c66___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormWizardValidation_vue_vue_type_template_id_11b19c66___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _TooltipColor_vue_vue_type_template_id_6b9b0d68___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TooltipColor_vue_vue_type_template_id_6b9b0d68___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2429,38 +743,252 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-wizard/FormWizardValidation.vue"
+component.options.__file = "resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormWizardValidation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=template&id=11b19c66&":
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue?vue&type=template&id=6b9b0d68&":
 /*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=template&id=11b19c66& ***!
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue?vue&type=template&id=6b9b0d68& ***!
   \**********************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardValidation_vue_vue_type_template_id_11b19c66___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormWizardValidation.vue?vue&type=template&id=11b19c66& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-wizard/FormWizardValidation.vue?vue&type=template&id=11b19c66&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardValidation_vue_vue_type_template_id_11b19c66___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipColor_vue_vue_type_template_id_6b9b0d68___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TooltipColor.vue?vue&type=template&id=6b9b0d68& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipColor.vue?vue&type=template&id=6b9b0d68&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipColor_vue_vue_type_template_id_6b9b0d68___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormWizardValidation_vue_vue_type_template_id_11b19c66___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipColor_vue_vue_type_template_id_6b9b0d68___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TooltipDefault_vue_vue_type_template_id_4928e3f4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TooltipDefault.vue?vue&type=template&id=4928e3f4& */ "./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=template&id=4928e3f4&");
+/* harmony import */ var _TooltipDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TooltipDefault.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TooltipDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TooltipDefault_vue_vue_type_template_id_4928e3f4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TooltipDefault_vue_vue_type_template_id_4928e3f4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TooltipDefault.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=template&id=4928e3f4&":
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=template&id=4928e3f4& ***!
+  \************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipDefault_vue_vue_type_template_id_4928e3f4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TooltipDefault.vue?vue&type=template&id=4928e3f4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipDefault.vue?vue&type=template&id=4928e3f4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipDefault_vue_vue_type_template_id_4928e3f4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipDefault_vue_vue_type_template_id_4928e3f4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue":
+/*!***************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TooltipDelay_vue_vue_type_template_id_4cdaf0f0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TooltipDelay.vue?vue&type=template&id=4cdaf0f0& */ "./resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue?vue&type=template&id=4cdaf0f0&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _TooltipDelay_vue_vue_type_template_id_4cdaf0f0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TooltipDelay_vue_vue_type_template_id_4cdaf0f0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue?vue&type=template&id=4cdaf0f0&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue?vue&type=template&id=4cdaf0f0& ***!
+  \**********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipDelay_vue_vue_type_template_id_4cdaf0f0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TooltipDelay.vue?vue&type=template&id=4cdaf0f0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipDelay.vue?vue&type=template&id=4cdaf0f0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipDelay_vue_vue_type_template_id_4cdaf0f0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipDelay_vue_vue_type_template_id_4cdaf0f0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue":
+/*!******************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TooltipPosition_vue_vue_type_template_id_851f9198___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TooltipPosition.vue?vue&type=template&id=851f9198& */ "./resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue?vue&type=template&id=851f9198&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _TooltipPosition_vue_vue_type_template_id_851f9198___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TooltipPosition_vue_vue_type_template_id_851f9198___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue?vue&type=template&id=851f9198&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue?vue&type=template&id=851f9198& ***!
+  \*************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipPosition_vue_vue_type_template_id_851f9198___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TooltipPosition.vue?vue&type=template&id=851f9198& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipPosition.vue?vue&type=template&id=851f9198&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipPosition_vue_vue_type_template_id_851f9198___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipPosition_vue_vue_type_template_id_851f9198___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue":
+/*!***************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TooltipTitle_vue_vue_type_template_id_763b7ddd___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TooltipTitle.vue?vue&type=template&id=763b7ddd& */ "./resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue?vue&type=template&id=763b7ddd&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _TooltipTitle_vue_vue_type_template_id_763b7ddd___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TooltipTitle_vue_vue_type_template_id_763b7ddd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue?vue&type=template&id=763b7ddd&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue?vue&type=template&id=763b7ddd& ***!
+  \**********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipTitle_vue_vue_type_template_id_763b7ddd___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TooltipTitle.vue?vue&type=template&id=763b7ddd& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/tooltip/TooltipTitle.vue?vue&type=template&id=763b7ddd&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipTitle_vue_vue_type_template_id_763b7ddd___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TooltipTitle_vue_vue_type_template_id_763b7ddd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

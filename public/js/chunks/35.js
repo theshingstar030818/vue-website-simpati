@@ -1,21 +1,39 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[35],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NumberInputDefault_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NumberInputDefault.vue */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue");
-/* harmony import */ var _NumberInputColor_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NumberInputColor.vue */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue");
-/* harmony import */ var _NumberInputMinMax_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NumberInputMinMax.vue */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue");
-/* harmony import */ var _NumberInputSize_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NumberInputSize.vue */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue");
-/* harmony import */ var _NumberInputStep_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NumberInputStep.vue */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue");
-/* harmony import */ var _NumberInputDecimal_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./NumberInputDecimal.vue */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue");
-/* harmony import */ var _NumberInputLabel_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./NumberInputLabel.vue */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue");
+/* harmony import */ var _DatetimePickerBasic_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DatetimePickerBasic.vue */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue");
+/* harmony import */ var _DatetimePickerDatetime_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DatetimePickerDatetime.vue */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue");
+/* harmony import */ var _DatetimePickerTime_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DatetimePickerTime.vue */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue");
+/* harmony import */ var _DatetimePickerLocale_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./DatetimePickerLocale.vue */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue");
+/* harmony import */ var _DatetimePickerStartEnd_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./DatetimePickerStartEnd.vue */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue");
+/* harmony import */ var _DatetimePickerInline_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./DatetimePickerInline.vue */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue");
+/* harmony import */ var _DatetimePickerInput_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./DatetimePickerInput.vue */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -47,27 +65,31 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    NumberInputDefault: _NumberInputDefault_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    NumberInputColor: _NumberInputColor_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    NumberInputMinMax: _NumberInputMinMax_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    NumberInputSize: _NumberInputSize_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    NumberInputStep: _NumberInputStep_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    NumberInputDecimal: _NumberInputDecimal_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
-    NumberInputLabel: _NumberInputLabel_vue__WEBPACK_IMPORTED_MODULE_6__["default"]
+    DatetimePickerBasic: _DatetimePickerBasic_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    DatetimePickerDatetime: _DatetimePickerDatetime_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    DatetimePickerTime: _DatetimePickerTime_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    DatetimePickerLocale: _DatetimePickerLocale_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    DatetimePickerStartEnd: _DatetimePickerStartEnd_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    DatetimePickerInline: _DatetimePickerInline_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    DatetimePickerInput: _DatetimePickerInput_vue__WEBPACK_IMPORTED_MODULE_6__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr/dist/flatpickr.css */ "./node_modules/flatpickr/dist/flatpickr.css");
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -111,44 +133,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      number1: 196,
-      number2: 88,
-      number3: 25,
-      number4: 12,
-      number5: 590,
-      number6: 32
+      date: null
     };
+  },
+  components: {
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr/dist/flatpickr.css */ "./node_modules/flatpickr/dist/flatpickr.css");
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -188,25 +200,46 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      number0: 1.5
+      datetime: null,
+      configdateTimePicker: {
+        enableTime: true,
+        dateFormat: 'd-m-Y H:i'
+      }
     };
+  },
+  components: {
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr/dist/flatpickr.css */ "./node_modules/flatpickr/dist/flatpickr.css");
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -252,28 +285,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      number: 34,
-      number1: 48,
-      number2: 50
+      date: null,
+      configdateTimePicker: {
+        inline: true
+      }
     };
+  },
+  components: {
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr/dist/flatpickr.css */ "./node_modules/flatpickr/dist/flatpickr.css");
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -313,25 +355,45 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      passengers: 1
+      date: null,
+      configdateTimePicker: {
+        allowInput: true
+      }
     };
+  },
+  components: {
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var flatpickr_dist_flatpickr_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr/dist/flatpickr.min.css */ "./node_modules/flatpickr/dist/flatpickr.min.css");
+/* harmony import */ var flatpickr_dist_flatpickr_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_flatpickr_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var flatpickr_dist_l10n_fr_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! flatpickr/dist/l10n/fr.js */ "./node_modules/flatpickr/dist/l10n/fr.js");
+/* harmony import */ var flatpickr_dist_l10n_fr_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_l10n_fr_js__WEBPACK_IMPORTED_MODULE_2__);
 //
 //
 //
@@ -371,25 +433,46 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      number1: 21
+      date: null,
+      configdateTimePicker: {
+        locale: flatpickr_dist_l10n_fr_js__WEBPACK_IMPORTED_MODULE_2__["French"]
+      }
     };
+  },
+  components: {
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr/dist/flatpickr.css */ "./node_modules/flatpickr/dist/flatpickr.css");
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -438,28 +521,66 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      number0: 95,
-      number1: 21,
-      number2: 67,
-      number3: 2
+      fromDate: null,
+      toDate: null,
+      configFromdateTimePicker: {
+        minDate: new Date(),
+        maxDate: null
+      },
+      configTodateTimePicker: {
+        minDate: null
+      }
     };
+  },
+  methods: {
+    onFromChange: function onFromChange(selectedDates, dateStr) {
+      this.$set(this.configTodateTimePicker, 'minDate', dateStr);
+    },
+    onToChange: function onToChange(selectedDates, dateStr) {
+      this.$set(this.configFromdateTimePicker, 'maxDate', dateStr);
+    }
+  },
+  components: {
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr/dist/flatpickr.css */ "./node_modules/flatpickr/dist/flatpickr.css");
+/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -499,20 +620,39 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      number0: 5
+      time: null,
+      configdateTimePicker: {
+        enableTime: true,
+        enableSeconds: true,
+        noCalendar: true
+      }
     };
+  },
+  components: {
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=template&id=db552d5e&":
-/*!**********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=template&id=db552d5e& ***!
-  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=template&id=3a99ef85&":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=template&id=3a99ef85& ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -524,158 +664,138 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { attrs: { id: "form-element-number-input-demo" } },
-    [
-      _c("number-input-default"),
-      _vm._v(" "),
-      _c("number-input-color"),
-      _vm._v(" "),
-      _c("number-input-min-max"),
-      _vm._v(" "),
-      _c("number-input-size"),
-      _vm._v(" "),
-      _c("number-input-step"),
-      _vm._v(" "),
-      _c("number-input-decimal"),
-      _vm._v(" "),
-      _c("number-input-label")
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=template&id=40b1a57c&":
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=template&id=40b1a57c& ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "vx-card",
-    { attrs: { title: "Color", "code-toggler": "" } },
-    [
-      _c("span", [
-        _vm._v("You can change the color of the "),
-        _c("strong", [_vm._v("Input-Number")]),
-        _vm._v(" with the property "),
-        _c("code", [_vm._v("color")]),
-        _vm._v(". You are able to use the Main Colors or "),
-        _c("strong", [_vm._v("RGB")]),
-        _vm._v(" and "),
-        _c("strong", [_vm._v("HEX")]),
-        _vm._v(" colors.")
-      ]),
+  return _c("div", { attrs: { id: "extra-component-datetime-picker-demo" } }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "vx-row match-height" }, [
+      _c(
+        "div",
+        { staticClass: "vx-col md:w-1/2 w-full" },
+        [_c("datetime-picker-basic", { staticClass: "mb-base" })],
+        1
+      ),
       _vm._v(" "),
       _c(
-        "vs-alert",
+        "div",
+        { staticClass: "vx-col md:w-1/2 w-full" },
+        [_c("datetime-picker-datetime", { staticClass: "mb-base" })],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "vx-col md:w-1/2 w-full" },
+        [_c("datetime-picker-time", { staticClass: "mb-base" })],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "vx-col md:w-1/2 w-full" },
+        [_c("datetime-picker-locale", { staticClass: "mb-base" })],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "vx-col md:w-1/2 w-full" },
+        [_c("datetime-picker-start-end", { staticClass: "mb-base" })],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "vx-col md:w-1/2 w-full" },
+        [_c("datetime-picker-input", { staticClass: "mb-base" })],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "vx-col w-full" },
+        [_c("datetime-picker-inline")],
+        1
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "mb-4" }, [
+      _vm._v(
+        "vue-flatpickr-component is Vue.js component for Flatpickr datetime picker. Read full documnetation "
+      ),
+      _c(
+        "a",
         {
-          staticClass: "mt-5",
-          attrs: { icon: "warning", active: "true", color: "warning" }
+          attrs: {
+            href: "https://github.com/ankurk91/vue-flatpickr-component",
+            target: "_blank",
+            rel: "nofollow"
+          }
         },
+        [_vm._v("here")]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=template&id=2eaea24e&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=template&id=2eaea24e& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Basic", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v("Rendering basic Datetime Picker with "),
+        _c("code", [_vm._v("v-model")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "mt-5" },
         [
-          _c("span", [
-            _vm._v("Only "),
-            _c("strong", [_vm._v("RGB")]),
-            _vm._v(" and "),
-            _c("strong", [_vm._v("HEX")]),
-            _vm._v(" colors are supported.")
+          _c("flat-pickr", {
+            model: {
+              value: _vm.date,
+              callback: function($$v) {
+                _vm.date = $$v
+              },
+              expression: "date"
+            }
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "mt-4" }, [
+            _vm._v("Selected Date: " + _vm._s(_vm.date))
           ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "demo-alignment" },
-        [
-          _c("vs-input-number", {
-            attrs: { color: "danger" },
-            model: {
-              value: _vm.number1,
-              callback: function($$v) {
-                _vm.number1 = $$v
-              },
-              expression: "number1"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { color: "success" },
-            model: {
-              value: _vm.number2,
-              callback: function($$v) {
-                _vm.number2 = $$v
-              },
-              expression: "number2"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { color: "warning" },
-            model: {
-              value: _vm.number3,
-              callback: function($$v) {
-                _vm.number3 = $$v
-              },
-              expression: "number3"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { color: "dark" },
-            model: {
-              value: _vm.number4,
-              callback: function($$v) {
-                _vm.number4 = $$v
-              },
-              expression: "number4"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { color: "rgb(218, 24, 94)" },
-            model: {
-              value: _vm.number5,
-              callback: function($$v) {
-                _vm.number5 = $$v
-              },
-              expression: "number5"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { color: "#ad3af9" },
-            model: {
-              value: _vm.number6,
-              callback: function($$v) {
-                _vm.number6 = $$v
-              },
-              expression: "number6"
-            }
-          })
         ],
         1
       ),
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <div class="centerx">\n    <vs-input-number color="danger" v-model="number1"/>\n    <vs-input-number color="success" v-model="number2"/>\n    <vs-input-number color="warning" v-model="number3"/>\n    <vs-input-number color="dark" v-model="number4"/>\n    <vs-input-number color="rgb(218, 24, 94)" v-model="number5"/>\n    <vs-input-number color="#ad3af9" v-model="number6"/>\n  </div>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      number1:196,\n      number2:88,\n      number3:25,\n      number4:12,\n      number5:590,\n      number6:32,\n    }\n  }\n}\n</script>\n        '
+          "\n<template>\n  <flat-pickr v-model=\"date\" />\n</template>\n\n<script>\nimport flatPickr from 'vue-flatpickr-component';\nimport 'flatpickr/dist/flatpickr.css';\n\nexport default {\n    data() {\n        return {\n            date: null,\n        }\n    },\n    components: {\n        flatPickr\n    }\n}\n</script>\n        "
         )
       ])
     ],
@@ -689,10 +809,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=template&id=44c35470&":
-/*!*****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=template&id=44c35470& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=template&id=7f1d8ca0&":
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=template&id=7f1d8ca0& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -706,31 +826,38 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Decimal", "code-toggler": "" } },
+    { attrs: { title: "Datetime Picker", "code-toggler": "" } },
     [
-      _c("span", [_vm._v("Number Input also supports decimal values")]),
+      _c("p", [_vm._v("Rendering datetime picker by updating config")]),
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "demo-alignment" },
+        { staticClass: "mt-5" },
         [
-          _c("vs-input-number", {
-            attrs: { step: 0.5 },
+          _c("flat-pickr", {
+            attrs: {
+              config: _vm.configdateTimePicker,
+              placeholder: "Date Time"
+            },
             model: {
-              value: _vm.number0,
+              value: _vm.datetime,
               callback: function($$v) {
-                _vm.number0 = $$v
+                _vm.datetime = $$v
               },
-              expression: "number0"
+              expression: "datetime"
             }
-          })
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "mt-4" }, [
+            _vm._v("Selected Datetime: " + _vm._s(_vm.datetime))
+          ])
         ],
         1
       ),
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <div class="centerx">\n    <vs-input-number v-model="number0" :step="0.5"/>\n  </div>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      number0:1.5,\n    }\n  }\n}\n</script>\n        '
+          "\n<template>\n  <flat-pickr :config=\"configdateTimePicker\" v-model=\"datetime\" placeholder=\"Date Time\" />\n</template>\n\n<script>\nimport flatPickr from 'vue-flatpickr-component';\nimport 'flatpickr/dist/flatpickr.css';\n\nexport default {\n    data() {\n        return {\n            datetime: null,\n            configdateTimePicker: {\n              enableTime: true,\n              dateFormat: 'd-m-Y H:i'\n            }\n        }\n    },\n    components: {\n        flatPickr\n    }\n}\n</script>\n        "
         )
       ])
     ],
@@ -744,10 +871,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=template&id=7cef1f60&":
-/*!*****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=template&id=7cef1f60& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=template&id=bf275804&":
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=template&id=bf275804& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -761,58 +888,30 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Default", "code-toggler": "" } },
+    { attrs: { title: "Inline Picker", "code-toggler": "" } },
     [
       _c("p", [
-        _vm._v(
-          "If you need to add a component that handles a single number, use the component "
-        ),
-        _c("code", [_vm._v("vs-input-number")])
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "You can also change the increment and decrement button icons using the properties "
-        ),
-        _c("code", [_vm._v("icon-inc")]),
-        _vm._v(" and "),
-        _c("code", [_vm._v("icon-dec")]),
-        _vm._v(" respectively")
+        _vm._v("Creating inline datetime picker by setting "),
+        _c("code", [_vm._v("inline")]),
+        _vm._v(" to "),
+        _c("code", [_vm._v("true")])
       ]),
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "demo-alignment" },
+        { staticClass: "mt-5" },
         [
-          _c("vs-input-number", {
+          _c("flat-pickr", {
+            attrs: {
+              config: _vm.configdateTimePicker,
+              placeholder: "Inline Picker"
+            },
             model: {
-              value: _vm.number,
+              value: _vm.date,
               callback: function($$v) {
-                _vm.number = $$v
+                _vm.date = $$v
               },
-              expression: "number"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { disabled: true },
-            model: {
-              value: _vm.number1,
-              callback: function($$v) {
-                _vm.number1 = $$v
-              },
-              expression: "number1"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { "icon-inc": "expand_less", "icon-dec": "expand_more" },
-            model: {
-              value: _vm.number2,
-              callback: function($$v) {
-                _vm.number2 = $$v
-              },
-              expression: "number2"
+              expression: "date"
             }
           })
         ],
@@ -821,7 +920,7 @@ var render = function() {
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <div class="centerx">\n    <vs-input-number v-model="number"/>\n    <vs-input-number :disabled="true" v-model="number1"/>\n    <vs-input-number v-model="number2" icon-inc="expand_less" icon-dec="expand_more"/>\n  </div>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      number:34,\n      number1:48,\n      number2:50\n    }\n  }\n}\n</script>\n        '
+          '\n<template>\n  <flat-pickr :config="configdateTimePicker" v-model="date" placeholder="Inline Picker" />\n</template>\n\n<script>\nimport flatPickr from \'vue-flatpickr-component\';\nimport \'flatpickr/dist/flatpickr.css\';\n\nexport default {\n    data() {\n        return {\n            date: null,\n            configdateTimePicker: {\n              inline: true,\n            }\n        }\n    },\n    components: {\n        flatPickr\n    }\n}\n</script>\n        '
         )
       ])
     ],
@@ -835,10 +934,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=template&id=455b4c53&":
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=template&id=455b4c53& ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=template&id=98a3f716&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=template&id=98a3f716& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -852,24 +951,29 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Label", "code-toggler": "" } },
+    { attrs: { title: "Allow input in Picker", "code-toggler": "" } },
     [
       _c("p", [
-        _vm._v("Number Input supports adding labels for number inputs.")
+        _vm._v("Use "),
+        _c("code", [_vm._v("allowInput")]),
+        _vm._v(" to create Datepicker with input support")
       ]),
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "demo-alignment" },
+        { staticClass: "mt-5" },
         [
-          _c("vs-input-number", {
-            attrs: { label: "passengers:" },
+          _c("flat-pickr", {
+            attrs: {
+              config: _vm.configdateTimePicker,
+              placeholder: "Insert Date"
+            },
             model: {
-              value: _vm.passengers,
+              value: _vm.date,
               callback: function($$v) {
-                _vm.passengers = $$v
+                _vm.date = $$v
               },
-              expression: "passengers"
+              expression: "date"
             }
           })
         ],
@@ -878,7 +982,7 @@ var render = function() {
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <div class="centerx">\n    <vs-input-number v-model="passengers" label="passengers:"/>\n  </div>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      passengers:1,\n    }\n  }\n}\n</script>\n        '
+          '\n<template>\n  <flat-pickr :config="configdateTimePicker" v-model="date" placeholder="Inline Picker" />\n</template>\n\n<script>\nimport flatPickr from \'vue-flatpickr-component\';\nimport \'flatpickr/dist/flatpickr.css\';\n\nexport default {\n    data() {\n        return {\n            date: null,\n            configdateTimePicker: {\n              inline: true,\n            }\n        }\n    },\n    components: {\n        flatPickr\n    }\n}\n</script>\n        '
         )
       ])
     ],
@@ -892,10 +996,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=template&id=52bf093a&":
-/*!****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=template&id=52bf093a& ***!
-  \****************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=template&id=7ff21182&":
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=template&id=7ff21182& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -909,38 +1013,42 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Min - Max", "code-toggler": "" } },
+    { attrs: { title: "Change Locale", "code-toggler": "" } },
     [
-      _c("span", [
-        _vm._v(
-          "You can restrict the maximum number or the minimum with the properties "
-        ),
-        _c("code", [_vm._v("min")]),
-        _vm._v(", "),
-        _c("code", [_vm._v("max")])
+      _c("p", [
+        _vm._v("Import locale and set "),
+        _c("code", [_vm._v("locale")]),
+        _vm._v(" in config of picker to change locale.")
       ]),
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "demo-alignment" },
+        { staticClass: "mt-5" },
         [
-          _c("vs-input-number", {
-            attrs: { min: "13", max: "21" },
+          _c("flat-pickr", {
+            attrs: {
+              config: _vm.configdateTimePicker,
+              placeholder: "Choose Date"
+            },
             model: {
-              value: _vm.number1,
+              value: _vm.date,
               callback: function($$v) {
-                _vm.number1 = $$v
+                _vm.date = $$v
               },
-              expression: "number1"
+              expression: "date"
             }
-          })
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "mt-4" }, [
+            _vm._v("Selected Date: " + _vm._s(_vm.date))
+          ])
         ],
         1
       ),
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <div class="centerx">\n    <vs-input-number min="13" max="21" v-model="number1"/>\n  </div>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      number1:21,\n    }\n  }\n}\n</script>\n        '
+          "\n<template>\n  <flat-pickr :config=\"configdateTimePicker\" v-model=\"date\" placeholder=\"Choose Date\" />\n</template>\n\n<script>\nimport flatPickr from 'vue-flatpickr-component'\nimport 'flatpickr/dist/flatpickr.min.css';\nimport {French as FrenchLocale} from 'flatpickr/dist/l10n/fr.js';\n\nexport default {\n    data() {\n        return {\n            date: null,\n            configdateTimePicker: {\n              locale: FrenchLocale\n            }\n        }\n    },\n    components: {\n        flatPickr\n    }\n}\n</script>\n        "
         )
       ])
     ],
@@ -954,10 +1062,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=template&id=ef307f1c&":
-/*!**************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=template&id=ef307f1c& ***!
-  \**************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=template&id=1267a984&":
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=template&id=1267a984& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -971,74 +1079,58 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Size", "code-toggler": "" } },
+    { attrs: { title: "Start-End Date", "code-toggler": "" } },
     [
-      _c("span", [
-        _vm._v(
-          "To change the size of the component, you can use the property "
-        ),
-        _c("code", [_vm._v("size")]),
-        _vm._v(". The allowed values are: "),
-        _c("code", [_vm._v("medium")]),
-        _vm._v(", "),
-        _c("code", [_vm._v("small")]),
-        _vm._v(", and "),
-        _c("code", [_vm._v("mini")])
-      ]),
+      _c("p", [_vm._v("Create start and end date - date picker")]),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "demo-alignment" },
-        [
-          _c("vs-input-number", {
-            model: {
-              value: _vm.number0,
-              callback: function($$v) {
-                _vm.number0 = $$v
+      _c("div", { staticClass: "mt-5" }, [
+        _c(
+          "div",
+          [
+            _c("flat-pickr", {
+              attrs: {
+                config: _vm.configFromdateTimePicker,
+                placeholder: "From Date"
               },
-              expression: "number0"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { size: "medium" },
-            model: {
-              value: _vm.number1,
-              callback: function($$v) {
-                _vm.number1 = $$v
+              on: { "on-change": _vm.onFromChange },
+              model: {
+                value: _vm.fromDate,
+                callback: function($$v) {
+                  _vm.fromDate = $$v
+                },
+                expression: "fromDate"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "mt-4" },
+          [
+            _c("flat-pickr", {
+              attrs: {
+                config: _vm.configTodateTimePicker,
+                placeholder: "To Date"
               },
-              expression: "number1"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { size: "small" },
-            model: {
-              value: _vm.number2,
-              callback: function($$v) {
-                _vm.number2 = $$v
-              },
-              expression: "number2"
-            }
-          }),
-          _vm._v(" "),
-          _c("vs-input-number", {
-            attrs: { size: "mini" },
-            model: {
-              value: _vm.number3,
-              callback: function($$v) {
-                _vm.number3 = $$v
-              },
-              expression: "number3"
-            }
-          })
-        ],
-        1
-      ),
+              on: { "on-change": _vm.onToChange },
+              model: {
+                value: _vm.toDate,
+                callback: function($$v) {
+                  _vm.toDate = $$v
+                },
+                expression: "toDate"
+              }
+            })
+          ],
+          1
+        )
+      ]),
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <div class="centerx">\n    <vs-input-number v-model="number0"/>\n    <vs-input-number size="medium" v-model="number1"/>\n    <vs-input-number size="small" v-model="number2"/>\n    <vs-input-number size="mini" v-model="number3"/>\n  </div>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      number0:95,\n      number1:21,\n      number2:67,\n      number3:2\n    }\n  }\n}\n</script>\n        '
+          '\n<template>\n  <flat-pickr :config="configFromdateTimePicker" v-model="fromDate" placeholder="From Date" @on-change="onFromChange" />\n  <flat-pickr :config="configTodateTimePicker" v-model="toDate" placeholder="To Date" @on-change="onToChange" />\n</template>\n\n<script>\nimport flatPickr from \'vue-flatpickr-component\';\nimport \'flatpickr/dist/flatpickr.css\';\n\nexport default {\n    data() {\n        return {\n            fromDate: null,\n            toDate: null,\n            configFromdateTimePicker: {\n              minDate: new Date(),\n              maxDate: null\n            },\n            configTodateTimePicker: {\n              minDate: null\n            }\n        }\n    },\n    methods: {\n      onFromChange(selectedDates, dateStr, instance) {\n        this.$set(this.configTodateTimePicker, \'minDate\', dateStr);\n      },\n      onToChange(selectedDates, dateStr, instance) {\n        this.$set(this.configFromdateTimePicker, \'maxDate\', dateStr);\n      }\n    },\n    components: {\n        flatPickr\n    }\n}\n</script>\n        '
         )
       ])
     ],
@@ -1052,10 +1144,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=template&id=a9dcec86&":
-/*!**************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=template&id=a9dcec86& ***!
-  \**************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=template&id=23883972&":
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=template&id=23883972& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1069,36 +1161,44 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Step", "code-toggler": "" } },
+    { attrs: { title: "Time Picker", "code-toggler": "" } },
     [
-      _c("span", [
-        _vm._v(
-          "To change the number to be added or decreased of the component, you can use the property "
-        ),
-        _c("code", [_vm._v("step")])
+      _c("p", [
+        _vm._v("set "),
+        _c("code", [_vm._v("noCalendar")]),
+        _vm._v(" to "),
+        _c("code", [_vm._v("true")]),
+        _vm._v(" to hide calendar")
       ]),
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "demo-alignment" },
+        { staticClass: "mt-5" },
         [
-          _c("vs-input-number", {
-            attrs: { step: 5 },
+          _c("flat-pickr", {
+            attrs: {
+              config: _vm.configdateTimePicker,
+              placeholder: "Choose time"
+            },
             model: {
-              value: _vm.number0,
+              value: _vm.time,
               callback: function($$v) {
-                _vm.number0 = $$v
+                _vm.time = $$v
               },
-              expression: "number0"
+              expression: "time"
             }
-          })
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "mt-4" }, [
+            _vm._v("Selected Time: " + _vm._s(_vm.time))
+          ])
         ],
         1
       ),
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <div class="centerx">\n    <vs-input-number v-model="number0" :step="5"/>\n  </div>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      number0:5,\n    }\n  }\n}\n</script>\n        '
+          '\n<template>\n  <flat-pickr :config="configdateTimePicker" v-model="time" placeholder="Choose time" />\n</template>\n\n<script>\nimport flatPickr from \'vue-flatpickr-component\';\nimport \'flatpickr/dist/flatpickr.css\';\n\nexport default {\n    data() {\n        return {\n            time: null,\n            configdateTimePicker: {\n              enableTime: true,\n              enableSeconds: true,\n              noCalendar: true\n            }\n        }\n    },\n    components: {\n        flatPickr\n    }\n}\n</script>\n        '
         )
       ])
     ],
@@ -1112,17 +1212,17 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue ***!
-  \*********************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NumberInput_vue_vue_type_template_id_db552d5e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NumberInput.vue?vue&type=template&id=db552d5e& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=template&id=db552d5e&");
-/* harmony import */ var _NumberInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NumberInput.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=script&lang=js&");
+/* harmony import */ var _DatetimePicker_vue_vue_type_template_id_3a99ef85___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DatetimePicker.vue?vue&type=template&id=3a99ef85& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=template&id=3a99ef85&");
+/* harmony import */ var _DatetimePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DatetimePicker.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1132,9 +1232,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _NumberInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _NumberInput_vue_vue_type_template_id_db552d5e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _NumberInput_vue_vue_type_template_id_db552d5e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _DatetimePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DatetimePicker_vue_vue_type_template_id_3a99ef85___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DatetimePicker_vue_vue_type_template_id_3a99ef85___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1144,54 +1244,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-elements/number-input/NumberInput.vue"
+component.options.__file = "resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInput.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePicker.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=template&id=db552d5e&":
-/*!****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=template&id=db552d5e& ***!
-  \****************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=template&id=3a99ef85&":
+/*!******************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=template&id=3a99ef85& ***!
+  \******************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInput_vue_vue_type_template_id_db552d5e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInput.vue?vue&type=template&id=db552d5e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInput.vue?vue&type=template&id=db552d5e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInput_vue_vue_type_template_id_db552d5e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePicker_vue_vue_type_template_id_3a99ef85___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePicker.vue?vue&type=template&id=3a99ef85& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePicker.vue?vue&type=template&id=3a99ef85&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePicker_vue_vue_type_template_id_3a99ef85___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInput_vue_vue_type_template_id_db552d5e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePicker_vue_vue_type_template_id_3a99ef85___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue ***!
-  \**************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NumberInputColor_vue_vue_type_template_id_40b1a57c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NumberInputColor.vue?vue&type=template&id=40b1a57c& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=template&id=40b1a57c&");
-/* harmony import */ var _NumberInputColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NumberInputColor.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=script&lang=js&");
+/* harmony import */ var _DatetimePickerBasic_vue_vue_type_template_id_2eaea24e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DatetimePickerBasic.vue?vue&type=template&id=2eaea24e& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=template&id=2eaea24e&");
+/* harmony import */ var _DatetimePickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DatetimePickerBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1201,9 +1301,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _NumberInputColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _NumberInputColor_vue_vue_type_template_id_40b1a57c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _NumberInputColor_vue_vue_type_template_id_40b1a57c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _DatetimePickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DatetimePickerBasic_vue_vue_type_template_id_2eaea24e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DatetimePickerBasic_vue_vue_type_template_id_2eaea24e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1213,54 +1313,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue"
+component.options.__file = "resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputColor.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=template&id=40b1a57c&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=template&id=40b1a57c& ***!
-  \*********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=template&id=2eaea24e&":
+/*!***********************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=template&id=2eaea24e& ***!
+  \***********************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputColor_vue_vue_type_template_id_40b1a57c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputColor.vue?vue&type=template&id=40b1a57c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputColor.vue?vue&type=template&id=40b1a57c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputColor_vue_vue_type_template_id_40b1a57c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerBasic_vue_vue_type_template_id_2eaea24e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerBasic.vue?vue&type=template&id=2eaea24e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue?vue&type=template&id=2eaea24e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerBasic_vue_vue_type_template_id_2eaea24e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputColor_vue_vue_type_template_id_40b1a57c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerBasic_vue_vue_type_template_id_2eaea24e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue":
-/*!****************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue ***!
-  \****************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NumberInputDecimal_vue_vue_type_template_id_44c35470___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NumberInputDecimal.vue?vue&type=template&id=44c35470& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=template&id=44c35470&");
-/* harmony import */ var _NumberInputDecimal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NumberInputDecimal.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=script&lang=js&");
+/* harmony import */ var _DatetimePickerDatetime_vue_vue_type_template_id_7f1d8ca0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DatetimePickerDatetime.vue?vue&type=template&id=7f1d8ca0& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=template&id=7f1d8ca0&");
+/* harmony import */ var _DatetimePickerDatetime_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DatetimePickerDatetime.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1270,9 +1370,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _NumberInputDecimal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _NumberInputDecimal_vue_vue_type_template_id_44c35470___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _NumberInputDecimal_vue_vue_type_template_id_44c35470___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _DatetimePickerDatetime_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DatetimePickerDatetime_vue_vue_type_template_id_7f1d8ca0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DatetimePickerDatetime_vue_vue_type_template_id_7f1d8ca0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1282,54 +1382,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue"
+component.options.__file = "resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDecimal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputDecimal.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDecimal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerDatetime_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerDatetime.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerDatetime_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=template&id=44c35470&":
-/*!***********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=template&id=44c35470& ***!
-  \***********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=template&id=7f1d8ca0&":
+/*!**************************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=template&id=7f1d8ca0& ***!
+  \**************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDecimal_vue_vue_type_template_id_44c35470___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputDecimal.vue?vue&type=template&id=44c35470& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputDecimal.vue?vue&type=template&id=44c35470&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDecimal_vue_vue_type_template_id_44c35470___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerDatetime_vue_vue_type_template_id_7f1d8ca0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerDatetime.vue?vue&type=template&id=7f1d8ca0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue?vue&type=template&id=7f1d8ca0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerDatetime_vue_vue_type_template_id_7f1d8ca0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDecimal_vue_vue_type_template_id_44c35470___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerDatetime_vue_vue_type_template_id_7f1d8ca0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue":
-/*!****************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue ***!
-  \****************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NumberInputDefault_vue_vue_type_template_id_7cef1f60___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NumberInputDefault.vue?vue&type=template&id=7cef1f60& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=template&id=7cef1f60&");
-/* harmony import */ var _NumberInputDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NumberInputDefault.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=script&lang=js&");
+/* harmony import */ var _DatetimePickerInline_vue_vue_type_template_id_bf275804___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DatetimePickerInline.vue?vue&type=template&id=bf275804& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=template&id=bf275804&");
+/* harmony import */ var _DatetimePickerInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DatetimePickerInline.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1339,9 +1439,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _NumberInputDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _NumberInputDefault_vue_vue_type_template_id_7cef1f60___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _NumberInputDefault_vue_vue_type_template_id_7cef1f60___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _DatetimePickerInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DatetimePickerInline_vue_vue_type_template_id_bf275804___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DatetimePickerInline_vue_vue_type_template_id_bf275804___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1351,54 +1451,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue"
+component.options.__file = "resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputDefault.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerInline.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=template&id=7cef1f60&":
-/*!***********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=template&id=7cef1f60& ***!
-  \***********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=template&id=bf275804&":
+/*!************************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=template&id=bf275804& ***!
+  \************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDefault_vue_vue_type_template_id_7cef1f60___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputDefault.vue?vue&type=template&id=7cef1f60& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputDefault.vue?vue&type=template&id=7cef1f60&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDefault_vue_vue_type_template_id_7cef1f60___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInline_vue_vue_type_template_id_bf275804___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerInline.vue?vue&type=template&id=bf275804& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue?vue&type=template&id=bf275804&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInline_vue_vue_type_template_id_bf275804___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputDefault_vue_vue_type_template_id_7cef1f60___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInline_vue_vue_type_template_id_bf275804___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue ***!
-  \**************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NumberInputLabel_vue_vue_type_template_id_455b4c53___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NumberInputLabel.vue?vue&type=template&id=455b4c53& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=template&id=455b4c53&");
-/* harmony import */ var _NumberInputLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NumberInputLabel.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=script&lang=js&");
+/* harmony import */ var _DatetimePickerInput_vue_vue_type_template_id_98a3f716___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DatetimePickerInput.vue?vue&type=template&id=98a3f716& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=template&id=98a3f716&");
+/* harmony import */ var _DatetimePickerInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DatetimePickerInput.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1408,9 +1508,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _NumberInputLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _NumberInputLabel_vue_vue_type_template_id_455b4c53___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _NumberInputLabel_vue_vue_type_template_id_455b4c53___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _DatetimePickerInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DatetimePickerInput_vue_vue_type_template_id_98a3f716___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DatetimePickerInput_vue_vue_type_template_id_98a3f716___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1420,54 +1520,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue"
+component.options.__file = "resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputLabel.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerInput.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=template&id=455b4c53&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=template&id=455b4c53& ***!
-  \*********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=template&id=98a3f716&":
+/*!***********************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=template&id=98a3f716& ***!
+  \***********************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputLabel_vue_vue_type_template_id_455b4c53___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputLabel.vue?vue&type=template&id=455b4c53& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputLabel.vue?vue&type=template&id=455b4c53&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputLabel_vue_vue_type_template_id_455b4c53___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInput_vue_vue_type_template_id_98a3f716___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerInput.vue?vue&type=template&id=98a3f716& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue?vue&type=template&id=98a3f716&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInput_vue_vue_type_template_id_98a3f716___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputLabel_vue_vue_type_template_id_455b4c53___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerInput_vue_vue_type_template_id_98a3f716___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue":
-/*!***************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue ***!
-  \***************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NumberInputMinMax_vue_vue_type_template_id_52bf093a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NumberInputMinMax.vue?vue&type=template&id=52bf093a& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=template&id=52bf093a&");
-/* harmony import */ var _NumberInputMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NumberInputMinMax.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=script&lang=js&");
+/* harmony import */ var _DatetimePickerLocale_vue_vue_type_template_id_7ff21182___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DatetimePickerLocale.vue?vue&type=template&id=7ff21182& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=template&id=7ff21182&");
+/* harmony import */ var _DatetimePickerLocale_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DatetimePickerLocale.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1477,9 +1577,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _NumberInputMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _NumberInputMinMax_vue_vue_type_template_id_52bf093a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _NumberInputMinMax_vue_vue_type_template_id_52bf093a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _DatetimePickerLocale_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DatetimePickerLocale_vue_vue_type_template_id_7ff21182___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DatetimePickerLocale_vue_vue_type_template_id_7ff21182___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1489,54 +1589,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue"
+component.options.__file = "resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputMinMax.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerLocale_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerLocale.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerLocale_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=template&id=52bf093a&":
-/*!**********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=template&id=52bf093a& ***!
-  \**********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=template&id=7ff21182&":
+/*!************************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=template&id=7ff21182& ***!
+  \************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputMinMax_vue_vue_type_template_id_52bf093a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputMinMax.vue?vue&type=template&id=52bf093a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputMinMax.vue?vue&type=template&id=52bf093a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputMinMax_vue_vue_type_template_id_52bf093a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerLocale_vue_vue_type_template_id_7ff21182___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerLocale.vue?vue&type=template&id=7ff21182& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue?vue&type=template&id=7ff21182&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerLocale_vue_vue_type_template_id_7ff21182___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputMinMax_vue_vue_type_template_id_52bf093a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerLocale_vue_vue_type_template_id_7ff21182___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue":
-/*!*************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue ***!
-  \*************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NumberInputSize_vue_vue_type_template_id_ef307f1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NumberInputSize.vue?vue&type=template&id=ef307f1c& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=template&id=ef307f1c&");
-/* harmony import */ var _NumberInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NumberInputSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=script&lang=js&");
+/* harmony import */ var _DatetimePickerStartEnd_vue_vue_type_template_id_1267a984___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DatetimePickerStartEnd.vue?vue&type=template&id=1267a984& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=template&id=1267a984&");
+/* harmony import */ var _DatetimePickerStartEnd_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DatetimePickerStartEnd.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1546,9 +1646,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _NumberInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _NumberInputSize_vue_vue_type_template_id_ef307f1c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _NumberInputSize_vue_vue_type_template_id_ef307f1c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _DatetimePickerStartEnd_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DatetimePickerStartEnd_vue_vue_type_template_id_1267a984___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DatetimePickerStartEnd_vue_vue_type_template_id_1267a984___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1558,54 +1658,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue"
+component.options.__file = "resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerStartEnd_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerStartEnd.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerStartEnd_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=template&id=ef307f1c&":
-/*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=template&id=ef307f1c& ***!
-  \********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=template&id=1267a984&":
+/*!**************************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=template&id=1267a984& ***!
+  \**************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputSize_vue_vue_type_template_id_ef307f1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputSize.vue?vue&type=template&id=ef307f1c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputSize.vue?vue&type=template&id=ef307f1c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputSize_vue_vue_type_template_id_ef307f1c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerStartEnd_vue_vue_type_template_id_1267a984___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerStartEnd.vue?vue&type=template&id=1267a984& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue?vue&type=template&id=1267a984&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerStartEnd_vue_vue_type_template_id_1267a984___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputSize_vue_vue_type_template_id_ef307f1c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerStartEnd_vue_vue_type_template_id_1267a984___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue":
-/*!*************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue ***!
-  \*************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NumberInputStep_vue_vue_type_template_id_a9dcec86___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NumberInputStep.vue?vue&type=template&id=a9dcec86& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=template&id=a9dcec86&");
-/* harmony import */ var _NumberInputStep_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NumberInputStep.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=script&lang=js&");
+/* harmony import */ var _DatetimePickerTime_vue_vue_type_template_id_23883972___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DatetimePickerTime.vue?vue&type=template&id=23883972& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=template&id=23883972&");
+/* harmony import */ var _DatetimePickerTime_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DatetimePickerTime.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1615,9 +1715,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _NumberInputStep_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _NumberInputStep_vue_vue_type_template_id_a9dcec86___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _NumberInputStep_vue_vue_type_template_id_a9dcec86___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _DatetimePickerTime_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DatetimePickerTime_vue_vue_type_template_id_23883972___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DatetimePickerTime_vue_vue_type_template_id_23883972___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1627,38 +1727,38 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue"
+component.options.__file = "resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputStep_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputStep.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputStep_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerTime_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerTime.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerTime_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=template&id=a9dcec86&":
-/*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=template&id=a9dcec86& ***!
-  \********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=template&id=23883972&":
+/*!**********************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=template&id=23883972& ***!
+  \**********************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputStep_vue_vue_type_template_id_a9dcec86___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NumberInputStep.vue?vue&type=template&id=a9dcec86& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/number-input/NumberInputStep.vue?vue&type=template&id=a9dcec86&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputStep_vue_vue_type_template_id_a9dcec86___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerTime_vue_vue_type_template_id_23883972___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DatetimePickerTime.vue?vue&type=template&id=23883972& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue?vue&type=template&id=23883972&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerTime_vue_vue_type_template_id_23883972___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NumberInputStep_vue_vue_type_template_id_a9dcec86___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DatetimePickerTime_vue_vue_type_template_id_23883972___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

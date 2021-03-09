@@ -115,6 +115,16 @@ const mutations = {
     // Store data in localStorage
     localStorage.setItem("userInfo", JSON.stringify(userInfo))
   },
+
+  UPDATE_REGISTER_USER_INFO(state, payload) {
+    for (const property of Object.keys(payload)) {
+  
+      if (payload[property] != null) {
+        // If some of user property is null - user default property defined in state.AppActiveUser
+        state.StoreRegisterUserJWT[property] = payload[property]
+      }
+    }
+  }
 }
 
 export default mutations

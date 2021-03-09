@@ -46,6 +46,43 @@ const getUserInfo = () => {
   return userInfo
 }
 
+const registerDefaults = {
+  displayName: '',
+  email: '',
+  password: '',
+  confirm_password: '',
+  isTermsConditionAccepted: true,
+  switchPublic: true,
+
+  selectType:'',
+
+  nationality: '',
+  sex: '',
+  birthday: null,
+  address: '',
+  phonenumber: '',
+}
+const storeRegisterUserJWT = JSON.parse(localStorage.getItem("storeRegisterUserJWT")) || {}
+// const storeRegisterUserJWT = {}
+
+const getStoreRegisterUserJWT = () => {
+  // return registerDefaults;
+  let registerInfo = {}
+  console.log("from local storage!!!");
+  console.log(storeRegisterUserJWT);
+  // Update property in user
+  Object.keys(registerDefaults).forEach((key) => {
+    // If property is defined in localStorage => Use that
+    registerInfo[key] = storeRegisterUserJWT[key] ?  storeRegisterUserJWT[key] : registerDefaults[key]
+  })
+
+  // Include properties from localStorage
+  Object.keys(storeRegisterUserJWT).forEach((key) => {
+    if(registerInfo[key] == undefined && storeRegisterUserJWT[key] != null) registerInfo[key] = storeRegisterUserJWT[key]
+  })
+
+  return registerInfo
+}
 // /////////////////////////////////////////////
 // State
 // /////////////////////////////////////////////
@@ -67,6 +104,9 @@ const state = {
     // Can be used to get current window with
     // Note: Above breakpoint state is for internal use of sidebar & navbar component
     windowWidth: null,
+
+    //added to store registerUserJWT
+    StoreRegisterUserJWT    : getStoreRegisterUserJWT(),
 }
 
 export default state

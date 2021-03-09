@@ -9,31 +9,52 @@
 
 
 <template>
-    <div class="h-screen flex w-full bg-img">
-        <div class="vx-col w-4/5 sm:w-4/5 md:w-3/5 lg:w-3/4 xl:w-3/5 mx-auto self-center">
-            <vx-card>
-                <div slot="no-body" class="full-page-bg-color">
-                    <div class="vx-row">
-                        <div class="vx-col hidden sm:hidden md:hidden lg:block lg:w-1/2 mx-auto self-center">
-                            <img src="@assets/images/pages/forgot-password.png" alt="login" class="mx-auto">
-                        </div>
-                        <div class="vx-col sm:w-full md:w-full lg:w-1/2 mx-auto self-center d-theme-dark-bg">
-                            <div class="p-8">
-                                <div class="vx-card__title mb-8">
-                                    <h4 class="mb-4">Recover your password</h4>
-                                    <p>Please enter your email address and we'll send you instructions on how to reset your password.</p>
-                                </div>
+  <div class="flex w-full justify-center mt-2">
+    <div class="flex gap-0 login-board-wrapper">
+      <div class="flex-none login-board-left-side"></div>
+      <div class="flex-grow login-board-middle-side">
 
-                                <vs-input type="email" label-placeholder="Email" v-model="value1" class="w-full mb-8" />
-                                <vs-button type="border" to="/pages/login" class="px-4 w-full md:w-auto">Back To Login</vs-button>
-                                <vs-button class="float-right px-4 w-full md:w-auto mt-3 mb-8 md:mt-0 md:mb-0" @click="recoverPassword">Recover Password</vs-button>
-                            </div>
-                        </div>
-                    </div>
+        <div class="inner-wrapper text-center flex flex-col">
+            <div class="w-full title mt-20">
+                <h1 class="title-font-one font-medium font-familiy-NanumSquareB">이런! 비밀번호를 잊어버리셨군요</h1>
+            </div>
+            <div class="w-full mt-5 description leading-relaxed	text-lg">
+                <span class="color-gray-one title-font-two">저희가 찾았습니다.</span>
+            </div>
+            <div class="w-full mt-5 text-align-left input-wrapper-one flex justify-center mt-5 flex-col color-gray-one">
+                <div class="w-full flex justify-center">
+                <vs-input
+                    type="email"
+                    v-validate="'required|email|min:3'"
+                    data-vv-validate-on="blur"
+                    name="email"
+                    data-vv-as="이메일 주소"
+                    label="이메일 주소"
+                    placeholder="비밀번호 재 설정을 위한 이메일을 입력하세요"
+                    v-model="value1"
+                    class="cus-btn-width-two text-lg"/>
                 </div>
-            </vx-card>
+                <div class="w-full flex justify-center">
+                <span class="w-1/2 text-danger text-sm">{{ errors.first('email') }}</span>
+                </div>
+            </div>
+            <div class="w-full input-wrapper-two-column mt-5 flex justify-evenly">
+                <span class="w-1/2 text-left color-gray-one">다시 로그인하기</span>
+            </div>
+            <div class="w-full input-wrapper-two-column mt-5 flex justify-evenly">
+                <vs-button color="#bab7b7" type="border" @click="loginback" class="circle-radius text-xl cus-btn-width-one">Log In</vs-button>
+            </div>
+            <div class="w-full cus-pt-six">&nbsp;</div>
+            <div class="w-full mt-96">
+                <vs-button @click="recoverPassword" color="#2BBBDB" class="circle-radius text-xl cus-btn-width-one">비밀번호 재설정하기</vs-button>
+            </div>
+            <div class="w-full cus-pt-seven">&nbsp;</div>
         </div>
+    
+      </div>
+      <div class="flex-none login-board-right-side"></div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -44,6 +65,25 @@ export default {
         }
     },
     methods: {
+        checkLogin() {
+        // If user is already logged in notify
+        if (this.$store.state.auth.isUserLoggedIn()) {
+
+            // Close animation if passed as payload
+            // this.$vs.loading.close()
+
+            this.$vs.notify({
+            title: '로그인 시도',
+            text: '이미 로그인하셨습니다!',
+            iconPack: 'feather',
+            icon: 'icon-alert-circle',
+            color: 'warning'
+            })
+
+            return false
+        }
+        return true
+        },
         recoverPassword(){
             this.$http.post("/auth/reset-password", {email: this.value1}).then(result => {
                 this.response = result.data;
@@ -51,7 +91,19 @@ export default {
             }, error => {
                 console.error(error);
             });
+        },
+        loginback(){
+            if (!this.checkLogin()) return
+            this.$router.push('/pages/login').catch(() => {})
         }
     }
 }
 </script>
+
+<style lang="scss">
+  .inner-wrapper {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+</style>

@@ -82,5 +82,8 @@
         "vuesax": "^3.11.0",
         "vuex": "^3.1.1",
         "xlsx": "^0.15.0"
+    },
+    "dependencies": {
+        "vue-slider-component": "^3.2.11"
     }
 }

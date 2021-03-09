@@ -44,11 +44,12 @@ if (mix.inProduction()) {
     mix.version();
     mix.webpackConfig({
         output: {
-            publicPath: '/demo/vuexy-vuejs-laravel-admin-template/demo-1/',
+            // publicPath: '/demo/vuexy-vuejs-laravel-admin-template/demo-1/',
+            // publicPath: '/public/',
             chunkFilename: 'js/chunks/[name].[chunkhash].js',
         }
     });
-    mix.setResourceRoot("/demo/vuexy-vuejs-laravel-admin-template/demo-1/");
+    // mix.setResourceRoot("/public");
 }
 else{
     mix.webpackConfig({

@@ -32,12 +32,16 @@ $grey-light: #dae1e7;
 $white: #fff;
 $black: #22292f;
 
+$btn-color-one: #2BBBDB;
+$btn-color-notoverflow: #0c6c81;
+$blue-color-one: #4098ff;
+$grey-one: #757575;
 
 /*========================================================
         TYPOGRAPHY
 =========================================================*/
-
-$font-family-sans-serif:  "Montserrat", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  'NanumSquareB', sans-serif !default;
+// $font-family-sans-serif:  "Montserrat", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.

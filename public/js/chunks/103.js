@@ -1,14 +1,18 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[103],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
 //
 //
 //
@@ -67,50 +71,101 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      article: {
-        title: 'Dessert halvah carrot cake sweet?',
-        lastUpdated: 'Mon Dec 10 2018 07:45:55 GMT+0000 (GMT)',
-        img: __webpack_require__(/*! @assets/images/pages/kb-article.jpg */ "./resources/assets/images/pages/kb-article.jpg"),
-        topics: ['Pastry jelly chocolate bar caramels', 'Donut chupa chups oat cake', 'Marshmallow icing topping toffee caramels dessert carrot cake']
-      },
-      relatedQuestions: [{
-        "id": 0,
-        "question": 'Cake icing gummi bears?',
-        "answerUrl": "/pages/knowledge-base/category/question"
-      }, {
-        "id": 1,
-        "question": 'Jelly soufflé apple pie?',
-        "answerUrl": "/pages/knowledge-base/category/question"
-      }, {
-        "id": 2,
-        "question": 'Soufflé apple pie ice cream cotton?',
-        "answerUrl": "/pages/knowledge-base/category/question"
-      }, {
-        "id": 3,
-        "question": 'Powder wafer brownie?',
-        "answerUrl": "/pages/knowledge-base/category/question"
-      }, {
-        "id": 4,
-        "question": 'Toffee donut dragée cotton candy?',
-        "answerUrl": "/pages/knowledge-base/category/question"
-      }, {
-        "id": 5,
-        "question": 'Soufflé chupa chups chocolate bar?',
-        "answerUrl": "/pages/knowledge-base/category/question"
-      }]
+      value1: ''
     };
   },
-  mounted: function mounted() {
-    this.$emit('changeRouteTitle', 'Question');
+  methods: {
+    checkLogin: function checkLogin() {
+      // If user is already logged in notify
+      if (this.$store.state.auth.isUserLoggedIn()) {
+        // Close animation if passed as payload
+        // this.$vs.loading.close()
+        this.$vs.notify({
+          title: '로그인 시도',
+          text: '이미 로그인하셨습니다!',
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'warning'
+        });
+        return false;
+      }
+
+      return true;
+    },
+    recoverPassword: function recoverPassword() {
+      var _this = this;
+
+      this.$http.post("/auth/reset-password", {
+        email: this.value1
+      }).then(function (result) {
+        _this.response = result.data;
+        console.log(result.data);
+      }, function (error) {
+        console.error(error);
+      });
+    },
+    loginback: function loginback() {
+      if (!this.checkLogin()) return;
+      this.$router.push('/pages/login').catch(function () {});
+    }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=template&id=8288d164&":
-/*!*************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=template&id=8288d164& ***!
-  \*************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=style&index=0&lang=scss&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/sass-loader/dist/cjs.js??ref--8-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=style&index=0&lang=scss& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".inner-wrapper h1 {\n  font-size: 2.5rem;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=style&index=0&lang=scss&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/sass-loader/dist/cjs.js??ref--8-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=style&index=0&lang=scss& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--8-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--8-3!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ForgotPassword.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=style&index=0&lang=scss&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=template&id=349af79a&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=template&id=349af79a& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -122,171 +177,178 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "knowledge-base-article" } }, [
-    _c("div", { staticClass: "vx-row" }, [
-      _c(
-        "div",
-        { staticClass: "vx-col w-full md:w-2/5 lg:w-1/4" },
-        [
-          _c("vx-card", { attrs: { title: "Related Questions" } }, [
-            _c(
-              "ul",
-              { staticClass: "bordered-items" },
-              _vm._l(_vm.relatedQuestions, function(que) {
-                return _c(
-                  "li",
-                  { key: que.id, staticClass: "py-2" },
-                  [
-                    _c("router-link", { attrs: { to: que.answerUrl } }, [
-                      _vm._v(_vm._s(que.question))
-                    ])
-                  ],
-                  1
-                )
-              }),
-              0
-            )
-          ])
-        ],
-        1
-      ),
+  return _c("div", { staticClass: "flex w-full justify-center mt-2" }, [
+    _c("div", { staticClass: "flex gap-0 login-board-wrapper" }, [
+      _c("div", { staticClass: "flex-none login-board-left-side" }),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "vx-col w-full md:w-3/5 lg:w-3/4 mt-12 md:mt-0" },
-        [
+      _c("div", { staticClass: "flex-grow login-board-middle-side" }, [
+        _c("div", { staticClass: "inner-wrapper text-center flex flex-col" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
           _c(
-            "vx-card",
+            "div",
+            {
+              staticClass:
+                "w-full mt-5 text-align-left input-wrapper-one flex justify-center mt-5 flex-col color-gray-one"
+            },
             [
-              _c("div", { staticClass: "article-title mb-6" }, [
-                _c("h1", [_vm._v(_vm._s(_vm.article.title))]),
-                _vm._v(" "),
-                _c("p", { staticClass: "mt-1" }, [
-                  _vm._v("Last updated on "),
-                  _c("span", [
-                    _vm._v(
-                      _vm._s(_vm._f("date")(_vm.article.lastUpdated, true))
-                    )
-                  ])
+              _c(
+                "div",
+                { staticClass: "w-full flex justify-center" },
+                [
+                  _c("vs-input", {
+                    directives: [
+                      {
+                        name: "validate",
+                        rawName: "v-validate",
+                        value: "required|email|min:3",
+                        expression: "'required|email|min:3'"
+                      }
+                    ],
+                    staticClass: "cus-btn-width-two text-lg",
+                    attrs: {
+                      type: "email",
+                      "data-vv-validate-on": "blur",
+                      name: "email",
+                      "data-vv-as": "이메일 주소",
+                      label: "이메일 주소",
+                      placeholder: "비밀번호 재 설정을 위한 이메일을 입력하세요"
+                    },
+                    model: {
+                      value: _vm.value1,
+                      callback: function($$v) {
+                        _vm.value1 = $$v
+                      },
+                      expression: "value1"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "w-full flex justify-center" }, [
+                _c("span", { staticClass: "w-1/2 text-danger text-sm" }, [
+                  _vm._v(_vm._s(_vm.errors.first("email")))
                 ])
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Pastry jelly chocolate bar caramels fruitcake gummies marshmallow lemon drops. Powder cupcake topping muffin carrot cake croissant soufflé sugar plum sweet roll. Cotton candy ice cream gummies biscuit bonbon biscuit. Icing pastry bonbon. Sweet roll chocolate cake liquorice jelly beans caramels jelly cookie caramels. Pastry candy canes cake powder lollipop tootsie roll sugar plum. Cake cotton candy dragée danish. Muffin croissant sweet roll candy wafer marzipan cheesecake. Carrot cake toffee gummi bears gingerbread donut biscuit. Donut chupa chups oat cake cheesecake apple pie gummies marzipan icing cake. Macaroon jelly beans gummi bears carrot cake tiramisu liquorice. Sweet tootsie roll cookie marzipan brownie icing cookie jelly tart. Lollipop cookie tootsie roll candy canes."
-                )
-              ]),
-              _vm._v(" "),
-              _c("img", {
-                staticClass: "responsive my-3 rounded",
-                attrs: { src: _vm.article.img, alt: "article-img" }
-              }),
-              _vm._v(" "),
-              _c("p", { staticClass: "mb-6" }, [
-                _vm._v(
-                  "Candy canes oat cake biscuit halvah ice cream. Marshmallow icing topping toffee caramels dessert carrot cake. Liquorice soufflé brownie sugar plum dessert cotton candy. Cupcake halvah topping oat cake soufflé pastry dragée pudding cotton candy."
-                )
-              ]),
-              _vm._v(" "),
-              _c("h5", { staticClass: "mb-2" }, [_vm._v("Topics:")]),
-              _vm._v(" "),
-              _c("vx-list", { attrs: { list: _vm.article.topics } }),
-              _vm._v(" "),
-              _c("p", { staticClass: "mt-4" }, [
-                _vm._v(
-                  "Chocolate cake powder I love jelly beans lemon drops candy fruitcake. Sesame snaps sugar plum chocolate candy canes muffin. Wafer pastry topping croissant pudding dessert I love. Bonbon apple pie fruitcake candy canes I love. Lollipop sweet gingerbread I love I love dessert. I love halvah marshmallow pie jelly beans macaroon candy. Bonbon ice cream lollipop pie fruitcake oat cake. Topping marshmallow I love sesame snaps dragée. I love sesame snaps jelly. Chocolate sesame snaps jelly I love I love powder jelly-o."
-                )
-              ]),
-              _vm._v(" "),
-              _c("template", { slot: "footer" }, [
-                _c(
-                  "div",
-                  { staticClass: "flex items-center justify-between" },
-                  [
-                    _c(
-                      "router-link",
-                      {
-                        staticClass: "flex items-center",
-                        attrs: { to: "/pages/knowledge-base/category/question" }
-                      },
-                      [
-                        _c("feather-icon", {
-                          staticClass: "mr-2",
-                          attrs: {
-                            icon: _vm.$vs.rtl
-                              ? "ChevronsRightIcon"
-                              : "ChevronsLeftIcon",
-                            svgClasses: "h-4 w-4"
-                          }
-                        }),
-                        _vm._v(" Previous Article")
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "router-link",
-                      {
-                        staticClass: "flex items-center",
-                        attrs: { to: "/pages/knowledge-base/category/question" }
-                      },
-                      [
-                        _vm._v("Next Article "),
-                        _c("feather-icon", {
-                          staticClass: "ml-2",
-                          attrs: {
-                            icon: _vm.$vs.rtl
-                              ? "ChevronsLeftIcon"
-                              : "ChevronsRightIcon",
-                            svgClasses: "h-4 w-4"
-                          }
-                        })
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
               ])
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "w-full input-wrapper-two-column mt-5 flex justify-evenly"
+            },
+            [
+              _c(
+                "vs-button",
+                {
+                  staticClass: "circle-radius text-xl cus-btn-width-one",
+                  attrs: { color: "#bab7b7", type: "border" },
+                  on: { click: _vm.loginback }
+                },
+                [_vm._v("Log In")]
+              )
             ],
-            2
-          )
-        ],
-        1
-      )
+            1
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-full cus-pt-six" }, [_vm._v(" ")]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "w-full mt-96" },
+            [
+              _c(
+                "vs-button",
+                {
+                  staticClass: "circle-radius text-xl cus-btn-width-one",
+                  attrs: { color: "#2BBBDB" },
+                  on: { click: _vm.recoverPassword }
+                },
+                [_vm._v("비밀번호 재설정하기")]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-full cus-pt-seven" }, [_vm._v(" ")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex-none login-board-right-side" })
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-full title mt-20" }, [
+      _c(
+        "h1",
+        { staticClass: "title-font-one font-medium font-familiy-NanumSquareB" },
+        [_vm._v("이런! 비밀번호를 잊어버리셨군요")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "w-full mt-5 description leading-relaxed\ttext-lg" },
+      [
+        _c("span", { staticClass: "color-gray-one title-font-two" }, [
+          _vm._v("저희가 찾았습니다.")
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "w-full input-wrapper-two-column mt-5 flex justify-evenly"
+      },
+      [
+        _c("span", { staticClass: "w-1/2 text-left color-gray-one" }, [
+          _vm._v("다시 로그인하기")
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
 
 /***/ }),
 
-/***/ "./resources/assets/images/pages/kb-article.jpg":
-/*!******************************************************!*\
-  !*** ./resources/assets/images/pages/kb-article.jpg ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/kb-article.jpg?6977451ec062edae53cdc9e37d0d66fe";
-
-/***/ }),
-
-/***/ "./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue":
-/*!************************************************************************!*\
-  !*** ./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue ***!
-  \************************************************************************/
+/***/ "./resources/js/src/views/pages/ForgotPassword.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/src/views/pages/ForgotPassword.vue ***!
+  \*********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _KnowledgeBaseCategoryQuestion_vue_vue_type_template_id_8288d164___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./KnowledgeBaseCategoryQuestion.vue?vue&type=template&id=8288d164& */ "./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=template&id=8288d164&");
-/* harmony import */ var _KnowledgeBaseCategoryQuestion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./KnowledgeBaseCategoryQuestion.vue?vue&type=script&lang=js& */ "./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ForgotPassword_vue_vue_type_template_id_349af79a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ForgotPassword.vue?vue&type=template&id=349af79a& */ "./resources/js/src/views/pages/ForgotPassword.vue?vue&type=template&id=349af79a&");
+/* harmony import */ var _ForgotPassword_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ForgotPassword.vue?vue&type=script&lang=js& */ "./resources/js/src/views/pages/ForgotPassword.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _ForgotPassword_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ForgotPassword.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/pages/ForgotPassword.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -294,10 +356,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _KnowledgeBaseCategoryQuestion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _KnowledgeBaseCategoryQuestion_vue_vue_type_template_id_8288d164___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _KnowledgeBaseCategoryQuestion_vue_vue_type_template_id_8288d164___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _ForgotPassword_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ForgotPassword_vue_vue_type_template_id_349af79a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ForgotPassword_vue_vue_type_template_id_349af79a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -307,38 +369,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue"
+component.options.__file = "resources/js/src/views/pages/ForgotPassword.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************!*\
-  !*** ./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************/
+/***/ "./resources/js/src/views/pages/ForgotPassword.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/src/views/pages/ForgotPassword.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_KnowledgeBaseCategoryQuestion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./KnowledgeBaseCategoryQuestion.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_KnowledgeBaseCategoryQuestion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ForgotPassword.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=template&id=8288d164&":
-/*!*******************************************************************************************************!*\
-  !*** ./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=template&id=8288d164& ***!
-  \*******************************************************************************************************/
+/***/ "./resources/js/src/views/pages/ForgotPassword.vue?vue&type=style&index=0&lang=scss&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/src/views/pages/ForgotPassword.vue?vue&type=style&index=0&lang=scss& ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader!../../../../../node_modules/css-loader!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--8-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--8-3!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ForgotPassword.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/pages/ForgotPassword.vue?vue&type=template&id=349af79a&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/src/views/pages/ForgotPassword.vue?vue&type=template&id=349af79a& ***!
+  \****************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_KnowledgeBaseCategoryQuestion_vue_vue_type_template_id_8288d164___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./KnowledgeBaseCategoryQuestion.vue?vue&type=template&id=8288d164& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/KnowledgeBaseCategoryQuestion.vue?vue&type=template&id=8288d164&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_KnowledgeBaseCategoryQuestion_vue_vue_type_template_id_8288d164___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_template_id_349af79a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ForgotPassword.vue?vue&type=template&id=349af79a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/ForgotPassword.vue?vue&type=template&id=349af79a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_template_id_349af79a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_KnowledgeBaseCategoryQuestion_vue_vue_type_template_id_8288d164___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ForgotPassword_vue_vue_type_template_id_349af79a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

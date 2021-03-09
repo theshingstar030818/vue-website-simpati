@@ -303,13 +303,13 @@ export default {
     loginJWT({ commit }, payload) {
 
       return new Promise((resolve,reject) => {
+
         jwt.login(payload.userDetails.email, payload.userDetails.password)
           .then(response => {
-
-            // If there's user data in response
+            // If there's user data in response           
             if(response.data.userData) {
               // Navigate User to homepage
-              router.push(router.currentRoute.query.to || '/')
+              router.push(router.currentRoute.query.to || '/main')
 
               // Set accessToken
               localStorage.setItem("accessToken", response.data.accessToken)
@@ -321,13 +321,11 @@ export default {
               commit("SET_BEARER", response.data.accessToken)
 
               resolve(response)
-            }else {
-              reject({message: "Wrong Email or Password"})
+            } else {
+                reject({message: "이메일 또는 비밀번호가 잘못되었습니다."})
             }
-
           })
-          .catch(error => { reject(error) })
-      })
+        })
     },
     registerUserJWT({ commit }, payload) {
 
@@ -342,21 +340,43 @@ export default {
 
         jwt.registerUser(displayName, email, password)
           .then(response => {
+            console.log("registerUserJWT then: ");
+            console.log(response);
             // Redirect User
             router.push(router.currentRoute.query.to || '/')
 
             // Update data in localStorage
             localStorage.setItem("accessToken", response.data.accessToken)
-            commit('UPDATE_USER_INFO', response.data.userData, {root: true})
+            // commit('UPDATE_USER_INFO', response.data.userData, {root: true})
 
             resolve(response)
           })
-          .catch(error => { reject(error) })
+          .catch(error => { 
+            console.log("registerUserJWT catach error: ");
+            console.log(error);
+            error.message = '이메일은 이미 사용되었습니다.';
+            reject(error) 
+           })
       })
     },
+    //added to store RegisterUserJWT
+    storeRegisterUserJWT({ commit }, payload) {
+        localStorage.setItem("storeRegisterUserJWT", JSON.stringify(payload.userDetails));
+
+        return new Promise((resolve,reject) => {
+            commit('UPDATE_REGISTER_USER_INFO', payload.userDetails, {root: true})
+            resolve(true);
+        })
+    },    
     fetchAccessToken() {
-      return new Promise((resolve) => {
-        jwt.refreshToken().then(response => { resolve(response) })
+      return new Promise((resolve, reject) => {
+        jwt.refreshToken()
+            .then(response => { 
+                resolve(response) 
+            })
+            .catch(error => { 
+                reject(error) 
+            })
       })
     }
 }

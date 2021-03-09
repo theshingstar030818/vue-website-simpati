@@ -9,7 +9,9 @@
 
 
 <template>
-    <div class="h-screen flex w-full bg-img vx-row no-gutter items-center justify-center">
+    <register-jwt></register-jwt>
+
+    <!-- <div class="h-screen flex w-full bg-img vx-row no-gutter items-center justify-center">
         <div class="vx-col sm:w-1/2 md:w-1/2 lg:w-3/4 xl:w-3/5 sm:m-0 m-4">
             <vx-card>
                 <div slot="no-body" class="full-page-bg-color">
@@ -25,7 +27,7 @@
                                 </div>
 
                                 <register-jwt></register-jwt>
-                                <!-- <vs-tabs>
+                                <vs-tabs>
                                   <vs-tab label="JWT">
                                     <register-jwt></register-jwt>
                                   </vs-tab>
@@ -37,14 +39,14 @@
                                   <vs-tab label="Auth0">
                                     <register-auth0></register-auth0>
                                   </vs-tab>
-                                </vs-tabs> -->
+                                </vs-tabs>
                             </div>
                         </div>
                     </div>
                 </div>
             </vx-card>
         </div>
-    </div>
+    </div> -->
 </template>
 
 <script>

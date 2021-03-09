@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="691px" height="781px" viewbox="0 0 691 781" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L661 0L661 770.031L0 770.031L0 0Z" id="path_1" />
+    <path d="M0 0L37 0L37 39.5859L0 39.5859L0 0Z" id="path_2" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="mask_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="회원가입보드">
+    <g id="Group-17" transform="translate(1 -0.23364258)">
+      <g id="Group-6" transform="translate(18.00061 11.202881)">
+        <path d="M51.1852 768.595C22.9618 768.595 0 743.658 0 713.006L0 45.9671C23.1799 45.5852 41.9735 25.1745 42.3252 0L617.354 0C617.706 25.1745 636.498 45.5852 659.678 45.9671L659.678 713.006C659.678 743.658 636.718 768.595 608.493 768.595L51.1852 768.595Z" transform="translate(0.66015625 0.7175293)" id="Fill-1" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        <g id="Group-5">
+          <path d="M0 0L661 0L661 770.031L0 770.031L0 0Z" id="Clip-4" fill="none" fill-rule="evenodd" stroke="none" />
+          <g clip-path="url(#mask_1)">
+            <path d="M618.67 0L42.3291 0C42.3291 25.3899 23.3783 45.9729 0 45.9729L0 713.723C0 744.82 23.2117 770.031 51.8449 770.031L609.154 770.031C637.787 770.031 661 744.82 661 713.723L661 45.9729C637.62 45.9729 618.67 25.3899 618.67 0M617.367 1.43579C618.056 26.4395 636.655 46.6391 659.678 47.3871L659.678 713.724C659.678 743.979 637.012 768.595 609.154 768.595L51.8449 768.595C23.9864 768.595 1.32202 743.979 1.32202 713.724L1.32202 47.3871C24.3433 46.6391 42.9426 26.4395 43.6313 1.43579L617.367 1.43579" id="Fill-3" fill="#0ABAB5" fill-rule="evenodd" stroke="none" />
+          </g>
+        </g>
+      </g>
+      <path d="M18 39C8.07468 39 0 30.2524 0 19.5C0 8.74756 8.07468 0 18 0C27.9254 0 36.0001 8.74756 36.0001 19.5C36.0001 30.2524 27.9254 39 18 39" transform="translate(653 0.23364258)" id="Fill-7" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <g id="Group-11" transform="translate(653 0)">
+        <path d="M0 0L37 0L37 39.5859L0 39.5859L0 0Z" id="Clip-10" fill="none" fill-rule="evenodd" stroke="none" />
+        <g clip-path="url(#mask_2)">
+          <path d="M18.5 0C8.28271 0 0 8.86166 0 19.7931C0 30.7246 8.28271 39.5862 18.5 39.5862C28.7173 39.5862 37 30.7246 37 19.7931C37 8.86166 28.7173 0 18.5 0M18.5001 1.41382C27.9721 1.41382 35.6787 9.65906 35.6787 19.7931C35.6787 29.9272 27.9721 38.1724 18.5001 38.1724C9.0281 38.1724 1.32153 29.9272 1.32153 19.7931C1.32153 9.65906 9.0281 1.41382 18.5001 1.41382" transform="translate(0 -0.00024414062)" id="Fill-9" fill="#0ABAB5" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+      <path d="M18 39C8.07467 39 0 30.2524 0 19.5C0 8.74756 8.07467 0 18 0C27.9253 0 36 8.74756 36 19.5C36 30.2524 27.9253 39 18 39" transform="translate(1 0.23364258)" id="Fill-12" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <g id="Group-16">
+        <path d="M0 0L37 0L37 39.5859L0 39.5859L0 0Z" id="Clip-15" fill="none" fill-rule="evenodd" stroke="none" />
+        <g clip-path="url(#mask_2)">
+          <path d="M18.5 0C8.28272 0 0 8.86166 0 19.7931C0 30.7246 8.28272 39.5862 18.5 39.5862C28.7173 39.5862 37 30.7246 37 19.7931C37 8.86166 28.7173 0 18.5 0M18.5 1.41382C27.972 1.41382 35.6786 9.65906 35.6786 19.7931C35.6786 29.9272 27.972 38.1724 18.5 38.1724C9.02798 38.1724 1.32141 29.9272 1.32141 19.7931C1.32141 9.65906 9.02798 1.41382 18.5 1.41382" transform="translate(0 -0.00024414062)" id="Fill-14" fill="#0ABAB5" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

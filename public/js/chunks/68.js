@@ -1,17 +1,19 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[68],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _GoogleMapBasic_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GoogleMapBasic.vue */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue");
-/* harmony import */ var _GoogleMapInfoWindow_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GoogleMapInfoWindow.vue */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue");
-/* harmony import */ var _GoogleMapStreetView_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./GoogleMapStreetView.vue */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue");
+/* harmony import */ var _AvatarDefault_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AvatarDefault.vue */ "./resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue");
+/* harmony import */ var _AvatarSize_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AvatarSize.vue */ "./resources/js/src/views/components/vuesax/avatar/AvatarSize.vue");
+/* harmony import */ var _AvatarColor_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AvatarColor.vue */ "./resources/js/src/views/components/vuesax/avatar/AvatarColor.vue");
+/* harmony import */ var _AvatarWithBadge_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AvatarWithBadge.vue */ "./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue");
+/* harmony import */ var _AvatarIcon_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./AvatarIcon.vue */ "./resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue");
 //
 //
 //
@@ -32,26 +34,27 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
+
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    GoogleMapBasic: _GoogleMapBasic_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    GoogleMapInfoWindow: _GoogleMapInfoWindow_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    GoogleMapStreetView: _GoogleMapStreetView_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+    AvatarDefault: _AvatarDefault_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    AvatarSize: _AvatarSize_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    AvatarColor: _AvatarColor_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    AvatarWithBadge: _AvatarWithBadge_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    AvatarIcon: _AvatarIcon_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -113,294 +116,27 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      center: {
-        lat: 10.0,
-        lng: 10.0
-      },
-      markers: [{
-        position: {
-          lat: 10.0,
-          lng: 10.0
-        }
-      }, {
-        position: {
-          lat: 11.0,
-          lng: 11.0
-        }
-      }]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      center: {
-        lat: 47.376332,
-        lng: 8.547511
-      },
-      infoContent: '',
-      infoWindowPos: null,
-      infoWinOpen: false,
-      currentMidx: null,
-      //optional: offset infowindow so it visually sits nicely on top of our marker
-      infoOptions: {
-        pixelOffset: {
-          width: 0,
-          height: -35
-        }
-      },
-      markers: [{
-        position: {
-          lat: 47.376332,
-          lng: 8.547511
-        },
-        infoText: 'Marker 1'
-      }, {
-        position: {
-          lat: 47.374592,
-          lng: 8.548867
-        },
-        infoText: 'Marker 2'
-      }, {
-        position: {
-          lat: 47.379592,
-          lng: 8.549867
-        },
-        infoText: 'Marker 3'
-      }]
+      badge1: 2,
+      badge2: 10
     };
   },
   methods: {
-    toggleInfoWindow: function toggleInfoWindow(marker, idx) {
-      this.infoWindowPos = marker.position;
-      this.infoContent = marker.infoText; //check if its the same marker that was selected if yes toggle
-
-      if (this.currentMidx == idx) {
-        this.infoWinOpen = !this.infoWinOpen;
-      } //if different marker set infowindow to open and reset current marker index
-      else {
-          this.infoWinOpen = true;
-          this.currentMidx = idx;
-        }
+    increment: function increment() {
+      this.badge1++;
+      this.badge2++;
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      pov: null,
-      pano: null
-    };
-  },
-  methods: {
-    updatePov: function updatePov(pov) {
-      this.pov = pov;
-    },
-    updatePano: function updatePano(pano) {
-      this.pano = pano;
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=template&id=22099f60&":
-/*!*******************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=template&id=22099f60& ***!
-  \*******************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=template&id=a4dc9cfa&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=template&id=a4dc9cfa& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -414,109 +150,21 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { attrs: { id: "extra-component-google-map-demo" } },
+    { attrs: { id: "avatar-demo" } },
     [
-      _vm._m(0),
+      _c("avatar-default"),
       _vm._v(" "),
-      _c("google-map-basic"),
+      _c("avatar-size"),
       _vm._v(" "),
-      _c("google-map-info-window"),
+      _c("avatar-color"),
       _vm._v(" "),
-      _c("google-map-street-view"),
+      _c("avatar-with-badge"),
       _vm._v(" "),
-      _c("div", { staticClass: "content-area__content" })
+      _c("avatar-icon")
     ],
     1
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("p", { staticClass: "mb-4" }, [
-      _c(
-        "a",
-        {
-          attrs: {
-            href: "https://xkjyeah.github.io/vue-google-maps/",
-            target: "_blank",
-            rel: "nofollow"
-          }
-        },
-        [_vm._v("Google maps")]
-      ),
-      _vm._v(" component for vue with 2-way data binding")
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=template&id=597734ee&":
-/*!************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=template&id=597734ee& ***!
-  \************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "vx-card",
-    { attrs: { title: "Basic", "code-toggler": "" } },
-    [
-      _c("p", [_vm._v("Creating basic google map")]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "mt-5" },
-        [
-          _c(
-            "GmapMap",
-            {
-              staticStyle: { width: "100%", height: "400px" },
-              attrs: { center: _vm.center, zoom: 7, "map-type-id": "terrain" }
-            },
-            _vm._l(_vm.markers, function(m, index) {
-              return _c("GmapMarker", {
-                key: index,
-                attrs: {
-                  position: m.position,
-                  clickable: true,
-                  draggable: true
-                },
-                on: {
-                  click: function($event) {
-                    _vm.center = m.position
-                  }
-                }
-              })
-            }),
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("template", { slot: "codeContainer" }, [
-        _vm._v(
-          '\n<template>\n  <GmapMap\n    :center="center"\n    :zoom="7"\n    map-type-id="terrain"\n    style="width: 100%; height: 400px"\n    @click="mapClicked"\n  >\n    <GmapMarker\n      :key="index"\n      v-for="(m, index) in markers"\n      :position="m.position"\n      :clickable="true"\n      :draggable="true"\n      @click="center=m.position"\n    />\n  </GmapMap>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      center: { lat: 10.0, lng: 10.0 },\n      markers: [\n        { position: { lat: 10.0, lng: 10.0 } },\n        { position: { lat: 11.0, lng: 11.0 } },\n      ]\n    }\n  },\n}\n</script>\n        '
-        )
-      ])
-    ],
-    2
-  )
-}
 var staticRenderFns = []
 render._withStripped = true
 
@@ -524,10 +172,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=template&id=88634ca4&":
-/*!*****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=template&id=88634ca4& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarColor.vue?vue&type=template&id=c7ab9760&":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/avatar/AvatarColor.vue?vue&type=template&id=c7ab9760& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -541,69 +189,70 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Info Window", "code-toggler": "" } },
+    { attrs: { title: "Color", "code-toggler": "" } },
     [
       _c("p", [
-        _vm._v("A basic example of using a single infowindow for 3 markers")
+        _vm._v("You can change the Avatar's color by using the property "),
+        _c("code", [_vm._v("color")]),
+        _vm._v(
+          ". If needed you could also change the text's color with the property "
+        ),
+        _c("code", [_vm._v("text-color")])
       ]),
       _vm._v(" "),
       _c(
-        "div",
-        { staticClass: "mt-5" },
+        "vs-alert",
+        {
+          staticClass: "mt-5",
+          attrs: { color: "primary", icon: "new_releases", active: "true" }
+        },
         [
-          _c(
-            "gmap-map",
-            {
-              staticStyle: { width: "100%", height: "500px" },
-              attrs: { center: _vm.center, zoom: 15 }
-            },
-            [
-              _c(
-                "gmap-info-window",
-                {
-                  attrs: {
-                    options: _vm.infoOptions,
-                    position: _vm.infoWindowPos,
-                    opened: _vm.infoWinOpen
-                  },
-                  on: {
-                    closeclick: function($event) {
-                      _vm.infoWinOpen = false
-                    }
-                  }
-                },
-                [
-                  _vm._v(
-                    "\n                    " +
-                      _vm._s(_vm.infoContent) +
-                      "\n                "
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _vm._l(_vm.markers, function(m, i) {
-                return _c("gmap-marker", {
-                  key: i,
-                  attrs: { position: m.position, clickable: true },
-                  on: {
-                    click: function($event) {
-                      return _vm.toggleInfoWindow(m, i)
-                    }
-                  }
-                })
-              })
-            ],
-            2
-          )
+          _c("span", [
+            _vm._v(
+              "If the text has more than 5 letters, only the first letter will be shown as in the second avatar, the name is "
+            ),
+            _c("code", [_vm._v("Luis Daniel")]),
+            _vm._v(
+              " and only the letters LD will be shown if the word contains spaces the initial of each one is added."
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-alignment mt-5" },
+        [
+          _c("vs-avatar", { attrs: { color: "primary", text: "primary" } }),
+          _vm._v(" "),
+          _c("vs-avatar", { attrs: { color: "success", text: "success" } }),
+          _vm._v(" "),
+          _c("vs-avatar", { attrs: { color: "danger", text: "danger" } }),
+          _vm._v(" "),
+          _c("vs-avatar", { attrs: { color: "warning", text: "warning" } }),
+          _vm._v(" "),
+          _c("vs-avatar", { attrs: { color: "dark", text: "dark" } }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: { color: "rgb(200, 21, 129)", text: "RGB" }
+          }),
+          _vm._v(" "),
+          _c("vs-avatar", { attrs: { color: "#18cd5b", text: "HEX" } }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: {
+              color: "#26302a",
+              "text-color": "rgb(246, 190, 16)",
+              text: "HEX RGB"
+            }
+          })
         ],
         1
       ),
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <gmap-map :center="center" :zoom="15" style="width: 100%; height: 500px">\n    <gmap-info-window :options="infoOptions" :position="infoWindowPos" :opened="infoWinOpen" @closeclick="infoWinOpen=false">\n      ' +
-            _vm._s(_vm.infoContent) +
-            '\n    </gmap-info-window>\n    <gmap-marker :key="i" v-for="(m,i) in markers" :position="m.position" :clickable="true" @click="toggleInfoWindow(m,i)"></gmap-marker>\n  </gmap-map>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      center: { lat: 47.376332, lng: 8.547511 },\n      infoContent: \'\',\n      infoWindowPos: null,\n      infoWinOpen: false,\n      currentMidx: null,\n      //optional: offset infowindow so it visually sits nicely on top of our marker\n      infoOptions: {\n      pixelOffset: { width: 0, height: -35 }\n      },\n      markers: [\n        { position: { lat: 47.376332, lng: 8.547511 }, infoText: \'Marker 1\' },\n        { position: { lat: 47.374592, lng: 8.548867 }, infoText: \'Marker 2\' },\n        { position: { lat: 47.379592, lng: 8.549867 }, infoText: \'Marker 3\' }\n      ]\n    }\n  },\n  methods: {\n    toggleInfoWindow: function(marker, idx) {\n      this.infoWindowPos = marker.position;\n      this.infoContent = marker.infoText;\n      //check if its the same marker that was selected if yes toggle\n      if (this.currentMidx == idx) {\n        this.infoWinOpen = !this.infoWinOpen;\n      }\n      //if different marker set infowindow to open and reset current marker index\n      else {\n        this.infoWinOpen = true;\n        this.currentMidx = idx;\n      }\n    }\n  }\n}\n</script>\n        '
+          '\n<vs-avatar color="primary" text="primary"/>\n<vs-avatar color="success" text="success"/>\n<vs-avatar color="danger" text="danger"/>\n<vs-avatar color="warning" text="warning"/>\n<vs-avatar color="dark" text="dark"/>\n<vs-avatar color="rgb(200, 21, 129)" text="RGB"/>\n<vs-avatar color="#18cd5b" text="HEX"/>\n<vs-avatar color="#26302a" text-color="rgb(246, 190, 16)" text="HEX RGB"/>\n        '
         )
       ])
     ],
@@ -617,10 +266,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=template&id=b392d090&":
-/*!*****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=template&id=b392d090& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue?vue&type=template&id=24cc9aee&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue?vue&type=template&id=24cc9aee& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -634,105 +283,60 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Street View", "code-toggler": "" } },
+    { attrs: { title: "Default", "code-toggler": "" } },
     [
-      _c("p", [_vm._v("Example of creating google map - street view")]),
+      _c("p", [
+        _vm._v(
+          "Often you need to add an user's avatar to your app. In order to make this we have the component "
+        ),
+        _c("code", [_vm._v("vs-avatar")])
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("To add an internal text value such as "),
+        _c("code", [_vm._v("Luis")]),
+        _vm._v(" use the "),
+        _c("code", [_vm._v("text")]),
+        _vm._v(" property")
+      ]),
+      _vm._v(" "),
+      _c(
+        "vs-alert",
+        {
+          staticClass: "mt-5",
+          attrs: { color: "primary", icon: "new_releases", active: "true" }
+        },
+        [
+          _c("span", [
+            _vm._v(
+              "If the text has more than 5 letters, only the first letter will be shown as in the second avatar, the name is "
+            ),
+            _c("code", [_vm._v("Luis Daniel")]),
+            _vm._v(
+              " and only the letters LD will be shown if the word contains spaces the initial of each one is added."
+            )
+          ])
+        ]
+      ),
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "mt-5" },
+        { staticClass: "demo-alignment mt-5" },
         [
-          _c("h6", [
-            _vm._v(
-              "Panorama at Pembroke College, Cambridge, facing North, looking slightly upwards (10 degrees)"
-            )
-          ]),
+          _c("vs-avatar"),
           _vm._v(" "),
-          _c("p", { staticClass: "mt-3 mb-5" }, [
-            _vm._v("Point-of-view updates when you pan around")
-          ]),
+          _c("vs-avatar", { attrs: { text: "Luis Daniel" } }),
           _vm._v(" "),
-          _c("gmap-street-view-panorama", {
-            staticClass: "pano",
-            staticStyle: { height: "400px", width: "100%" },
-            attrs: {
-              position: { lat: 52.201272, lng: 0.11872 },
-              pov: _vm.pov,
-              zoom: 1
-            },
-            on: { pano_changed: _vm.updatePano, pov_changed: _vm.updatePov }
-          }),
+          _c("vs-avatar", { attrs: { text: "Luisd" } }),
           _vm._v(" "),
-          _c(
-            "vs-list",
-            { staticClass: "mt-5" },
-            [
-              _c("vs-list-item", {
-                attrs: { title: " Heading: " + (_vm.pov && _vm.pov.heading) }
-              }),
-              _vm._v(" "),
-              _c("vs-list-item", {
-                attrs: { title: " Pitch: " + (_vm.pov && _vm.pov.pitch) }
-              }),
-              _vm._v(" "),
-              _c("vs-list-item", { attrs: { title: " Pano ID: " + _vm.pano } })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "demo-alignment" },
-            [
-              _c(
-                "vs-button",
-                {
-                  attrs: { type: "filled" },
-                  on: {
-                    click: function($event) {
-                      _vm.pov.heading = Math.random() * 360
-                    }
-                  }
-                },
-                [_vm._v("Change Heading")]
-              ),
-              _vm._v(" "),
-              _c(
-                "vs-button",
-                {
-                  attrs: { type: "filled" },
-                  on: {
-                    click: function($event) {
-                      _vm.pov.pitch = Math.random() * 180 - 90
-                    }
-                  }
-                },
-                [_vm._v("Change Pitch")]
-              ),
-              _vm._v(" "),
-              _c(
-                "vs-button",
-                {
-                  attrs: { type: "filled" },
-                  on: {
-                    click: function($event) {
-                      ;(_vm.pov.pitch = Math.random() * 180 - 90),
-                        (_vm.pov.heading = Math.random() * 360)
-                    }
-                  }
-                },
-                [_vm._v("Change Both")]
-              )
-            ],
-            1
-          )
+          _c("vs-avatar", { attrs: { src: "https://i.imgur.com/ezM6SJ5.png" } })
         ],
         1
       ),
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <h6>Panorama at Pembroke College, Cambridge, facing North, looking slightly upwards (10 degrees)</h6>\n  <p class="mt-3 mb-5">Point-of-view updates when you pan around</p>\n\n  <gmap-street-view-panorama class="pano" :position="{lat: 52.201272, lng: 0.118720}"\n    :pov="pov" :zoom="1" @pano_changed="updatePano" @pov_changed="updatePov" style="height: 400px; width: 100%">\n  </gmap-street-view-panorama>\n\n  <vs-list class="mt-5">\n    <vs-list-item :title="` Heading: ${ pov && pov.heading }`"></vs-list-item>\n    <vs-list-item :title="` Pitch: ${ pov && pov.pitch }`"></vs-list-item>\n    <vs-list-item :title="` Pano ID: ${ pano }`"></vs-list-item>\n  </vs-list>\n\n  <div class="demo-alignment">\n    <vs-button type="filled" @click="pov.heading = Math.random() * 360">Change Heading</vs-button>\n    <vs-button type="filled" @click="pov.pitch = Math.random() * 180 - 90">Change Pitch</vs-button>\n    <vs-button type="filled" @click="pov.pitch = Math.random() * 180 - 90, pov.heading = Math.random() * 360">Change Both</vs-button>\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      pov: null,\n      pano: null,\n    }\n  },\n  methods: {\n    updatePov(pov) {\n      this.pov = pov;\n    },\n    updatePano(pano) {\n      this.pano = pano;\n    }\n  }\n}\n</script>\n        '
+          '\n<vs-avatar />\n<vs-avatar text="Luis Daniel"/>\n<vs-avatar text="Luisd"/>\n<vs-avatar src="https://i.imgur.com/ezM6SJ5.png"/>\n        '
         )
       ])
     ],
@@ -746,17 +350,325 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue":
-/*!******************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue ***!
-  \******************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue?vue&type=template&id=4089001c&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue?vue&type=template&id=4089001c& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Icon", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v("You can change the main icon of the Avatar with the property "),
+        _c("code", [_vm._v("icon")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "vs-alert",
+        {
+          staticClass: "mt-5",
+          attrs: { color: "primary", icon: "new_releases", active: "true" }
+        },
+        [
+          _c("p", [
+            _vm._v("Vuesax uses the "),
+            _c("strong", [_vm._v("Google Material Icons")]),
+            _vm._v(
+              " font library by default. For a list of all available icons, visit the official "
+            ),
+            _c(
+              "a",
+              {
+                attrs: { href: "https://material.io/icons/", target: "_blank" }
+              },
+              [_vm._v("Material Icons page")]
+            ),
+            _vm._v(
+              ". Other icon libraries can be used by providing the class for the respective pack in the icon-pack property. ex. FA4 uses fa or fas, FA5 uses fas, far, or fal."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("This icon is only displayed when there is no property as "),
+            _c("code", [_vm._v("text")]),
+            _vm._v(" or "),
+            _c("code", [_vm._v("src")])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-alignment mt-5" },
+        [
+          _c("vs-avatar", {
+            attrs: { "icon-pack": "feather", icon: "icon-user" }
+          }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: {
+              color: "primary",
+              "icon-pack": "feather",
+              icon: "icon-calendar"
+            }
+          }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: {
+              color: "success",
+              "icon-pack": "feather",
+              icon: "icon-inbox"
+            }
+          }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: {
+              color: "danger",
+              "icon-pack": "feather",
+              icon: "icon-camera"
+            }
+          }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: {
+              color: "warning",
+              "icon-pack": "feather",
+              icon: "icon-award"
+            }
+          }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: { color: "dark", "icon-pack": "feather", icon: "icon-code" }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<vs-avatar icon-pack="feather" icon="icon-user" />\n\n<vs-avatar color="primary" icon-pack="feather" icon="icon-calendar" />\n\n<vs-avatar color="success" icon-pack="feather" icon="icon-inbox" />\n\n<vs-avatar color="danger" icon-pack="feather" icon="icon-camera" />\n\n<vs-avatar color="warning" icon-pack="feather" icon="icon-award" />\n\n<vs-avatar color="dark" icon-pack="feather" icon="icon-code" />\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarSize.vue?vue&type=template&id=c1fec0b8&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/avatar/AvatarSize.vue?vue&type=template&id=c1fec0b8& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "size", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v(
+          "You can change the size of the Avatar with the property size the allowed values are:"
+        )
+      ]),
+      _vm._v(" "),
+      _c("vx-list", { attrs: { list: ["large", "small", "Custom measures"] } }),
+      _vm._v(" "),
+      _c(
+        "vs-alert",
+        {
+          staticClass: "mb-1",
+          attrs: { color: "primary", icon: "new_releases", active: "true" }
+        },
+        [
+          _c("span", [
+            _vm._v("In the example the last avatar has the custom size of "),
+            _c("code", [_vm._v("70px")]),
+            _vm._v(" the added value will be the avatar's "),
+            _c("strong", [_vm._v("height")]),
+            _vm._v(" and "),
+            _c("strong", [_vm._v("width")])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-alignment mt-5" },
+        [
+          _c("vs-avatar", { attrs: { size: "small" } }),
+          _vm._v(" "),
+          _c("vs-avatar", { attrs: { text: "Luis Daniel" } }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: { size: "large", src: "https://i.imgur.com/ezM6SJ5.png" }
+          }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: { size: "70px", src: "https://i.imgur.com/ezM6SJ5.png" }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<vs-avatar size="small" />\n<vs-avatar text="Luis Daniel"/>\n<vs-avatar size="large" src="https://i.imgur.com/ezM6SJ5.png"/>\n<vs-avatar size="70px" src="https://i.imgur.com/ezM6SJ5.png"/>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=template&id=4ad1082c&":
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=template&id=4ad1082c& ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "With Badge", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v(
+          "You can add a notification label to the avatar, either a reference point or a number with the property "
+        ),
+        _c("code", [_vm._v("badge")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "p",
+        [
+          _vm._v(
+            "You could also change the badge's color by using the property "
+          ),
+          _c("code", [_vm._v("badge-color")]),
+          _vm._v(". You are able to use the "),
+          _c("router-link", { attrs: { to: "/ui-elements/colors" } }, [
+            _vm._v("Main Colors")
+          ]),
+          _vm._v(" or "),
+          _c("strong", [_vm._v("RGB")]),
+          _vm._v(" and "),
+          _c("strong", [_vm._v("HEX")]),
+          _vm._v(" colors.")
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "vs-alert",
+        {
+          staticClass: "mt-5",
+          attrs: { icon: "warning", active: "true", color: "warning" }
+        },
+        [
+          _c("span", [
+            _vm._v("Only "),
+            _c("strong", [_vm._v("RGB")]),
+            _vm._v(" and "),
+            _c("strong", [_vm._v("HEX")]),
+            _vm._v(" colors are supported.")
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-alignment mt-5" },
+        [
+          _c("vs-avatar", { attrs: { badge: "" } }),
+          _vm._v(" "),
+          _c("vs-avatar", { attrs: { badge: _vm.badge1, text: "Luisdaniel" } }),
+          _vm._v(" "),
+          _c("vs-avatar", {
+            attrs: {
+              "badge-color": "rgb(140, 23, 164)",
+              badge: _vm.badge2,
+              text: "Luisd"
+            }
+          }),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "primary", type: "filled" },
+              on: { click: _vm.increment }
+            },
+            [_vm._v(" Increment Badge counter ")]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<template>\n  <vs-avatar badge />\n  <vs-avatar :badge="badge1" text="Luisdaniel" />\n  <vs-avatar badge-color="rgb(140, 23, 164)" :badge="badge2" text="Luisd" />\n  <vs-button color="primary" type="filled" @click="increment"> Increment Badge counter </vs-button>\n</template>\n\n<script>\nexport default {\n  data: () => ({\n    badge1: 2,\n    badge2: 10,\n  }),\n  methods: {\n    increment() {\n      this.badge1++\n      this.badge2++\n    }\n  }\n}\n</script>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/Avatar.vue":
+/*!********************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/Avatar.vue ***!
+  \********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _GoogleMap_vue_vue_type_template_id_22099f60___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GoogleMap.vue?vue&type=template&id=22099f60& */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=template&id=22099f60&");
-/* harmony import */ var _GoogleMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GoogleMap.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Avatar_vue_vue_type_template_id_a4dc9cfa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Avatar.vue?vue&type=template&id=a4dc9cfa& */ "./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=template&id=a4dc9cfa&");
+/* harmony import */ var _Avatar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Avatar.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -766,9 +678,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _GoogleMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _GoogleMap_vue_vue_type_template_id_22099f60___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _GoogleMap_vue_vue_type_template_id_22099f60___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Avatar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Avatar_vue_vue_type_template_id_a4dc9cfa___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Avatar_vue_vue_type_template_id_a4dc9cfa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -778,66 +690,223 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue"
+component.options.__file = "resources/js/src/views/components/vuesax/avatar/Avatar.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Avatar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Avatar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Avatar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=template&id=a4dc9cfa&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=template&id=a4dc9cfa& ***!
+  \***************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Avatar_vue_vue_type_template_id_a4dc9cfa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Avatar.vue?vue&type=template&id=a4dc9cfa& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/Avatar.vue?vue&type=template&id=a4dc9cfa&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Avatar_vue_vue_type_template_id_a4dc9cfa___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Avatar_vue_vue_type_template_id_a4dc9cfa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarColor.vue":
+/*!*************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarColor.vue ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _AvatarColor_vue_vue_type_template_id_c7ab9760___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AvatarColor.vue?vue&type=template&id=c7ab9760& */ "./resources/js/src/views/components/vuesax/avatar/AvatarColor.vue?vue&type=template&id=c7ab9760&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _AvatarColor_vue_vue_type_template_id_c7ab9760___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AvatarColor_vue_vue_type_template_id_c7ab9760___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/avatar/AvatarColor.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarColor.vue?vue&type=template&id=c7ab9760&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarColor.vue?vue&type=template&id=c7ab9760& ***!
+  \********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarColor_vue_vue_type_template_id_c7ab9760___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarColor.vue?vue&type=template&id=c7ab9760& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarColor.vue?vue&type=template&id=c7ab9760&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarColor_vue_vue_type_template_id_c7ab9760___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarColor_vue_vue_type_template_id_c7ab9760___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue":
+/*!***************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _AvatarDefault_vue_vue_type_template_id_24cc9aee___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AvatarDefault.vue?vue&type=template&id=24cc9aee& */ "./resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue?vue&type=template&id=24cc9aee&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _AvatarDefault_vue_vue_type_template_id_24cc9aee___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AvatarDefault_vue_vue_type_template_id_24cc9aee___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue?vue&type=template&id=24cc9aee&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue?vue&type=template&id=24cc9aee& ***!
+  \**********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarDefault_vue_vue_type_template_id_24cc9aee___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarDefault.vue?vue&type=template&id=24cc9aee& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarDefault.vue?vue&type=template&id=24cc9aee&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarDefault_vue_vue_type_template_id_24cc9aee___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarDefault_vue_vue_type_template_id_24cc9aee___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue":
+/*!************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _AvatarIcon_vue_vue_type_template_id_4089001c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AvatarIcon.vue?vue&type=template&id=4089001c& */ "./resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue?vue&type=template&id=4089001c&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _AvatarIcon_vue_vue_type_template_id_4089001c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AvatarIcon_vue_vue_type_template_id_4089001c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue?vue&type=template&id=4089001c&":
 /*!*******************************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue?vue&type=template&id=4089001c& ***!
   \*******************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoogleMap.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=template&id=22099f60&":
-/*!*************************************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=template&id=22099f60& ***!
-  \*************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMap_vue_vue_type_template_id_22099f60___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoogleMap.vue?vue&type=template&id=22099f60& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMap.vue?vue&type=template&id=22099f60&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMap_vue_vue_type_template_id_22099f60___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarIcon_vue_vue_type_template_id_4089001c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarIcon.vue?vue&type=template&id=4089001c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarIcon.vue?vue&type=template&id=4089001c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarIcon_vue_vue_type_template_id_4089001c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMap_vue_vue_type_template_id_22099f60___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarIcon_vue_vue_type_template_id_4089001c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue":
-/*!***********************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue ***!
-  \***********************************************************************************/
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarSize.vue":
+/*!************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarSize.vue ***!
+  \************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _GoogleMapBasic_vue_vue_type_template_id_597734ee___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GoogleMapBasic.vue?vue&type=template&id=597734ee& */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=template&id=597734ee&");
-/* harmony import */ var _GoogleMapBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GoogleMapBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _AvatarSize_vue_vue_type_template_id_c1fec0b8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AvatarSize.vue?vue&type=template&id=c1fec0b8& */ "./resources/js/src/views/components/vuesax/avatar/AvatarSize.vue?vue&type=template&id=c1fec0b8&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-
-
+var script = {}
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _GoogleMapBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _GoogleMapBasic_vue_vue_type_template_id_597734ee___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _GoogleMapBasic_vue_vue_type_template_id_597734ee___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _AvatarSize_vue_vue_type_template_id_c1fec0b8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AvatarSize_vue_vue_type_template_id_c1fec0b8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -847,176 +916,93 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue"
+component.options.__file = "resources/js/src/views/components/vuesax/avatar/AvatarSize.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarSize.vue?vue&type=template&id=c1fec0b8&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarSize.vue?vue&type=template&id=c1fec0b8& ***!
+  \*******************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarSize_vue_vue_type_template_id_c1fec0b8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarSize.vue?vue&type=template&id=c1fec0b8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarSize.vue?vue&type=template&id=c1fec0b8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarSize_vue_vue_type_template_id_c1fec0b8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarSize_vue_vue_type_template_id_c1fec0b8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _AvatarWithBadge_vue_vue_type_template_id_4ad1082c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AvatarWithBadge.vue?vue&type=template&id=4ad1082c& */ "./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=template&id=4ad1082c&");
+/* harmony import */ var _AvatarWithBadge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AvatarWithBadge.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _AvatarWithBadge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _AvatarWithBadge_vue_vue_type_template_id_4ad1082c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AvatarWithBadge_vue_vue_type_template_id_4ad1082c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarWithBadge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarWithBadge.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarWithBadge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=template&id=4ad1082c&":
 /*!************************************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=template&id=4ad1082c& ***!
   \************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoogleMapBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=template&id=597734ee&":
-/*!******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=template&id=597734ee& ***!
-  \******************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapBasic_vue_vue_type_template_id_597734ee___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoogleMapBasic.vue?vue&type=template&id=597734ee& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapBasic.vue?vue&type=template&id=597734ee&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapBasic_vue_vue_type_template_id_597734ee___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarWithBadge_vue_vue_type_template_id_4ad1082c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AvatarWithBadge.vue?vue&type=template&id=4ad1082c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/avatar/AvatarWithBadge.vue?vue&type=template&id=4ad1082c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarWithBadge_vue_vue_type_template_id_4ad1082c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapBasic_vue_vue_type_template_id_597734ee___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue":
-/*!****************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue ***!
-  \****************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _GoogleMapInfoWindow_vue_vue_type_template_id_88634ca4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GoogleMapInfoWindow.vue?vue&type=template&id=88634ca4& */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=template&id=88634ca4&");
-/* harmony import */ var _GoogleMapInfoWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GoogleMapInfoWindow.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _GoogleMapInfoWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _GoogleMapInfoWindow_vue_vue_type_template_id_88634ca4___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _GoogleMapInfoWindow_vue_vue_type_template_id_88634ca4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapInfoWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoogleMapInfoWindow.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapInfoWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=template&id=88634ca4&":
-/*!***********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=template&id=88634ca4& ***!
-  \***********************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapInfoWindow_vue_vue_type_template_id_88634ca4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoogleMapInfoWindow.vue?vue&type=template&id=88634ca4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapInfoWindow.vue?vue&type=template&id=88634ca4&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapInfoWindow_vue_vue_type_template_id_88634ca4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapInfoWindow_vue_vue_type_template_id_88634ca4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue":
-/*!****************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue ***!
-  \****************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _GoogleMapStreetView_vue_vue_type_template_id_b392d090___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GoogleMapStreetView.vue?vue&type=template&id=b392d090& */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=template&id=b392d090&");
-/* harmony import */ var _GoogleMapStreetView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GoogleMapStreetView.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _GoogleMapStreetView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _GoogleMapStreetView_vue_vue_type_template_id_b392d090___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _GoogleMapStreetView_vue_vue_type_template_id_b392d090___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapStreetView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoogleMapStreetView.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapStreetView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=template&id=b392d090&":
-/*!***********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=template&id=b392d090& ***!
-  \***********************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapStreetView_vue_vue_type_template_id_b392d090___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./GoogleMapStreetView.vue?vue&type=template&id=b392d090& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/maps/google-map/GoogleMapStreetView.vue?vue&type=template&id=b392d090&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapStreetView_vue_vue_type_template_id_b392d090___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoogleMapStreetView_vue_vue_type_template_id_b392d090___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AvatarWithBadge_vue_vue_type_template_id_4ad1082c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

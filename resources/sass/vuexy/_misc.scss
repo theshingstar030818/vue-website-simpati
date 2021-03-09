@@ -35,6 +35,92 @@ ol {
   }
 }
 
+.login-wrapper {
+  background: url("../assets/images/pages/login/userloginboard.svg");
+  background-size: 100% 100% !important;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-size: 100% auto; /* Fill width, retain proportions */
+  // margin-top: 20px;
+  // padding: 50px;
+  // text-align: center;
+  // height: 100vh;
+  // width: 691px;
+  // height: 700px;
+}
+
+.layout--full-page-one {
+  background-image: url("../assets/images/pages/bg01.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  @media(max-width:639px) {
+  }
+  /* Small (sm) */
+  @media (min-width: 640px) { 
+  }
+  /* Medium (md) */
+  @media (min-width: 768px) {
+  }
+  /* Large (lg) */
+  @media (min-width: 1024px) {
+  }
+  /* Extra Large (xl) */
+  @media (min-width: 1280px) { 
+  }    
+  /* Extra Large (xl) */
+  @media (min-width: 1680px) { 
+    height: 100vh;
+  }
+  /* Extra Large (xl) */
+  @media (min-width: 1920px) { 
+  }
+  .full-page-bg-color {
+    background-color: #eff2f7;
+  }
+
+  #logo {
+
+  }
+}
+
+.layout--full-page-three {
+  background-image: url("../assets/images/pages/main/bg_onboardingpage.jpeg");
+  // background-position: ;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  @media(max-width:639px) {
+  }
+  /* Small (sm) */
+  @media (min-width: 640px) { 
+  }
+  /* Medium (md) */
+  @media (min-width: 768px) {
+  }
+  /* Large (lg) */
+  @media (min-width: 1024px) {
+  }
+  /* Extra Large (xl) */
+  @media (min-width: 1280px) { 
+  }    
+  /* Extra Large (xl) */
+  @media (min-width: 1680px) { 
+    height: 100vh;
+  }
+  /* Extra Large (xl) */
+  @media (min-width: 1920px) { 
+  }
+  .full-page-bg-color {
+    background-color: #eff2f7;
+  }
+
+  #logo {
+
+  }
+}
+
 .single-counter {
   display: inline-block;
   position: relative;

@@ -48,12 +48,21 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 | and wonderful application we have prepared for them.
 |
 */
+// added to ignore notice
+error_reporting(E_ALL ^ E_NOTICE);  
 
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
 $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
 );
+
+
+// added for db connection check.
+if(DB::connection()->getDatabaseName())
+{
+//    echo "Connected to database ".DB::connection()->getDatabaseName();
+}
 
 $response->send();
 

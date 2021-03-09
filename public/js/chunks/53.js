@@ -1,18 +1,19 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[53],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DragAndDropSimple_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DragAndDropSimple.vue */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue");
-/* harmony import */ var _DragAndDropMultipleLists_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DragAndDropMultipleLists.vue */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue");
-/* harmony import */ var _DragAndDropCloneList_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DragAndDropCloneList.vue */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue");
-/* harmony import */ var _DragAndDropAnimation_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./DragAndDropAnimation.vue */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue");
+/* harmony import */ var _SwitchState_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SwitchState.vue */ "./resources/js/src/views/forms/form-elements/switch/SwitchState.vue");
+/* harmony import */ var _SwitchColor_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SwitchColor.vue */ "./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue");
+/* harmony import */ var _SwitchText_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SwitchText.vue */ "./resources/js/src/views/forms/form-elements/switch/SwitchText.vue");
+/* harmony import */ var _SwitchIcons_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SwitchIcons.vue */ "./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue");
+/* harmony import */ var _SwitchArrayValue_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SwitchArrayValue.vue */ "./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue");
 //
 //
 //
@@ -33,35 +34,32 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
+
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    DragAndDropSimple: _DragAndDropSimple_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    DragAndDropMultipleLists: _DragAndDropMultipleLists_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    DragAndDropCloneList: _DragAndDropCloneList_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    DragAndDropAnimation: _DragAndDropAnimation_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+    SwitchState: _SwitchState_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    SwitchColor: _SwitchColor_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    SwitchText: _SwitchText_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    SwitchIcons: _SwitchIcons_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    SwitchArrayValue: _SwitchArrayValue_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vuedraggable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuedraggable */ "./node_modules/vuedraggable/dist/vuedraggable.umd.js");
-/* harmony import */ var vuedraggable__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vuedraggable__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-prism-component */ "./node_modules/vue-prism-component/dist/vue-prism-component.common.js");
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_prism_component__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -147,73 +145,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      list: [{
-        name: "Paz Joya",
-        email: "girliness@spotlike.co.uk"
-      }, {
-        name: "Sunshine Cose",
-        email: "executrixship@equisized.edu"
-      }, {
-        name: "Alba Dobbin",
-        email: "bidding@demibob.or"
-      }, {
-        name: "Marlin Hinchee",
-        email: "preholding@scuffly.co.uk"
-      }, {
-        name: "Leia Atienza",
-        email: "unmeasurableness@interlamellar.co.uk"
-      }, {
-        name: "Lashawna Vaudrainm",
-        email: "soaking@khubber.com"
-      }, {
-        name: "Liliana Henscheid",
-        email: "lecideine@turndown.org"
-      }, {
-        name: "Keven Kolter",
-        email: "nontenure@anglicanum.co.uk"
-      }]
+      switchArray: ['luis']
     };
-  },
-  components: {
-    draggable: vuedraggable__WEBPACK_IMPORTED_MODULE_0___default.a,
-    Prism: vue_prism_component__WEBPACK_IMPORTED_MODULE_1___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vuedraggable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuedraggable */ "./node_modules/vuedraggable/dist/vuedraggable.umd.js");
-/* harmony import */ var vuedraggable__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vuedraggable__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-prism-component */ "./node_modules/vue-prism-component/dist/vue-prism-component.common.js");
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_prism_component__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -293,36 +243,50 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      list1: ["youtube", "google", "facebook", "twitter", "instagram", "pinterest", "tinder", "slack", "discord", "github", "gitlab"],
-      list2: ["google", "youtube"]
+      color: '#5a3cc4',
+      switch1: true,
+      switch2: true,
+      switch3: true,
+      switch4: true,
+      switch5: true,
+      switch6: true
     };
-  },
-  components: {
-    draggable: vuedraggable__WEBPACK_IMPORTED_MODULE_0___default.a,
-    Prism: vue_prism_component__WEBPACK_IMPORTED_MODULE_1___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vuedraggable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuedraggable */ "./node_modules/vuedraggable/dist/vuedraggable.umd.js");
-/* harmony import */ var vuedraggable__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vuedraggable__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-prism-component */ "./node_modules/vue-prism-component/dist/vue-prism-component.common.js");
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_prism_component__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -417,93 +381,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      list1: [{
-        name: "Paz Joya",
-        email: "girliness@spotlike.co.uk"
-      }, {
-        name: "Sunshine Cose",
-        email: "executrixship@equisized.edu"
-      }, {
-        name: "Alba Dobbin",
-        email: "bidding@demibob.or"
-      }, {
-        name: "Marlin Hinchee",
-        email: "preholding@scuffly.co.uk"
-      }],
-      list2: [{
-        name: "Leia Atienza",
-        email: "unmeasurableness@interlamellar.co.uk"
-      }, {
-        name: "Lashawna Vaudrainm",
-        email: "soaking@khubber.com"
-      }, {
-        name: "Liliana Henscheid",
-        email: "lecideine@turndown.org"
-      }, {
-        name: "Keven Kolter",
-        email: "nontenure@anglicanum.co.uk"
-      }]
+      switch1: false,
+      switch2: false,
+      switch3: false,
+      switch4: false,
+      switch5: false,
+      switch6: false
     };
-  },
-  components: {
-    draggable: vuedraggable__WEBPACK_IMPORTED_MODULE_0___default.a,
-    Prism: vue_prism_component__WEBPACK_IMPORTED_MODULE_1___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vuedraggable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuedraggable */ "./node_modules/vuedraggable/dist/vuedraggable.umd.js");
-/* harmony import */ var vuedraggable__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vuedraggable__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-prism-component */ "./node_modules/vue-prism-component/dist/vue-prism-component.common.js");
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_prism_component__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -564,26 +465,150 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      list: ["Marzipan I love I love. Soufflé donut I love gummi bears powder. Candy danish biscuit.", "Halvah bonbon bonbon brownie sugar plum. Halvah I love cupcake I love.", "Cake muffin icing topping wafer topping gummi bears apple pie.", "Cotton candy gummi bears bear claw cake brownie jelly-o lemon drops croissant sweet roll."]
+      switch1: true,
+      switch2: false,
+      switch3: true,
+      switch4: false
     };
-  },
-  components: {
-    draggable: vuedraggable__WEBPACK_IMPORTED_MODULE_0___default.a,
-    Prism: vue_prism_component__WEBPACK_IMPORTED_MODULE_1___default.a
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=style&index=0&lang=css&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--7-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=style&index=0&lang=css& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      switch1: true,
+      switch2: true,
+      switch3: true,
+      switch4: true,
+      switch5: true
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=style&index=0&lang=scss&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/sass-loader/dist/cjs.js??ref--8-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=style&index=0&lang=scss& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -592,22 +617,22 @@ exports = module.exports = __webpack_require__(/*! ../../../../../../../node_mod
 
 
 // module
-exports.push([module.i, ".list-item { transition: all .5s\n}\n", ""]);
+exports.push([module.i, "/*=========================================================================================\n    File Name: switch.scss\n    Description: Switch page styles\n    ----------------------------------------------------------------------------------------\n    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template\n      Author: Pixinvent\n    Author URL: http://www.themeforest.net/user/pixinvent\n==========================================================================================*/\n[dir=ltr] .demo-alignment li {\n  margin-right: 2rem;\n}\n[dir=rtl] .demo-alignment li {\n  margin-left: 2rem;\n}\n[dir] .demo-alignment .vs-switch {\n  margin-top: 0.5rem;\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=style&index=0&lang=css&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--7-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=style&index=0&lang=css& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=style&index=0&lang=scss&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/sass-loader/dist/cjs.js??ref--8-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=style&index=0&lang=scss& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader??ref--7-1!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropAnimation.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=style&index=0&lang=css&");
+var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--8-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--8-3!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Switch.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=style&index=0&lang=scss&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -629,10 +654,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=template&id=54163164&":
-/*!*******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=template&id=54163164& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=template&id=484aef26&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=template&id=484aef26& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -646,54 +671,32 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { attrs: { id: "extra-component-drag-and-drop-demo" } },
+    { attrs: { id: "form-element-switch-demo" } },
     [
-      _vm._m(0),
+      _c("switch-state"),
       _vm._v(" "),
-      _c("drag-and-drop-simple"),
+      _c("switch-color"),
       _vm._v(" "),
-      _c("drag-and-drop-multiple-lists"),
+      _c("switch-text"),
       _vm._v(" "),
-      _c("drag-and-drop-clone-list"),
+      _c("switch-icons"),
       _vm._v(" "),
-      _c("drag-and-drop-animation")
+      _c("switch-array-value")
     ],
     1
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("p", { staticClass: "mb-4" }, [
-      _c(
-        "a",
-        {
-          attrs: {
-            href: "https://github.com/SortableJS/Vue.Draggable",
-            target: "_blank",
-            rel: "nofollow"
-          }
-        },
-        [_vm._v("Vue.Draggable")]
-      ),
-      _vm._v(
-        " - Vue component allowing drag-and-drop and synchronization with view model array. Based on and offering all features of Sortable.js"
-      )
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=template&id=33b402b0&":
-/*!****************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=template&id=33b402b0& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=template&id=2056d744&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=template&id=2056d744& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -707,70 +710,580 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "With Animation", "code-toggler": "" } },
+    { attrs: { title: "Array Value", "code-toggler": "" } },
+    [
+      _c("span", [
+        _vm._v(
+          "For saving the values in an array, you could simply pass it as a value."
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "vs-alert",
+        {
+          staticClass: "mt-5",
+          attrs: { icon: "warning", active: "true", color: "warning" }
+        },
+        [
+          _c("span", [
+            _vm._v("For using an array as a value, we need to use the "),
+            _c("code", [_vm._v("vs-value")]),
+            _vm._v(
+              " property inside the switch component. That is the value that will be added to the array."
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("ul", { staticClass: "demo-alignment" }, [
+        _c(
+          "li",
+          [
+            _c(
+              "vs-switch",
+              {
+                attrs: {
+                  "vs-icon-on": "check",
+                  color: "success",
+                  "vs-value": "luis"
+                },
+                model: {
+                  value: _vm.switchArray,
+                  callback: function($$v) {
+                    _vm.switchArray = $$v
+                  },
+                  expression: "switchArray"
+                }
+              },
+              [
+                _c("span", { attrs: { slot: "off" }, slot: "off" }, [
+                  _vm._v("Luis")
+                ])
+              ]
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c(
+              "vs-switch",
+              {
+                attrs: {
+                  "vs-icon-on": "check",
+                  color: "success",
+                  "vs-value": "carols"
+                },
+                model: {
+                  value: _vm.switchArray,
+                  callback: function($$v) {
+                    _vm.switchArray = $$v
+                  },
+                  expression: "switchArray"
+                }
+              },
+              [
+                _c("span", { attrs: { slot: "off" }, slot: "off" }, [
+                  _vm._v("Carols")
+                ])
+              ]
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c(
+              "vs-switch",
+              {
+                attrs: {
+                  "vs-icon-on": "check",
+                  color: "success",
+                  "vs-value": "summer"
+                },
+                model: {
+                  value: _vm.switchArray,
+                  callback: function($$v) {
+                    _vm.switchArray = $$v
+                  },
+                  expression: "switchArray"
+                }
+              },
+              [
+                _c("span", { attrs: { slot: "off" }, slot: "off" }, [
+                  _vm._v("Summer")
+                ])
+              ]
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c(
+              "vs-switch",
+              {
+                attrs: {
+                  "vs-icon-on": "check",
+                  color: "success",
+                  "vs-value": "lyon"
+                },
+                model: {
+                  value: _vm.switchArray,
+                  callback: function($$v) {
+                    _vm.switchArray = $$v
+                  },
+                  expression: "switchArray"
+                }
+              },
+              [
+                _c("span", { attrs: { slot: "off" }, slot: "off" }, [
+                  _vm._v("Lyon")
+                ])
+              ]
+            )
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "op-block mt-5" }, [
+        _vm._v(_vm._s(_vm.switchArray))
+      ]),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<template>\n  <ul class="con-s">\n    <li class="modelx">\n      ' +
+            _vm._s("{{ switchArray }}") +
+            '\n    </li>\n    <li>\n      <vs-switch vs-icon-on="check" color="success" v-model="switchArray" vs-value="luis">\n        <span slot="off">Luis</span>\n      </vs-switch>\n    </li>\n    <li>\n      <vs-switch vs-icon-on="check" color="success" v-model="switchArray" vs-value="carols">\n        <span slot="off">Carols</span>\n      </vs-switch>\n    </li>\n    <li>\n      <vs-switch vs-icon-on="check" color="success" v-model="switchArray" vs-value="summer">\n        <span slot="off">Summer</span>\n      </vs-switch>\n    </li>\n    <li>\n      <vs-switch vs-icon-on="check" color="success" v-model="switchArray" vs-value="lyon">\n        <span slot="off">Lyon</span>\n      </vs-switch>\n    </li>\n  </ul>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      switchArray:[\'luis\'],\n    }\n  }\n}\n</script>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=template&id=0a55f6e6&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=template&id=0a55f6e6& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Color", "code-toggler": "" } },
+    [
+      _c("span", [
+        _vm._v("You can choose the default "),
+        _c("strong", [_vm._v("Switch")]),
+        _vm._v(". You are able to use the Main Colors or "),
+        _c("strong", [_vm._v("RGB")]),
+        _vm._v(" and "),
+        _c("strong", [_vm._v("HEX")]),
+        _vm._v(" colors.")
+      ]),
+      _vm._v(" "),
+      _c(
+        "vs-alert",
+        {
+          staticClass: "mt-5",
+          attrs: { icon: "warning", active: "true", color: "warning" }
+        },
+        [
+          _c("span", [
+            _vm._v("Only "),
+            _c("strong", [_vm._v("RGB")]),
+            _vm._v(" and "),
+            _c("strong", [_vm._v("HEX")]),
+            _vm._v(" colors are supported.")
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("ul", { staticClass: "demo-alignment" }, [
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Primary")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              model: {
+                value: _vm.switch1,
+                callback: function($$v) {
+                  _vm.switch1 = $$v
+                },
+                expression: "switch1"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Success")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: { color: "success" },
+              model: {
+                value: _vm.switch2,
+                callback: function($$v) {
+                  _vm.switch2 = $$v
+                },
+                expression: "switch2"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Danger")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: { color: "danger" },
+              model: {
+                value: _vm.switch3,
+                callback: function($$v) {
+                  _vm.switch3 = $$v
+                },
+                expression: "switch3"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Warning")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: { color: "warning" },
+              model: {
+                value: _vm.switch4,
+                callback: function($$v) {
+                  _vm.switch4 = $$v
+                },
+                expression: "switch4"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Dark")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: { color: "dark" },
+              model: {
+                value: _vm.switch5,
+                callback: function($$v) {
+                  _vm.switch5 = $$v
+                },
+                expression: "switch5"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          { staticClass: "con-input-color" },
+          [
+            _c("label", [
+              _vm._v("Color: "),
+              _c("span", [_vm._v(_vm._s(_vm.color))])
+            ]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: { color: _vm.color },
+              model: {
+                value: _vm.switch6,
+                callback: function($$v) {
+                  _vm.switch6 = $$v
+                },
+                expression: "switch6"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c("li", { staticStyle: { "align-self": "flex-end" } }, [
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.color,
+                expression: "color"
+              }
+            ],
+            attrs: { type: "color" },
+            domProps: { value: _vm.color },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.color = $event.target.value
+              }
+            }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<template lang="html">\n  <ul class="con-s">\n    <li>\n      <label>Primary</label>\n      <vs-switch v-model="switch1" />\n    </li>\n    <li>\n      <label>Success</label>\n      <vs-switch color="success" v-model="switch2" />\n    </li>\n    <li>\n      <label>Danger</label>\n      <vs-switch color="danger" v-model="switch3" />\n    </li>\n    <li>\n      <label>Warning</label>\n      <vs-switch color="warning" v-model="switch4" />\n    </li>\n    <li>\n      <label>Dark</label>\n      <vs-switch color="dark" v-model="switch5" />\n    </li>\n    <li class="con-input-color">\n      <label>Color: <span>' +
+            _vm._s(_vm.color) +
+            '</span></label>\n      <input v-model="color" type="color">\n      <vs-switch :color="color" v-model="switch6" />\n    </li>\n  </ul>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      color:\'#5a3cc4\',\n      switch1:true,\n      switch2:true,\n      switch3:true,\n      switch4:true,\n      switch5:true,\n      switch6:true,\n    }\n  }\n}\n</script>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=template&id=32ed74c4&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=template&id=32ed74c4& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Icons", "code-toggler": "" } },
     [
       _c("p", [
-        _vm._v("Add animation to changes using "),
-        _c("code", [_vm._v("transition-group")]),
+        _vm._v(
+          "We can add a representative icon inside our switch with the property "
+        ),
+        _c("code", [_vm._v("vs-icon")]),
         _vm._v(".")
       ]),
       _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "If you only need to add the icon in one of the states you can do it with the property "
+        ),
+        _c("code", [_vm._v("vs-icon-on")]),
+        _vm._v(" or "),
+        _c("code", [_vm._v("vs-icon-off")])
+      ]),
+      _vm._v(" "),
       _c(
-        "div",
-        { staticClass: "mt-5" },
+        "vs-alert",
+        {
+          staticClass: "mt-5",
+          attrs: { color: "primary", icon: "new_releases", active: "true" }
+        },
         [
-          _c(
-            "vs-list",
-            [
-              _c("vs-list-header", {
-                attrs: { title: "People Group", color: "primary" }
-              }),
-              _vm._v(" "),
-              _c(
-                "draggable",
-                { staticClass: "cursor-move", attrs: { list: _vm.list } },
-                [
-                  _c(
-                    "transition-group",
-                    _vm._l(_vm.list, function(listItem) {
-                      return _c(
-                        "vs-list-item",
-                        {
-                          key: listItem.email,
-                          staticClass: "list-item",
-                          attrs: {
-                            title: listItem.name,
-                            subtitle: listItem.email
-                          }
-                        },
-                        [
-                          _c("vs-avatar", {
-                            attrs: { slot: "avatar", text: listItem.name },
-                            slot: "avatar"
-                          })
-                        ],
-                        1
-                      )
-                    }),
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
+          _c("span", [
+            _vm._v("Vuesax uses the "),
+            _c("strong", [_vm._v("Google Material Icons")]),
+            _vm._v(
+              " font library. For a list of all available icons, visit the official "
+            ),
+            _c(
+              "a",
+              {
+                attrs: { href: "https://material.io/icons/", target: "_blank" }
+              },
+              [_vm._v("Material Icons page.")]
+            )
+          ])
+        ]
       ),
       _vm._v(" "),
-      _c("prism", { staticClass: "rounded-lg", attrs: { language: "js" } }, [
-        _vm._v("\n" + _vm._s(_vm.list) + "\n        ")
+      _c("ul", { staticClass: "demo-alignment" }, [
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Primary")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: {
+                "icon-pack": "feather",
+                "vs-icon-off": "icon-bell",
+                "vs-icon-on": "icon-check"
+              },
+              model: {
+                value: _vm.switch1,
+                callback: function($$v) {
+                  _vm.switch1 = $$v
+                },
+                expression: "switch1"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Success")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: {
+                color: "success",
+                "icon-pack": "feather",
+                "vs-icon": "icon-check"
+              },
+              model: {
+                value: _vm.switch2,
+                callback: function($$v) {
+                  _vm.switch2 = $$v
+                },
+                expression: "switch2"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Danger")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: {
+                color: "danger",
+                "icon-pack": "feather",
+                "vs-icon": "icon-x"
+              },
+              model: {
+                value: _vm.switch3,
+                callback: function($$v) {
+                  _vm.switch3 = $$v
+                },
+                expression: "switch3"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Warning")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: {
+                color: "warning",
+                "icon-pack": "feather",
+                "vs-icon": "icon-alert-circle"
+              },
+              model: {
+                value: _vm.switch4,
+                callback: function($$v) {
+                  _vm.switch4 = $$v
+                },
+                expression: "switch4"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("Dark")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: {
+                color: "dark",
+                "icon-pack": "feather",
+                "vs-icon": "icon-volume-x"
+              },
+              model: {
+                value: _vm.switch5,
+                callback: function($$v) {
+                  _vm.switch5 = $$v
+                },
+                expression: "switch5"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("rgb(color) / #color")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: {
+                color: "rgb(51, 53, 83)",
+                "icon-pack": "feather",
+                "vs-icon": "icon-camera"
+              },
+              model: {
+                value: _vm.switch6,
+                callback: function($$v) {
+                  _vm.switch6 = $$v
+                },
+                expression: "switch6"
+              }
+            })
+          ],
+          1
+        )
       ]),
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <vs-list>\n    <vs-list-header title="People Group" color="primary"></vs-list-header>\n\n    <draggable :list="list">\n      <transition-group>\n        <vs-list-item class="list-item" v-for="listItem in list" :key="listItem.email" :title="listItem.name" :subtitle="listItem.email">\n          <vs-avatar slot="avatar" :text="listItem.name" />\n        </vs-list-item>\n      </transition-group>\n    </draggable>\n\n  </vs-list>\n</template>\n<script>\nimport draggable from \'vuedraggable\'\n\nexport default {\n  data() {\n    return {\n      list: [{\n          name: "Paz Joya",\n          email: "girliness@spotlike.co.uk",\n        },\n        {\n          name: "Sunshine Cose",\n          email: "executrixship@equisized.edu",\n        },\n        {\n          name: "Alba Dobbin",\n          email: "bidding@demibob.or",\n        },\n        {\n          name: "Marlin Hinchee",\n          email: "preholding@scuffly.co.uk",\n        },\n        {\n          name: "Leia Atienza",\n          email: "unmeasurableness@interlamellar.co.uk"\n        },\n        {\n          name: "Lashawna Vaudrainm",\n          email: "soaking@khubber.com"\n        },\n        {\n          name: "Liliana Henscheid",\n          email: "lecideine@turndown.org"\n        },\n        {\n          name: "Keven Kolter",\n          email: "nontenure@anglicanum.co.uk"\n        }\n      ],\n    }\n  },\n  components: {\n    draggable\n  }\n}\n</script>\n<style>\n.list-item {\n  transition: all 1s\n}\n</style>\n        '
+          '\n<template>\n    <ul class="demo-alignment">\n        <li>\n            <label>Primary</label>\n            <vs-switch v-model="switch1" icon-pack="feather" vs-icon-off="icon-bell" vs-icon-on="icon-check" />\n        </li>\n        <li>\n            <label>Success</label>\n            <vs-switch color="success" v-model="switch2" icon-pack="feather" vs-icon="icon-check" />\n        </li>\n        <li>\n            <label>Danger</label>\n            <vs-switch color="danger" v-model="switch3" icon-pack="feather" vs-icon="icon-x" />\n        </li>\n        <li>\n            <label>Warning</label>\n            <vs-switch color="warning" v-model="switch4" icon-pack="feather" vs-icon="icon-alert-circle" />\n        </li>\n        <li>\n            <label>Dark</label>\n            <vs-switch color="dark" v-model="switch5" icon-pack="feather" vs-icon="icon-volume-x" />\n        </li>\n        <li>\n            <label>rgb(color) / #color</label>\n            <vs-switch color="rgb(51, 53, 83)" v-model="switch6" icon-pack="feather" vs-icon="icon-camera" />\n        </li>\n    </ul>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      switch1:false,\n      switch2:false,\n      switch3:false,\n      switch4:false,\n      switch5:false,\n      switch6:false\n    }\n  }\n}\n</script>\n        '
         )
       ])
     ],
@@ -784,10 +1297,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=template&id=dff1e172&":
-/*!****************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=template&id=dff1e172& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=template&id=086e52bb&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=template&id=086e52bb& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -801,273 +1314,270 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "vx-card",
-    { attrs: { title: "Clone List", "code-toggler": "" } },
+    { attrs: { title: "State", "code-toggler": "" } },
     [
       _c("p", [
-        _vm._v("Clone list items from another existing list. Add "),
-        _c("code", [_vm._v("pull")]),
-        _vm._v(" and "),
-        _c("code", [_vm._v("put")]),
-        _vm._v(" to "),
-        _c("code", [_vm._v("group")]),
-        _vm._v(" prop")
+        _vm._v(
+          "To implement a switch element in the application, we add the component "
+        ),
+        _c("code", [_vm._v("vs-switch")])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "vx-row" }, [
+      _c("ul", { staticClass: "demo-alignment" }, [
         _c(
-          "div",
-          { staticClass: "vx-col w-full sm:w-1/2" },
+          "li",
           [
-            _c("h6", { staticClass: "mt-5 mb-3" }, [_vm._v("Tag Source")]),
+            _c("label", [_vm._v("true / active")]),
             _vm._v(" "),
+            _c("vs-switch", {
+              model: {
+                value: _vm.switch1,
+                callback: function($$v) {
+                  _vm.switch1 = $$v
+                },
+                expression: "switch1"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("false / inactive")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              model: {
+                value: _vm.switch2,
+                callback: function($$v) {
+                  _vm.switch2 = $$v
+                },
+                expression: "switch2"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("disabled / active")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: { disabled: "true" },
+              model: {
+                value: _vm.switch3,
+                callback: function($$v) {
+                  _vm.switch3 = $$v
+                },
+                expression: "switch3"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c("label", [_vm._v("disabled / inactive")]),
+            _vm._v(" "),
+            _c("vs-switch", {
+              attrs: { disabled: "true" },
+              model: {
+                value: _vm.switch4,
+                callback: function($$v) {
+                  _vm.switch4 = $$v
+                },
+                expression: "switch4"
+              }
+            })
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<template lang="html">\n  <ul class="switch-container">\n    <li>\n      <label>true / active</label>\n      <vs-switch v-model="switch1" />\n    </li>\n    <li>\n      <label>false / inactive</label>\n      <vs-switch v-model="switch2" />\n    </li>\n    <li>\n      <label>disabled / active</label>\n      <vs-switch disabled="true" v-model="switch3" />\n    </li>\n    <li>\n      <label>disabled / inactive</label>\n      <vs-switch disabled="true" v-model="switch4" />\n    </li>\n  </ul>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      switch1:true,\n      switch2:false,\n      switch3:true,\n      switch4:false,\n    }\n  }\n}\n</script>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=template&id=2b7e42f3&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=template&id=2b7e42f3& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Text", "code-toggler": "" } },
+    [
+      _c("span", [
+        _vm._v("You can add a descriptive text with the slot "),
+        _c("code", [_vm._v("on")]),
+        _vm._v(" or "),
+        _c("code", [_vm._v("off")]),
+        _vm._v(". You can also join the text with the icons.")
+      ]),
+      _vm._v(" "),
+      _c("ul", { staticClass: "demo-alignment" }, [
+        _c(
+          "li",
+          [
             _c(
-              "draggable",
+              "vs-switch",
               {
-                staticClass: "p-2 cursor-move",
-                attrs: {
-                  list: _vm.list1,
-                  group: { name: "tags", pull: "clone", put: false }
+                model: {
+                  value: _vm.switch1,
+                  callback: function($$v) {
+                    _vm.switch1 = $$v
+                  },
+                  expression: "switch1"
                 }
               },
-              _vm._l(_vm.list1, function(listItem, index) {
-                return _c("vs-chip", { key: index }, [_vm._v(_vm._s(listItem))])
-              }),
-              1
+              [
+                _c("span", { attrs: { slot: "on" }, slot: "on" }, [
+                  _vm._v("On")
+                ]),
+                _vm._v(" "),
+                _c("span", { attrs: { slot: "off" }, slot: "off" }, [
+                  _vm._v("Off")
+                ])
+              ]
             )
           ],
           1
         ),
         _vm._v(" "),
         _c(
-          "div",
-          { staticClass: "vx-col w-full sm:w-1/2" },
+          "li",
           [
-            _c("h6", { staticClass: "mt-5 mb-3" }, [_vm._v("Your Tags")]),
-            _vm._v(" "),
             _c(
-              "draggable",
+              "vs-switch",
               {
-                staticClass: "p-2 cursor-move",
-                attrs: { list: _vm.list2, group: { name: "tags" } }
+                attrs: { color: "success" },
+                model: {
+                  value: _vm.switch2,
+                  callback: function($$v) {
+                    _vm.switch2 = $$v
+                  },
+                  expression: "switch2"
+                }
               },
-              _vm._l(_vm.list2, function(listItem, index) {
-                return _c("vs-chip", { key: index }, [_vm._v(_vm._s(listItem))])
-              }),
-              1
-            )
-          ],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "vx-row" }, [
-        _c(
-          "div",
-          { staticClass: "vx-col w-full sm:w-1/2" },
-          [
-            _c(
-              "prism",
-              { staticClass: "rounded-lg", attrs: { language: "js" } },
               [
-                _vm._v(
-                  "\nTag Source: " + _vm._s(_vm.list1) + "\n                "
-                )
-              ]
-            )
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "vx-col w-full sm:w-1/2" },
-          [
-            _c(
-              "prism",
-              { staticClass: "rounded-lg", attrs: { language: "js" } },
-              [
-                _vm._v(
-                  "\nAdded tags: " + _vm._s(_vm.list2) + "\n                "
-                )
-              ]
-            )
-          ],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("template", { slot: "codeContainer" }, [
-        _vm._v(
-          '\n<template>\n  <div>\n    <h6 class="mt-5 mb-3">Tag Source</h6>\n    <draggable :list="list1" :group="{name:\'tags\',  pull:\'clone\', put:false }" class="p-2 cursor-move">\n      <vs-chip v-for="(listItem, index) in list1" :key="index"> ' +
-            _vm._s("{{ listItem }}") +
-            ' </vs-chip>\n    </draggable>\n  </div>\n  <div>\n    <h6 class="mt-5 mb-3">Your Tags</h6>\n    <draggable :list="list2" :group="{name: \'tags\'}" class="p-2 cursor-move">\n      <vs-chip v-for="(listItem, index) in list2" :key="index"> ' +
-            _vm._s("{{ listItem }}") +
-            ' </vs-chip>\n    </draggable>\n  </div>\n</template>\n\n<script>\nimport draggable from \'vuedraggable\'\n\nexport default {\n  data() {\n    return {\n      list1: ["youtube", "google", "facebook", "twitter", "instagram", "pinterest", "tinder", "slack", "discord", "github", "gitlab"],\n      list2: ["google", "youtube"]\n    }\n  },\n  components: {\n    draggable,\n  }\n}\n</script>\n        '
-        )
-      ])
-    ],
-    2
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=template&id=92e487de&":
-/*!********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=template&id=92e487de& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "vx-card",
-    { attrs: { title: "Multiple Lists", "code-toggler": "" } },
-    [
-      _c("p", [
-        _vm._v("Drag and drop items of more than one list. Add same "),
-        _c("code", [_vm._v("group")]),
-        _vm._v(" to "),
-        _c("code", [_vm._v("group")]),
-        _vm._v(" prop")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "vx-row" }, [
-        _c(
-          "div",
-          { staticClass: "vx-col w-full md:w-1/2" },
-          [
-            _c(
-              "vs-list",
-              [
-                _c("vs-list-header", {
-                  attrs: { title: "People Group 1", color: "primary" }
-                }),
+                _c("span", { attrs: { slot: "on" }, slot: "on" }, [
+                  _vm._v("Accept")
+                ]),
                 _vm._v(" "),
-                _c(
-                  "draggable",
-                  {
-                    staticClass: "p-2 cursor-move",
-                    attrs: { list: _vm.list1, group: "people" }
-                  },
-                  _vm._l(_vm.list1, function(listItem, index) {
-                    return _c(
-                      "vs-list-item",
-                      {
-                        key: index,
-                        attrs: {
-                          title: listItem.name,
-                          subtitle: listItem.email
-                        }
-                      },
-                      [
-                        _c("vs-avatar", {
-                          attrs: { slot: "avatar", text: listItem.name },
-                          slot: "avatar"
-                        })
-                      ],
-                      1
-                    )
-                  }),
-                  1
-                )
-              ],
-              1
+                _c("span", { attrs: { slot: "off" }, slot: "off" }, [
+                  _vm._v("Cancel")
+                ])
+              ]
             )
           ],
           1
         ),
         _vm._v(" "),
         _c(
-          "div",
-          { staticClass: "vx-col w-full md:w-1/2" },
+          "li",
           [
             _c(
-              "vs-list",
+              "vs-switch",
+              {
+                attrs: { color: "danger", "vs-icon-off": "close" },
+                model: {
+                  value: _vm.switch3,
+                  callback: function($$v) {
+                    _vm.switch3 = $$v
+                  },
+                  expression: "switch3"
+                }
+              },
               [
-                _c("vs-list-header", {
-                  attrs: { title: "People Group 2", color: "primary" }
-                }),
+                _c("span", { attrs: { slot: "on" }, slot: "on" }, [
+                  _vm._v("Remove")
+                ])
+              ]
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c(
+              "vs-switch",
+              {
+                attrs: { color: "warning", "vs-icon-on": "error_outline" },
+                model: {
+                  value: _vm.switch4,
+                  callback: function($$v) {
+                    _vm.switch4 = $$v
+                  },
+                  expression: "switch4"
+                }
+              },
+              [
+                _c("span", { attrs: { slot: "off" }, slot: "off" }, [
+                  _vm._v("Prevent")
+                ])
+              ]
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "li",
+          [
+            _c(
+              "vs-switch",
+              {
+                attrs: {
+                  color: "dark",
+                  "icon-pack": "feather",
+                  "vs-icon-on": "icon-check-circle",
+                  "vs-icon-off": "icon-slash"
+                },
+                model: {
+                  value: _vm.switch5,
+                  callback: function($$v) {
+                    _vm.switch5 = $$v
+                  },
+                  expression: "switch5"
+                }
+              },
+              [
+                _c("span", { attrs: { slot: "on" }, slot: "on" }, [
+                  _vm._v("YES")
+                ]),
                 _vm._v(" "),
-                _c(
-                  "draggable",
-                  {
-                    staticClass: "p-2 cursor-move",
-                    attrs: { list: _vm.list2, group: "people" }
-                  },
-                  _vm._l(_vm.list2, function(listItem, index) {
-                    return _c(
-                      "vs-list-item",
-                      {
-                        key: index,
-                        attrs: {
-                          title: listItem.name,
-                          subtitle: listItem.email
-                        }
-                      },
-                      [
-                        _c("vs-avatar", {
-                          attrs: { slot: "avatar", text: listItem.name },
-                          slot: "avatar"
-                        })
-                      ],
-                      1
-                    )
-                  }),
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "vx-row" }, [
-        _c(
-          "div",
-          { staticClass: "vx-col w-full md:w-1/2" },
-          [
-            _c(
-              "prism",
-              { staticClass: "rounded-lg", attrs: { language: "js" } },
-              [
-                _vm._v(
-                  "\nPeople Group 1: " +
-                    _vm._s(_vm.list1) +
-                    "\n                "
-                )
-              ]
-            )
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "vx-col w-full md:w-1/2" },
-          [
-            _c(
-              "prism",
-              { staticClass: "rounded-lg", attrs: { language: "js" } },
-              [
-                _vm._v(
-                  "\nPeople Group 2: " +
-                    _vm._s(_vm.list2) +
-                    "\n                "
-                )
+                _c("span", { attrs: { slot: "off" }, slot: "off" }, [
+                  _vm._v("NO")
+                ])
               ]
             )
           ],
@@ -1077,7 +1587,7 @@ var render = function() {
       _vm._v(" "),
       _c("template", { slot: "codeContainer" }, [
         _vm._v(
-          '\n<template>\n  <vs-list>\n    <vs-list-header title="People Group 1" color="primary"></vs-list-header>\n\n    <draggable :list="list1" group="people" class="p-2 cursor-move">\n      <vs-list-item v-for="(listItem, index) in list1" :key="index" :title="listItem.name" :subtitle="listItem.email">\n        <vs-avatar slot="avatar" :text="listItem.name" />\n      </vs-list-item>\n    </draggable>\n\n  </vs-list>\n\n  <vs-list class="mt-5">\n    <vs-list-header title="People Group 2" color="primary"></vs-list-header>\n\n    <draggable :list="list2" group="people" class="p-2 cursor-move">\n      <vs-list-item v-for="(listItem, index) in list2" :key="index" :title="listItem.name" :subtitle="listItem.email">\n        <vs-avatar slot="avatar" :text="listItem.name" />\n      </vs-list-item>\n    </draggable>\n\n  </vs-list>\n</template>\n\n<script>\nimport draggable from \'vuedraggable\'\n\nexport default {\n  data() {\n    return {\n      list1: [\n        {\n          name: "Paz Joya",\n          email: "girliness@spotlike.co.uk",\n        },\n        {\n          name: "Sunshine Cose",\n          email: "executrixship@equisized.edu",\n        },\n        {\n          name: "Alba Dobbin",\n          email: "bidding@demibob.or",\n        },\n        {\n          name: "Marlin Hinchee",\n          email: "preholding@scuffly.co.uk",\n        }\n      ],\n      list2: [\n        {\n          name: "Leia Atienza",\n          email: "unmeasurableness@interlamellar.co.uk"\n        },\n        {\n          name: "Lashawna Vaudrainm",\n          email: "soaking@khubber.com"\n        },\n        {\n          name: "Liliana Henscheid",\n          email: "lecideine@turndown.org"\n        },\n        {\n          name: "Keven Kolter",\n          email: "nontenure@anglicanum.co.uk"\n        }\n      ]\n    }\n  },\n  components: {\n    draggable,\n  }\n}\n</script>\n        '
+          '\n<template>\n  <ul class="con-s">\n    <li>\n      <vs-switch v-model="switch1">\n        <span slot="on">On</span>\n        <span slot="off">Off</span>\n      </vs-switch>\n    </li>\n    <li>\n      <vs-switch color="success" v-model="switch2">\n        <span slot="on">Accept</span>\n        <span slot="off">Cancel</span>\n      </vs-switch>\n    </li>\n    <li>\n      <vs-switch color="danger" vs-icon-off="close" v-model="switch3">\n        <span slot="on">Remove</span>\n      </vs-switch>\n    </li>\n    <li>\n      <vs-switch color="warning" vs-icon-on="error_outline" v-model="switch4">\n        <span slot="off">Prevent</span>\n      </vs-switch>\n    </li>\n    <li>\n      <vs-switch color="dark" icon-pack="feather" vs-icon-on="icon-check-circle" vs-icon-off="icon-slash" v-model="switch5">\n        <span slot="on">YES</span>\n        <span slot="off">NO</span>\n      </vs-switch>\n    </li>\n  </ul>\n</template>\n\n<script>\nexport default {\n  data(){\n    return {\n      switch1:true,\n      switch2:true,\n      switch3:true,\n      switch4:true,\n      switch5:true,\n    }\n  }\n}\n</script>\n        '
         )
       ])
     ],
@@ -1091,158 +1601,18 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=template&id=9a666594&":
-/*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=template&id=9a666594& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "vx-card",
-    { attrs: { title: "Simple", "code-toggler": "" } },
-    [
-      _c("p", [
-        _vm._v("Simple Draggable list with in sync to original list. Remove "),
-        _c("code", [_vm._v("list")]),
-        _vm._v(" prop to break synchronization with original list.")
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "mt-5" },
-        [
-          _c(
-            "vs-list",
-            [
-              _c(
-                "draggable",
-                { staticClass: "cursor-move", attrs: { list: _vm.list } },
-                _vm._l(_vm.list, function(item, index) {
-                  return _c("vs-list-item", {
-                    key: index,
-                    staticClass: "flex items-center p-1",
-                    attrs: { title: item }
-                  })
-                }),
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("prism", { staticClass: "rounded-lg", attrs: { language: "js" } }, [
-        _vm._v("\n" + _vm._s(_vm.list) + "\n        ")
-      ]),
-      _vm._v(" "),
-      _c("template", { slot: "codeContainer" }, [
-        _vm._v(
-          '\n<template>\n  <vs-list>\n    <draggable :list="list" class="cursor-move">\n      <vs-list-item class="flex items-center p-1" v-for="(item, index) in list" :key="index" :title="item">\n      </vs-list-item>\n    </draggable>\n  </vs-list>\n</template>\n\n<script>\nimport draggable from \'vuedraggable\'\n\nexport default {\n  data() {\n    return {\n      list: [\n        "Marzipan I love I love. Soufflé donut I love gummi bears powder. Candy danish biscuit.",\n        "Halvah bonbon bonbon brownie sugar plum. Halvah I love cupcake I love.",\n        "Cake muffin icing topping wafer topping gummi bears apple pie.",\n        "Cotton candy gummi bears bear claw cake brownie jelly-o lemon drops croissant sweet roll.",\n      ]\n    }\n  },\n  components: {\n    draggable,\n  }\n}\n</script>\n        '
-        )
-      ])
-    ],
-    2
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue ***!
-  \******************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-elements/switch/Switch.vue":
+/*!**********************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/Switch.vue ***!
+  \**********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DragAndDrop_vue_vue_type_template_id_54163164___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DragAndDrop.vue?vue&type=template&id=54163164& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=template&id=54163164&");
-/* harmony import */ var _DragAndDrop_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DragAndDrop.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _DragAndDrop_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DragAndDrop_vue_vue_type_template_id_54163164___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _DragAndDrop_vue_vue_type_template_id_54163164___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDrop_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDrop.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDrop_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=template&id=54163164&":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=template&id=54163164& ***!
-  \*************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDrop_vue_vue_type_template_id_54163164___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDrop.vue?vue&type=template&id=54163164& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue?vue&type=template&id=54163164&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDrop_vue_vue_type_template_id_54163164___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDrop_vue_vue_type_template_id_54163164___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue":
-/*!***************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DragAndDropAnimation_vue_vue_type_template_id_33b402b0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DragAndDropAnimation.vue?vue&type=template&id=33b402b0& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=template&id=33b402b0&");
-/* harmony import */ var _DragAndDropAnimation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DragAndDropAnimation.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _DragAndDropAnimation_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DragAndDropAnimation.vue?vue&type=style&index=0&lang=css& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _Switch_vue_vue_type_template_id_484aef26___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Switch.vue?vue&type=template&id=484aef26& */ "./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=template&id=484aef26&");
+/* harmony import */ var _Switch_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Switch.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Switch_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Switch.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=style&index=0&lang=scss&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1253,9 +1623,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _DragAndDropAnimation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DragAndDropAnimation_vue_vue_type_template_id_33b402b0___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _DragAndDropAnimation_vue_vue_type_template_id_33b402b0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Switch_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Switch_vue_vue_type_template_id_484aef26___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Switch_vue_vue_type_template_id_484aef26___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1265,261 +1635,399 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue"
+component.options.__file = "resources/js/src/views/forms/form-elements/switch/Switch.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropAnimation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Switch.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=style&index=0&lang=css&":
-/*!************************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=style&index=0&lang=css& ***!
-  \************************************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=style&index=0&lang=scss&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=style&index=0&lang=scss& ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_7_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/style-loader!../../../../../../../node_modules/css-loader??ref--7-1!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropAnimation.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_7_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_7_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_7_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_7_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/style-loader!../../../../../../../node_modules/css-loader!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--8-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--8-3!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Switch.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=template&id=33b402b0&":
-/*!**********************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=template&id=33b402b0& ***!
-  \**********************************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=template&id=484aef26&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=template&id=484aef26& ***!
+  \*****************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_template_id_33b402b0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropAnimation.vue?vue&type=template&id=33b402b0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue?vue&type=template&id=33b402b0&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_template_id_33b402b0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_template_id_484aef26___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Switch.vue?vue&type=template&id=484aef26& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/Switch.vue?vue&type=template&id=484aef26&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_template_id_484aef26___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropAnimation_vue_vue_type_template_id_33b402b0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Switch_vue_vue_type_template_id_484aef26___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue":
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue":
+/*!********************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SwitchArrayValue_vue_vue_type_template_id_2056d744___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SwitchArrayValue.vue?vue&type=template&id=2056d744& */ "./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=template&id=2056d744&");
+/* harmony import */ var _SwitchArrayValue_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SwitchArrayValue.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _SwitchArrayValue_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SwitchArrayValue_vue_vue_type_template_id_2056d744___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SwitchArrayValue_vue_vue_type_template_id_2056d744___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchArrayValue_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchArrayValue.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchArrayValue_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=template&id=2056d744&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=template&id=2056d744& ***!
+  \***************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchArrayValue_vue_vue_type_template_id_2056d744___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchArrayValue.vue?vue&type=template&id=2056d744& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchArrayValue.vue?vue&type=template&id=2056d744&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchArrayValue_vue_vue_type_template_id_2056d744___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchArrayValue_vue_vue_type_template_id_2056d744___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue":
+/*!***************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SwitchColor_vue_vue_type_template_id_0a55f6e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SwitchColor.vue?vue&type=template&id=0a55f6e6& */ "./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=template&id=0a55f6e6&");
+/* harmony import */ var _SwitchColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SwitchColor.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _SwitchColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SwitchColor_vue_vue_type_template_id_0a55f6e6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SwitchColor_vue_vue_type_template_id_0a55f6e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-elements/switch/SwitchColor.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchColor.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=template&id=0a55f6e6&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=template&id=0a55f6e6& ***!
+  \**********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchColor_vue_vue_type_template_id_0a55f6e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchColor.vue?vue&type=template&id=0a55f6e6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchColor.vue?vue&type=template&id=0a55f6e6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchColor_vue_vue_type_template_id_0a55f6e6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchColor_vue_vue_type_template_id_0a55f6e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue":
+/*!***************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SwitchIcons_vue_vue_type_template_id_32ed74c4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SwitchIcons.vue?vue&type=template&id=32ed74c4& */ "./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=template&id=32ed74c4&");
+/* harmony import */ var _SwitchIcons_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SwitchIcons.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _SwitchIcons_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SwitchIcons_vue_vue_type_template_id_32ed74c4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SwitchIcons_vue_vue_type_template_id_32ed74c4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchIcons_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchIcons.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchIcons_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=template&id=32ed74c4&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=template&id=32ed74c4& ***!
+  \**********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchIcons_vue_vue_type_template_id_32ed74c4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchIcons.vue?vue&type=template&id=32ed74c4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchIcons.vue?vue&type=template&id=32ed74c4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchIcons_vue_vue_type_template_id_32ed74c4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchIcons_vue_vue_type_template_id_32ed74c4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchState.vue":
+/*!***************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchState.vue ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SwitchState_vue_vue_type_template_id_086e52bb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SwitchState.vue?vue&type=template&id=086e52bb& */ "./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=template&id=086e52bb&");
+/* harmony import */ var _SwitchState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SwitchState.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _SwitchState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SwitchState_vue_vue_type_template_id_086e52bb___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SwitchState_vue_vue_type_template_id_086e52bb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-elements/switch/SwitchState.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchState.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=template&id=086e52bb&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=template&id=086e52bb& ***!
+  \**********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchState_vue_vue_type_template_id_086e52bb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchState.vue?vue&type=template&id=086e52bb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchState.vue?vue&type=template&id=086e52bb&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchState_vue_vue_type_template_id_086e52bb___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchState_vue_vue_type_template_id_086e52bb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchText.vue":
+/*!**************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchText.vue ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SwitchText_vue_vue_type_template_id_2b7e42f3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SwitchText.vue?vue&type=template&id=2b7e42f3& */ "./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=template&id=2b7e42f3&");
+/* harmony import */ var _SwitchText_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SwitchText.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _SwitchText_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SwitchText_vue_vue_type_template_id_2b7e42f3___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SwitchText_vue_vue_type_template_id_2b7e42f3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-elements/switch/SwitchText.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue ***!
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DragAndDropCloneList_vue_vue_type_template_id_dff1e172___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DragAndDropCloneList.vue?vue&type=template&id=dff1e172& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=template&id=dff1e172&");
-/* harmony import */ var _DragAndDropCloneList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DragAndDropCloneList.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _DragAndDropCloneList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DragAndDropCloneList_vue_vue_type_template_id_dff1e172___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _DragAndDropCloneList_vue_vue_type_template_id_dff1e172___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchText_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchText.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchText_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropCloneList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropCloneList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropCloneList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=template&id=dff1e172&":
-/*!**********************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=template&id=dff1e172& ***!
-  \**********************************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=template&id=2b7e42f3&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=template&id=2b7e42f3& ***!
+  \*********************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropCloneList_vue_vue_type_template_id_dff1e172___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropCloneList.vue?vue&type=template&id=dff1e172& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue?vue&type=template&id=dff1e172&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropCloneList_vue_vue_type_template_id_dff1e172___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchText_vue_vue_type_template_id_2b7e42f3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./SwitchText.vue?vue&type=template&id=2b7e42f3& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-elements/switch/SwitchText.vue?vue&type=template&id=2b7e42f3&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchText_vue_vue_type_template_id_2b7e42f3___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropCloneList_vue_vue_type_template_id_dff1e172___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue":
-/*!*******************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue ***!
-  \*******************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DragAndDropMultipleLists_vue_vue_type_template_id_92e487de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DragAndDropMultipleLists.vue?vue&type=template&id=92e487de& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=template&id=92e487de&");
-/* harmony import */ var _DragAndDropMultipleLists_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DragAndDropMultipleLists.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _DragAndDropMultipleLists_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DragAndDropMultipleLists_vue_vue_type_template_id_92e487de___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _DragAndDropMultipleLists_vue_vue_type_template_id_92e487de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropMultipleLists_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropMultipleLists.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropMultipleLists_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=template&id=92e487de&":
-/*!**************************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=template&id=92e487de& ***!
-  \**************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropMultipleLists_vue_vue_type_template_id_92e487de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropMultipleLists.vue?vue&type=template&id=92e487de& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue?vue&type=template&id=92e487de&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropMultipleLists_vue_vue_type_template_id_92e487de___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropMultipleLists_vue_vue_type_template_id_92e487de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue ***!
-  \************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DragAndDropSimple_vue_vue_type_template_id_9a666594___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DragAndDropSimple.vue?vue&type=template&id=9a666594& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=template&id=9a666594&");
-/* harmony import */ var _DragAndDropSimple_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DragAndDropSimple.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _DragAndDropSimple_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DragAndDropSimple_vue_vue_type_template_id_9a666594___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _DragAndDropSimple_vue_vue_type_template_id_9a666594___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropSimple_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropSimple.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropSimple_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=template&id=9a666594&":
-/*!*******************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=template&id=9a666594& ***!
-  \*******************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropSimple_vue_vue_type_template_id_9a666594___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DragAndDropSimple.vue?vue&type=template&id=9a666594& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue?vue&type=template&id=9a666594&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropSimple_vue_vue_type_template_id_9a666594___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DragAndDropSimple_vue_vue_type_template_id_9a666594___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SwitchText_vue_vue_type_template_id_2b7e42f3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

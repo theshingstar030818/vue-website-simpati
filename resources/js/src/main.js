@@ -68,8 +68,16 @@ require('vue-tour/dist/vue-tour.css')
 
 
 // VeeValidate
-import VeeValidate from 'vee-validate'
-Vue.use(VeeValidate);
+import VeeValidate, { Validator } from 'vee-validate'
+import ko from 'vee-validate/dist/locale/ko';
+
+Validator.localize({ ko: ko });
+
+Vue.use(VeeValidate, 
+    { 
+        locale: 'ko'
+    }
+);
 
 
 // Google Maps

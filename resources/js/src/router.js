@@ -38,7 +38,7 @@ const router = new Router({
     // =============================================================================
     // MAIN LAYOUT ROUTES
     // =============================================================================
-            path: '',
+            path: '/main02',
             component: () => import('./layouts/main/Main.vue'),
             children: [
         // =============================================================================
@@ -1276,7 +1276,24 @@ const router = new Router({
     // =============================================================================
         {
             path: '',
-            component: () => import('@/layouts/full-page/FullPage.vue'),
+            component: () => import('@/layouts/full-page/FullPageTwo.vue'),
+            children: [
+                {
+                    path: '',
+                    name: 'first-page',
+                    component: () => import('@/views/pages/First.vue'),
+                    meta: {
+                        rule: 'editor'
+                    }
+                },                
+            ]
+        },      
+    // =============================================================================
+    // FULL PAGE LAYOUTS
+    // =============================================================================
+        {
+            path: '',
+            component: () => import('@/layouts/full-page/FullPageOne.vue'),
             children: [
         // =============================================================================
         // PAGES
@@ -1285,6 +1302,38 @@ const router = new Router({
                     path: '/callback',
                     name: 'auth-callback',
                     component: () => import('@/views/Callback.vue'),
+                    meta: {
+                        rule: 'editor'
+                    }
+                },
+                {
+                    path: '/pages/tendency-tags-setting',
+                    name: 'tendency-tags-setting',
+                    component: () => import('@/views/pages/tendency/TagsSetting.vue'),
+                    meta: {
+                        rule: 'editor'
+                    }
+                },
+                {
+                    path: '/pages/tendency-stressmeasure',
+                    name: 'tendency-stressmeasure',
+                    component: () => import('@/views/pages/tendency/StressMeasure.vue'),
+                    meta: {
+                        rule: 'editor'
+                    }
+                },
+                {
+                    path: '/pages/trial-step-one',
+                    name: 'trial-step-one',
+                    component: () => import('@/views/pages/trial/StepOne.vue'),
+                    meta: {
+                        rule: 'editor'
+                    }
+                },
+                {
+                    path: '/pages/trial-step-two',
+                    name: 'trial-step-two',
+                    component: () => import('@/views/pages/trial/StepTwo.vue'),
                     meta: {
                         rule: 'editor'
                     }
@@ -1371,6 +1420,24 @@ const router = new Router({
                 },
             ]
         },
+    // =============================================================================
+    // FULL PAGE LAYOUTS
+    // =============================================================================
+        {
+            path: '',
+            component: () => import('@/layouts/full-page/FullPageThree.vue'),
+            children: [
+                {
+                    path: '/pages/main/onboarding',
+                    name: 'page-main-onboarding',
+                    component: () => import('@/views/pages/main/OnBoarding.vue'),
+                    meta: {
+                        rule: 'editor'
+                    }
+                },
+            ]
+        },  
+                
         // Redirect to 404 page, if no match found
         {
             path: '*',

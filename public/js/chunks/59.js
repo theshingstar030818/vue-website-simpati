@@ -1,42 +1,19 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[59],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _UserEditTabAccount_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./UserEditTabAccount.vue */ "./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue");
-/* harmony import */ var _UserEditTabInformation_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UserEditTabInformation.vue */ "./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue");
-/* harmony import */ var _UserEditTabSocial_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./UserEditTabSocial.vue */ "./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue");
-/* harmony import */ var _store_user_management_moduleUserManagement_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/store/user-management/moduleUserManagement.js */ "./resources/js/src/store/user-management/moduleUserManagement.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _NotificationsDefault_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NotificationsDefault.vue */ "./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue");
+/* harmony import */ var _NotificationsPosition_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotificationsPosition.vue */ "./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue");
+/* harmony import */ var _NotificationsIcon_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NotificationsIcon.vue */ "./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue");
+/* harmony import */ var _NotificationsFixedAndFunctionClick_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NotificationsFixedAndFunctionClick.vue */ "./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue");
+/* harmony import */ var _NotificationsTime_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NotificationsTime.vue */ "./resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue");
 //
 //
 //
@@ -62,72 +39,189 @@ __webpack_require__.r(__webpack_exports__);
 //
 
 
- // Store Module
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    UserEditTabAccount: _UserEditTabAccount_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    UserEditTabInformation: _UserEditTabInformation_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    UserEditTabSocial: _UserEditTabSocial_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
-  },
-  data: function data() {
-    return {
-      user_data: null,
-      user_not_found: false,
+    NotificationsDefault: _NotificationsDefault_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    NotificationsPosition: _NotificationsPosition_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    NotificationsIcon: _NotificationsIcon_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    NotificationsFixedAndFunctionClick: _NotificationsFixedAndFunctionClick_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    NotificationsTime: _NotificationsTime_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
+  }
+});
 
-      /*
-        This property is created for fetching latest data from API when tab is changed
-         Please check it's watcher
-      */
-      activeTab: 0
-    };
-  },
-  watch: {
-    activeTab: function activeTab() {
-      this.fetch_user_data(this.$route.params.userId);
-    }
-  },
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
-    fetch_user_data: function fetch_user_data(userId) {
-      var _this = this;
+    random: function random() {
+      function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+      }
 
-      this.$store.dispatch("userManagement/fetchUser", userId).then(function (res) {
-        _this.user_data = res.data;
-      }).catch(function (err) {
-        if (err.response.status === 404) {
-          _this.user_not_found = true;
-          return;
-        }
-
-        console.error(err);
+      var color = "rgb(".concat(getRandomInt(0, 255), ",").concat(getRandomInt(0, 255), ",").concat(getRandomInt(0, 255), ")");
+      this.$vs.notify({
+        title: 'Color',
+        text: 'Lorem ipsum dolor sit amet, consectetur',
+        color: color
       });
     }
-  },
-  created: function created() {
-    // Register Module UserManagement Module
-    if (!_store_user_management_moduleUserManagement_js__WEBPACK_IMPORTED_MODULE_3__["default"].isRegistered) {
-      this.$store.registerModule('userManagement', _store_user_management_moduleUserManagement_js__WEBPACK_IMPORTED_MODULE_3__["default"]);
-      _store_user_management_moduleUserManagement_js__WEBPACK_IMPORTED_MODULE_3__["default"].isRegistered = true;
-    }
-
-    this.fetch_user_data(this.$route.params.userId);
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-select */ "./node_modules/vue-select/dist/vue-select.js");
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_select__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -179,475 +273,362 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 /* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    vSelect: vue_select__WEBPACK_IMPORTED_MODULE_0___default.a
-  },
-  props: {
-    data: {
-      type: Object,
-      required: true
+  methods: {
+    myFunction: function myFunction() {
+      var _this = this;
+
+      this.$vs.notify({
+        title: 'Function click',
+        text: 'Click on me to execute function',
+        color: 'primary',
+        fixed: true,
+        click: function click() {
+          // Secondary function
+          _this.$vs.notify({
+            title: 'Secondary function',
+            text: 'Executed the function when clicking',
+            color: 'success',
+            iconPack: 'feather',
+            icon: 'icon-check'
+          });
+        }
+      });
     }
-  },
-  data: function data() {
-    return {
-      data_local: JSON.parse(JSON.stringify(this.data)),
-      statusOptions: [{
-        label: "Active",
-        value: "active"
-      }, {
-        label: "Blocked",
-        value: "blocked"
-      }, {
-        label: "Deactivated",
-        value: "deactivated"
-      }],
-      roleOptions: [{
-        label: "Admin",
-        value: "admin"
-      }, {
-        label: "User",
-        value: "user"
-      }, {
-        label: "Staff",
-        value: "staff"
-      }]
-    };
-  },
-  computed: {
-    status_local: {
-      get: function get() {
-        return {
-          label: this.capitalize(this.data_local.status),
-          value: this.data_local.status
-        };
-      },
-      set: function set(obj) {
-        this.data_local.status = obj.value;
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    randomIcon: function randomIcon() {
+      function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
       }
-    },
-    role_local: {
-      get: function get() {
-        return {
-          label: this.capitalize(this.data_local.role),
-          value: this.data_local.role
-        };
-      },
-      set: function set(obj) {
-        this.data_local.role = obj.value;
+
+      var color = "rgb(".concat(getRandomInt(0, 255), ",").concat(getRandomInt(0, 255), ",").concat(getRandomInt(0, 255), ")");
+      this.$vs.notify({
+        title: 'Icon Award',
+        text: 'Lorem ipsum dolor sit amet, consectetur',
+        color: color,
+        icon: 'icon-award',
+        iconPack: 'feather'
+      });
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      listPosition: ["top-right", "top-left", "top-center", "bottom-right", "bottom-left"]
+    };
+  },
+  methods: {
+    randomCenter: function randomCenter() {
+      function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
       }
-    },
-    validateForm: function validateForm() {
-      return !this.errors.any();
-    }
-  },
-  methods: {
-    capitalize: function capitalize(str) {
-      return str.slice(0, 1).toUpperCase() + str.slice(1, str.length);
-    },
-    save_changes: function save_changes() {
-      if (!this.validateForm) return; // Here will go your API call for updating data
-      // You can get data in "this.data_local"
-    },
-    reset_data: function reset_data() {
-      this.data_local = JSON.parse(JSON.stringify(this.data));
-    },
-    update_avatar: function update_avatar() {// You can update avatar Here
-      // For reference you can check dataList example
-      // We haven't integrated it here, because data isn't saved in DB
+
+      var color = "rgb(".concat(getRandomInt(0, 255), ",").concat(getRandomInt(0, 255), ",").concat(getRandomInt(0, 255), ")");
+      this.$vs.notify({
+        title: 'Position top-center',
+        text: 'Lorem ipsum dolor sit amet, consectetur',
+        color: color,
+        position: 'top-center'
+      });
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
-/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr/dist/flatpickr.css */ "./node_modules/flatpickr/dist/flatpickr.css");
-/* harmony import */ var flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_flatpickr_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-select */ "./node_modules/vue-select/dist/vue-select.js");
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_select__WEBPACK_IMPORTED_MODULE_2__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    vSelect: vue_select__WEBPACK_IMPORTED_MODULE_2___default.a,
-    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_0___default.a
-  },
-  props: {
-    data: {
-      type: Object,
-      required: true
-    }
-  },
-  data: function data() {
-    return {
-      data_local: JSON.parse(JSON.stringify(this.data)),
-      langOptions: [{
-        label: "English",
-        value: "english"
-      }, {
-        label: "Spanish",
-        value: "spanish"
-      }, {
-        label: "French",
-        value: "french"
-      }, {
-        label: "Russian",
-        value: "russian"
-      }, {
-        label: "German",
-        value: "german"
-      }, {
-        label: "Arabic",
-        value: "arabic"
-      }, {
-        label: "Sanskrit",
-        value: "sanskrit"
-      }]
-    };
-  },
-  computed: {
-    validateForm: function validateForm() {
-      return !this.errors.any();
-    }
-  },
-  methods: {
-    save_changes: function save_changes() {
-      if (!this.validateForm) return; // Here will go your API call for updating data
-      // You can get data in "this.data_local"
-    },
-    reset_data: function reset_data() {
-      this.data_local = Object.assign({}, this.data);
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  props: {
-    data: {
-      type: Object,
-      required: true
-    }
-  },
-  data: function data() {
-    return {
-      data_local: JSON.parse(JSON.stringify(this.data))
-    };
-  },
-  computed: {
-    validateForm: function validateForm() {
-      return !this.errors.any();
-    }
-  },
-  methods: {
-    save_changes: function save_changes() {
-      if (!this.validateForm) return; // Here will go your API call for updating data
-      // You can get data in "this.data_local"
-    },
-    reset_data: function reset_data() {
-      this.data_local = Object.assign({}, this.data);
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=template&id=480dbf29&":
-/*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=template&id=480dbf29& ***!
-  \******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=template&id=fd54ff16&":
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=template&id=fd54ff16& ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -661,153 +642,229 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { attrs: { id: "page-user-edit" } },
+    { attrs: { id: "notifications-demo" } },
     [
+      _c("p", { staticClass: "mb-4" }, [
+        _vm._v("Nice, simple, and interactive notifications")
+      ]),
+      _vm._v(" "),
+      _c("notifications-default"),
+      _vm._v(" "),
+      _c("notifications-position"),
+      _vm._v(" "),
+      _c("notifications-icon"),
+      _vm._v(" "),
+      _c("notifications-fixed-and-function-click"),
+      _vm._v(" "),
+      _c("notifications-time")
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=template&id=f6bd1088&":
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=template&id=f6bd1088& ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Default", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v("To add a notification we have the global function "),
+        _c("code", [_vm._v("$vs.notify")]),
+        _vm._v(". The first parameter is a "),
+        _c("code", [_vm._v("json")]),
+        _vm._v(
+          " with all the necessary attributes, or if we only want the standard notification we can only add a string with the text of the notification"
+        )
+      ]),
+      _vm._v(" "),
       _c(
-        "vs-alert",
+        "div",
+        { staticClass: "demo-alignment" },
+        [
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "primary", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Primary",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "primary"
+                  })
+                }
+              }
+            },
+            [_vm._v("Notification Primary")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "success", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Success",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "success"
+                  })
+                }
+              }
+            },
+            [_vm._v("Notification Success")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "danger", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Danger",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "danger"
+                  })
+                }
+              }
+            },
+            [_vm._v("Notification Danger")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "warning", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Warning",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "warning"
+                  })
+                }
+              }
+            },
+            [_vm._v("Notification Warning")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "dark", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "dark",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "dark"
+                  })
+                }
+              }
+            },
+            [_vm._v("Notification Dark")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "success", type: "gradient" },
+              on: {
+                click: function($event) {
+                  return _vm.random()
+                }
+              }
+            },
+            [_vm._v("Notification Random Color")]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          '\n<template>\n    <div class="demo-alignment">\n\n      <vs-button\n        @click="$vs.notify({\n          title:\'Primary\',\n          text:\'Lorem ipsum dolor sit amet, consectetur\',\n          color:\'primary\'})"\n        color="primary"\n        type="flat">Notification Primary</vs-button>\n\n      <vs-button\n        @click="$vs.notify({\n          title:\'Success\',\n          text:\'Lorem ipsum dolor sit amet, consectetur\',\n          color:\'success\'})"\n        color="success"\n        type="flat">Notification Success</vs-button>\n\n      <vs-button\n        @click="$vs.notify({\n          title:\'Danger\',\n          text:\'Lorem ipsum dolor sit amet, consectetur\',\n          color:\'danger\'})"\n        color="danger"\n        type="flat">Notification Danger</vs-button>\n\n      <vs-button\n        @click="$vs.notify({\n          title:\'Warning\',\n          text:\'Lorem ipsum dolor sit amet, consectetur\',\n          color:\'warning\'})"\n        color="warning"\n        type="flat">Notification Warning</vs-button>\n\n      <vs-button\n        @click="$vs.notify({\n          title:\'dark\',\n          text:\'Lorem ipsum dolor sit amet, consectetur\',\n          color:\'dark\'})"\n        color="dark"\n        type="flat">Notification Dark</vs-button>\n\n      <vs-button @click="random()" color="success" type="gradient">Notification Random Color</vs-button>\n    </div>\n</template>\n\n<script>\nexport default {\n  methods: {\n    random() {\n      function getRandomInt(min, max) {\n        return Math.floor(Math.random() * (max - min)) + min;\n      }\n      let color = `rgb(${getRandomInt(0,255)},${getRandomInt(0,255)},${getRandomInt(0,255)})`\n\n      this.$vs.notify({\n        title: \'Color\',\n        text: \'Lorem ipsum dolor sit amet, consectetur\',\n        color: color\n      })\n\n    },\n  }\n}\n</script>\n        '
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=template&id=aeaf2c70&":
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=template&id=aeaf2c70& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Fixed and function click", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v(
+          "Sometimes we need to execute a function when the user clicks on the notification. For this, pass a function to the click property. Example: "
+        ),
+        _c("code", [_vm._v("click:()=>{ ... }")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "vs-button",
         {
-          attrs: {
-            color: "danger",
-            title: "User Not Found",
-            active: _vm.user_not_found
-          },
+          staticClass: "mt-4",
+          attrs: { type: "gradient", color: "success" },
           on: {
-            "update:active": function($event) {
-              _vm.user_not_found = $event
+            click: function($event) {
+              return _vm.myFunction()
             }
           }
         },
-        [
-          _c("span", [
-            _vm._v(
-              "User record with id: " +
-                _vm._s(_vm.$route.params.userId) +
-                " not found. "
-            )
-          ]),
-          _vm._v(" "),
-          _c(
-            "span",
-            [
-              _c("span", [_vm._v("Check ")]),
-              _c(
-                "router-link",
-                {
-                  staticClass: "text-inherit underline",
-                  attrs: { to: { name: "page-user-list" } }
-                },
-                [_vm._v("All Users")]
-              )
-            ],
-            1
-          )
-        ]
+        [_vm._v("Run Example")]
       ),
       _vm._v(" "),
-      _vm.user_data
-        ? _c("vx-card", [
-            _c(
-              "div",
-              {
-                staticClass: "tabs-container px-6 pt-6",
-                attrs: { slot: "no-body" },
-                slot: "no-body"
-              },
-              [
-                _c(
-                  "vs-tabs",
-                  {
-                    staticClass: "tab-action-btn-fill-conatiner",
-                    model: {
-                      value: _vm.activeTab,
-                      callback: function($$v) {
-                        _vm.activeTab = $$v
-                      },
-                      expression: "activeTab"
-                    }
-                  },
-                  [
-                    _c(
-                      "vs-tab",
-                      {
-                        attrs: {
-                          label: "Account",
-                          "icon-pack": "feather",
-                          icon: "icon-user"
-                        }
-                      },
-                      [
-                        _c(
-                          "div",
-                          { staticClass: "tab-text" },
-                          [
-                            _c("user-edit-tab-account", {
-                              staticClass: "mt-4",
-                              attrs: { data: _vm.user_data }
-                            })
-                          ],
-                          1
-                        )
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "vs-tab",
-                      {
-                        attrs: {
-                          label: "Information",
-                          "icon-pack": "feather",
-                          icon: "icon-info"
-                        }
-                      },
-                      [
-                        _c(
-                          "div",
-                          { staticClass: "tab-text" },
-                          [
-                            _c("user-edit-tab-information", {
-                              staticClass: "mt-4",
-                              attrs: { data: _vm.user_data }
-                            })
-                          ],
-                          1
-                        )
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "vs-tab",
-                      {
-                        attrs: {
-                          label: "Social",
-                          "icon-pack": "feather",
-                          icon: "icon-share-2"
-                        }
-                      },
-                      [
-                        _c(
-                          "div",
-                          { staticClass: "tab-text" },
-                          [
-                            _c("user-edit-tab-social", {
-                              staticClass: "mt-4",
-                              attrs: { data: _vm.user_data }
-                            })
-                          ],
-                          1
-                        )
-                      ]
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ])
-        : _vm._e()
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          "\n<template>\n  <vs-button @click=\"myFunction()\" type=\"gradient\" color=\"success\" class=\"my-4\">Run Example</vs-button>\n</template>\n\n<script>\nexport default {\n  methods: {\n    myFunction() {\n      this.$vs.notify({\n        title: 'Function click',\n        text: 'Click on me to execute function',\n        color: 'primary',\n        fixed: true,\n        click: () => {\n          // Secondary function\n          this.$vs.notify({\n            title: 'Secondary function',\n            text: 'Executed the function when clicking',\n            color: 'success',\n            iconPack: 'feather',\n            icon: 'icon-check'\n          })\n        },\n      })\n    },\n  }\n}\n</script>\n        "
+        )
+      ])
     ],
-    1
+    2
   )
 }
 var staticRenderFns = []
@@ -817,10 +874,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=template&id=12873ee1&":
-/*!****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=template&id=12873ee1& ***!
-  \****************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=template&id=41eff3e4&":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=template&id=41eff3e4& ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -833,441 +890,169 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "div",
-    { attrs: { id: "user-edit-tab-info" } },
+    "vx-card",
+    { attrs: { title: "Icon", "code-toggler": "" } },
     [
-      _c("div", { staticClass: "vx-row" }, [
-        _c("div", { staticClass: "vx-col w-full" }, [
-          _c("div", { staticClass: "flex items-start flex-col sm:flex-row" }, [
-            _c("img", {
-              staticClass: "mr-8 rounded h-24 w-24",
-              attrs: { src: _vm.data.avatar }
-            }),
-            _vm._v(" "),
-            _c(
-              "div",
-              [
-                _c(
-                  "p",
-                  { staticClass: "text-lg font-medium mb-2 mt-4 sm:mt-0" },
-                  [_vm._v(_vm._s(_vm.data.name))]
-                ),
-                _vm._v(" "),
-                _c("input", {
-                  ref: "update_avatar_input",
-                  staticClass: "hidden",
-                  attrs: { type: "file", accept: "image/*" },
-                  on: { change: _vm.update_avatar }
-                }),
-                _vm._v(" "),
-                _c("vs-button", { staticClass: "mr-4 mb-4" }, [
-                  _vm._v("Change Avatar")
-                ]),
-                _vm._v(" "),
-                _c(
-                  "vs-button",
-                  { attrs: { type: "border", color: "danger" } },
-                  [_vm._v("Remove Avatar")]
-                )
-              ],
-              1
-            )
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "vx-row" }, [
-        _c(
-          "div",
-          { staticClass: "vx-col md:w-1/2 w-full" },
-          [
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "required|alpha_num",
-                  expression: "'required|alpha_num'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "Username", name: "username" },
-              model: {
-                value: _vm.data_local.username,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local, "username", $$v)
-                },
-                expression: "data_local.username"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("username"),
-                    expression: "errors.has('username')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("username")))]
-            ),
-            _vm._v(" "),
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "required|alpha_spaces",
-                  expression: "'required|alpha_spaces'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "Name", name: "name" },
-              model: {
-                value: _vm.data_local.name,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local, "name", $$v)
-                },
-                expression: "data_local.name"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("name"),
-                    expression: "errors.has('name')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("name")))]
-            ),
-            _vm._v(" "),
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "required|email",
-                  expression: "'required|email'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "Email", type: "email", name: "email" },
-              model: {
-                value: _vm.data_local.email,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local, "email", $$v)
-                },
-                expression: "data_local.email"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("email"),
-                    expression: "errors.has('email')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("email")))]
-            )
-          ],
-          1
+      _c("p", [
+        _vm._v(
+          "Notifications can include icons to improve the user experience and to construct a more pleasant and intuitive notification. To make this, use the "
         ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "vx-col md:w-1/2 w-full" },
-          [
-            _c(
-              "div",
-              { staticClass: "mt-4" },
-              [
-                _c("label", { staticClass: "vs-input--label" }, [
-                  _vm._v("Status")
-                ]),
-                _vm._v(" "),
-                _c("v-select", {
-                  directives: [
-                    {
-                      name: "validate",
-                      rawName: "v-validate",
-                      value: "required",
-                      expression: "'required'"
-                    }
-                  ],
-                  attrs: {
-                    clearable: false,
-                    options: _vm.statusOptions,
-                    name: "status",
-                    dir: _vm.$vs.rtl ? "rtl" : "ltr"
-                  },
-                  model: {
-                    value: _vm.status_local,
-                    callback: function($$v) {
-                      _vm.status_local = $$v
-                    },
-                    expression: "status_local"
-                  }
-                }),
-                _vm._v(" "),
-                _c(
-                  "span",
-                  {
-                    directives: [
-                      {
-                        name: "show",
-                        rawName: "v-show",
-                        value: _vm.errors.has("status"),
-                        expression: "errors.has('status')"
-                      }
-                    ],
-                    staticClass: "text-danger text-sm"
-                  },
-                  [_vm._v(_vm._s(_vm.errors.first("status")))]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "mt-4" },
-              [
-                _c("label", { staticClass: "vs-input--label" }, [
-                  _vm._v("Role")
-                ]),
-                _vm._v(" "),
-                _c("v-select", {
-                  directives: [
-                    {
-                      name: "validate",
-                      rawName: "v-validate",
-                      value: "required",
-                      expression: "'required'"
-                    }
-                  ],
-                  attrs: {
-                    clearable: false,
-                    options: _vm.roleOptions,
-                    name: "role",
-                    dir: _vm.$vs.rtl ? "rtl" : "ltr"
-                  },
-                  model: {
-                    value: _vm.role_local,
-                    callback: function($$v) {
-                      _vm.role_local = $$v
-                    },
-                    expression: "role_local"
-                  }
-                }),
-                _vm._v(" "),
-                _c(
-                  "span",
-                  {
-                    directives: [
-                      {
-                        name: "show",
-                        rawName: "v-show",
-                        value: _vm.errors.has("role"),
-                        expression: "errors.has('role')"
-                      }
-                    ],
-                    staticClass: "text-danger text-sm"
-                  },
-                  [_vm._v(_vm._s(_vm.errors.first("role")))]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "alpha_spaces",
-                  expression: "'alpha_spaces'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "Company", name: "company" },
-              model: {
-                value: _vm.data_local.company,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local, "company", $$v)
-                },
-                expression: "data_local.company"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("company"),
-                    expression: "errors.has('company')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("company")))]
-            )
-          ],
-          1
-        )
+        _c("code", [_vm._v("icon")]),
+        _vm._v(" property. A practical example would be: "),
+        _c("code", [_vm._v("icon: 'chat'")])
       ]),
       _vm._v(" "),
       _c(
-        "vx-card",
+        "vs-alert",
         {
-          staticClass: "mt-base",
-          attrs: { "no-shadow": "", "card-border": "" }
+          staticClass: "mt-5",
+          attrs: { color: "primary", icon: "new_releases", active: "true" }
         },
         [
-          _c("div", { staticClass: "vx-row" }, [
+          _c("p", [
+            _vm._v(
+              "Vuesax uses the Google Material Icons font library by default. For a list of all available icons, visit the official "
+            ),
             _c(
-              "div",
-              { staticClass: "vx-col w-full" },
-              [
-                _c(
-                  "div",
-                  { staticClass: "flex items-end px-3" },
-                  [
-                    _c("feather-icon", {
-                      staticClass: "mr-2",
-                      attrs: { svgClasses: "w-6 h-6", icon: "LockIcon" }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "span",
-                      { staticClass: "font-medium text-lg leading-none" },
-                      [_vm._v("Permissions")]
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c("vs-divider")
-              ],
-              1
-            )
+              "a",
+              {
+                attrs: { href: "https://material.io/icons/", target: "_blank" }
+              },
+              [_vm._v("Material Icons page")]
+            ),
+            _vm._v(".")
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "block overflow-x-auto" }, [
-            _c(
-              "table",
-              { staticClass: "w-full" },
-              [
-                _c(
-                  "tr",
-                  _vm._l(
-                    ["Module", "Read", "Write", "Create", "Delete"],
-                    function(heading) {
-                      return _c(
-                        "th",
-                        {
-                          key: heading,
-                          staticClass:
-                            "font-semibold text-base text-left px-3 py-2"
-                        },
-                        [_vm._v(_vm._s(heading))]
-                      )
-                    }
-                  ),
-                  0
-                ),
-                _vm._v(" "),
-                _vm._l(_vm.data_local.permissions, function(val, name) {
-                  return _c(
-                    "tr",
-                    { key: name },
-                    [
-                      _c("td", { staticClass: "px-3 py-2" }, [
-                        _vm._v(_vm._s(name))
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(val, function(permission, name) {
-                        return _c(
-                          "td",
-                          { key: name + permission, staticClass: "px-3 py-2" },
-                          [
-                            _c("vs-checkbox", {
-                              model: {
-                                value: val[name],
-                                callback: function($$v) {
-                                  _vm.$set(val, name, $$v)
-                                },
-                                expression: "val[name]"
-                              }
-                            })
-                          ],
-                          1
-                        )
-                      })
-                    ],
-                    2
-                  )
-                })
-              ],
-              2
+          _c("p", [
+            _vm._v(
+              "FontAwesome and other fonts library are supported. Simply use the icon-pack with fa or fas. You still need to include the Font Awesome icons in your project."
             )
           ])
         ]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "vx-row" }, [
-        _c("div", { staticClass: "vx-col w-full" }, [
+      _c(
+        "div",
+        { staticClass: "demo-alignment" },
+        [
           _c(
-            "div",
-            { staticClass: "mt-8 flex flex-wrap items-center justify-end" },
-            [
-              _c(
-                "vs-button",
-                {
-                  staticClass: "ml-auto mt-2",
-                  attrs: { disabled: !_vm.validateForm },
-                  on: { click: _vm.save_changes }
-                },
-                [_vm._v("Save Changes")]
-              ),
-              _vm._v(" "),
-              _c(
-                "vs-button",
-                {
-                  staticClass: "ml-4 mt-2",
-                  attrs: { type: "border", color: "warning" },
-                  on: { click: _vm.reset_data }
-                },
-                [_vm._v("Reset")]
-              )
-            ],
-            1
+            "vs-button",
+            {
+              attrs: { color: "primary", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Icon mail",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "primary",
+                    iconPack: "feather",
+                    icon: "icon-mail"
+                  })
+                }
+              }
+            },
+            [_vm._v("Icon Mail")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "success", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Icon mail",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "success",
+                    iconPack: "feather",
+                    icon: "icon-check"
+                  })
+                }
+              }
+            },
+            [_vm._v("Icon check_box")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "danger", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Icon mail",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "danger",
+                    iconPack: "feather",
+                    icon: "icon-heart"
+                  })
+                }
+              }
+            },
+            [_vm._v("Icon favorite")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "warning", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Icon mail",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "warning",
+                    iconPack: "feather",
+                    icon: "icon-alert-circle"
+                  })
+                }
+              }
+            },
+            [_vm._v("Icon error")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "dark", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Icon mail",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "dark",
+                    iconPack: "feather",
+                    icon: "icon-message-square"
+                  })
+                }
+              }
+            },
+            [_vm._v("Icon chat")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "success", type: "gradient" },
+              on: {
+                click: function($event) {
+                  return _vm.randomIcon()
+                }
+              }
+            },
+            [_vm._v("Icon Random Color")]
           )
-        ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          "\n<template>\n  <div class=\"demo-alignment\">\n\n    <vs-button color=\"primary\" type=\"flat\"\n      @click=\"$vs.notify({\n        title:'Icon mail',\n        text:'Lorem ipsum dolor sit amet, consectetur',\n        color:'primary',\n        iconPack: 'feather',\n        icon:'icon-mail'})\">Icon Mail</vs-button>\n\n    <vs-button color=\"success\" type=\"flat\"\n      @click=\"$vs.notify({\n        title:'Icon mail',\n        text:'Lorem ipsum dolor sit amet, consectetur',\n        color:'success',\n        iconPack: 'feather',\n        icon:'icon-check'})\">Icon check_box</vs-button>\n\n    <vs-button color=\"danger\" type=\"flat\"\n      @click=\"$vs.notify({\n        title:'Icon mail',\n        text:'Lorem ipsum dolor sit amet, consectetur',\n        color:'danger',\n        iconPack: 'feather',\n        icon:'icon-heart'})\">Icon favorite</vs-button>\n\n    <vs-button color=\"warning\" type=\"flat\"\n      @click=\"$vs.notify({\n        title:'Icon mail',\n        text:'Lorem ipsum dolor sit amet, consectetur',\n        color:'warning',\n        iconPack: 'feather',\n        icon:'icon-alert-circle'})\">Icon error</vs-button>\n\n    <vs-button color=\"dark\" type=\"flat\"\n      @click=\"$vs.notify({\n        title:'Icon mail',\n        text:'Lorem ipsum dolor sit amet, consectetur',\n        color:'dark',\n        iconPack: 'feather',\n        icon:'icon-message-square'})\">Icon chat</vs-button>\n\n      <vs-button @click=\"randomIcon()\" color=\"success\" type=\"gradient\">Icon Random Color</vs-button>\n  </div>\n</template>\n\n<script>\nexport default {\n  methods: {\n    randomIcon() {\n      function getRandomInt(min, max) {\n        return Math.floor(Math.random() * (max - min)) + min;\n      }\n      let color = `rgb(${getRandomInt(0,255)},${getRandomInt(0,255)},${getRandomInt(0,255)})`\n\n      this.$vs.notify({ title: &apos;Icon mail&apos;, text: &apos;Lorem ipsum dolor sit amet, consectetur&apos;, color: color, icon: &apos;verified_user&apos; })\n    }\n  }\n}\n</script>\n    "
+        )
       ])
     ],
-    1
+    2
   )
 }
 var staticRenderFns = []
@@ -1277,10 +1062,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=template&id=3634e460&":
-/*!********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=template&id=3634e460& ***!
-  \********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=template&id=3af7843e&":
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=template&id=3af7843e& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1292,894 +1077,152 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "user-edit-tab-info" } }, [
-    _c("div", { staticClass: "vx-row" }, [
-      _c("div", { staticClass: "vx-col w-full md:w-1/2" }, [
-        _c(
-          "div",
-          { staticClass: "flex items-end" },
-          [
-            _c("feather-icon", {
-              staticClass: "mr-2",
-              attrs: { icon: "UserIcon", svgClasses: "w-5 h-5" }
-            }),
-            _vm._v(" "),
-            _c("span", { staticClass: "leading-none font-medium" }, [
-              _vm._v("Personal Information")
-            ])
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          [
-            _c(
-              "div",
-              { staticClass: "mt-4" },
-              [
-                _c("label", { staticClass: "text-sm" }, [_vm._v("Birth Date")]),
-                _vm._v(" "),
-                _c("flat-pickr", {
-                  directives: [
-                    {
-                      name: "validate",
-                      rawName: "v-validate",
-                      value: "required",
-                      expression: "'required'"
-                    }
-                  ],
-                  staticClass: "w-full",
-                  attrs: {
-                    config: { dateFormat: "d F Y", maxDate: new Date() },
-                    name: "dob"
-                  },
-                  model: {
-                    value: _vm.data_local.dob,
-                    callback: function($$v) {
-                      _vm.$set(_vm.data_local, "dob", $$v)
-                    },
-                    expression: "data_local.dob"
-                  }
-                }),
-                _vm._v(" "),
-                _c(
-                  "span",
-                  {
-                    directives: [
-                      {
-                        name: "show",
-                        rawName: "v-show",
-                        value: _vm.errors.has("dob"),
-                        expression: "errors.has('dob')"
-                      }
-                    ],
-                    staticClass: "text-danger text-sm"
-                  },
-                  [_vm._v(_vm._s(_vm.errors.first("dob")))]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: { regex: "^\\+?([0-9]+)$" },
-                  expression: "{regex: '^\\\\+?([0-9]+)$' }"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "Mobile", name: "mobile" },
-              model: {
-                value: _vm.data_local.mobile,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local, "mobile", $$v)
-                },
-                expression: "data_local.mobile"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("mobile"),
-                    expression: "errors.has('mobile')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("mobile")))]
-            ),
-            _vm._v(" "),
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "url:require_protocol",
-                  expression: "'url:require_protocol'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: {
-                label: "Website",
-                name: "website",
-                "data-vv-as": "field"
-              },
-              model: {
-                value: _vm.data_local.website,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local, "website", $$v)
-                },
-                expression: "data_local.website"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("website"),
-                    expression: "errors.has('website')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("website")))]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "mt-4" },
-              [
-                _c("label", { staticClass: "text-sm" }, [_vm._v("Languages")]),
-                _vm._v(" "),
-                _c("v-select", {
-                  directives: [
-                    {
-                      name: "validate",
-                      rawName: "v-validate",
-                      value: "required",
-                      expression: "'required'"
-                    }
-                  ],
-                  attrs: {
-                    multiple: "",
-                    closeOnSelect: false,
-                    options: _vm.langOptions,
-                    name: "lang_known",
-                    dir: _vm.$vs.rtl ? "rtl" : "ltr"
-                  },
-                  model: {
-                    value: _vm.data_local.languages_known,
-                    callback: function($$v) {
-                      _vm.$set(_vm.data_local, "languages_known", $$v)
-                    },
-                    expression: "data_local.languages_known"
-                  }
-                }),
-                _vm._v(" "),
-                _c(
-                  "span",
-                  {
-                    directives: [
-                      {
-                        name: "show",
-                        rawName: "v-show",
-                        value: _vm.errors.has("lang_known"),
-                        expression: "errors.has('lang_known')"
-                      }
-                    ],
-                    staticClass: "text-danger text-sm"
-                  },
-                  [_vm._v(_vm._s(_vm.errors.first("lang_known")))]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "mt-4" }, [
-              _c("label", { staticClass: "text-sm" }, [_vm._v("Gender")]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "mt-2" },
-                [
-                  _c(
-                    "vs-radio",
-                    {
-                      staticClass: "mr-4",
-                      attrs: { "vs-value": "male" },
-                      model: {
-                        value: _vm.data_local.gender,
-                        callback: function($$v) {
-                          _vm.$set(_vm.data_local, "gender", $$v)
-                        },
-                        expression: "data_local.gender"
-                      }
-                    },
-                    [_vm._v("Male")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "vs-radio",
-                    {
-                      staticClass: "mr-4",
-                      attrs: { "vs-value": "female" },
-                      model: {
-                        value: _vm.data_local.gender,
-                        callback: function($$v) {
-                          _vm.$set(_vm.data_local, "gender", $$v)
-                        },
-                        expression: "data_local.gender"
-                      }
-                    },
-                    [_vm._v("Female")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "vs-radio",
-                    {
-                      attrs: { "vs-value": "other" },
-                      model: {
-                        value: _vm.data_local.gender,
-                        callback: function($$v) {
-                          _vm.$set(_vm.data_local, "gender", $$v)
-                        },
-                        expression: "data_local.gender"
-                      }
-                    },
-                    [_vm._v("Other")]
-                  )
-                ],
-                1
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mt-6" }, [
-              _c("label", [_vm._v("Contact Options")]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "flex flex-wrap mt-1" },
-                [
-                  _c(
-                    "vs-checkbox",
-                    {
-                      staticClass: "mr-4 mb-2",
-                      attrs: { "vs-value": "email" },
-                      model: {
-                        value: _vm.data_local.contact_options,
-                        callback: function($$v) {
-                          _vm.$set(_vm.data_local, "contact_options", $$v)
-                        },
-                        expression: "data_local.contact_options"
-                      }
-                    },
-                    [_vm._v("Email")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "vs-checkbox",
-                    {
-                      staticClass: "mr-4 mb-2",
-                      attrs: { "vs-value": "message" },
-                      model: {
-                        value: _vm.data_local.contact_options,
-                        callback: function($$v) {
-                          _vm.$set(_vm.data_local, "contact_options", $$v)
-                        },
-                        expression: "data_local.contact_options"
-                      }
-                    },
-                    [_vm._v("Message")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "vs-checkbox",
-                    {
-                      staticClass: " mb-2",
-                      attrs: { "vs-value": "Phone" },
-                      model: {
-                        value: _vm.data_local.contact_options,
-                        callback: function($$v) {
-                          _vm.$set(_vm.data_local, "contact_options", $$v)
-                        },
-                        expression: "data_local.contact_options"
-                      }
-                    },
-                    [_vm._v("Phone")]
-                  )
-                ],
-                1
-              )
-            ])
-          ],
-          1
+  return _c(
+    "vx-card",
+    { attrs: { title: "Position", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v(
+          "We can change the place where the notification appears with the property position. A practical example would be: position: 'top-right'. The supported values are"
         )
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "vx-col w-full md:w-1/2" }, [
-        _c(
-          "div",
-          { staticClass: "flex items-end md:mt-0 mt-base" },
-          [
-            _c("feather-icon", {
-              staticClass: "mr-2",
-              attrs: { icon: "MapPinIcon", svgClasses: "w-5 h-5" }
-            }),
-            _vm._v(" "),
-            _c("span", { staticClass: "leading-none font-medium" }, [
-              _vm._v("Address")
-            ])
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          [
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "required",
-                  expression: "'required'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "Address Line 1", name: "addd_line_1" },
-              model: {
-                value: _vm.data_local.location.add_line_1,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local.location, "add_line_1", $$v)
-                },
-                expression: "data_local.location.add_line_1"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("addd_line_1"),
-                    expression: "errors.has('addd_line_1')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("addd_line_1")))]
-            ),
-            _vm._v(" "),
-            _c("vs-input", {
-              staticClass: "w-full mt-4",
-              attrs: { label: "Address Line 2" },
-              model: {
-                value: _vm.data_local.location.add_line_2,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local.location, "add_line_2", $$v)
-                },
-                expression: "data_local.location.add_line_2"
-              }
-            }),
-            _vm._v(" "),
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "required|numeric",
-                  expression: "'required|numeric'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "Post Code", name: "post_code" },
-              model: {
-                value: _vm.data_local.location.post_code,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local.location, "post_code", $$v)
-                },
-                expression: "data_local.location.post_code"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("post_code"),
-                    expression: "errors.has('post_code')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("post_code")))]
-            ),
-            _vm._v(" "),
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "required|alpha",
-                  expression: "'required|alpha'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "City", name: "city" },
-              model: {
-                value: _vm.data_local.location.city,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local.location, "city", $$v)
-                },
-                expression: "data_local.location.city"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("city"),
-                    expression: "errors.has('city')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("city")))]
-            ),
-            _vm._v(" "),
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "required|alpha",
-                  expression: "'required|alpha'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "State", name: "state" },
-              model: {
-                value: _vm.data_local.location.state,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local.location, "state", $$v)
-                },
-                expression: "data_local.location.state"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("state"),
-                    expression: "errors.has('state')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("state")))]
-            ),
-            _vm._v(" "),
-            _c("vs-input", {
-              directives: [
-                {
-                  name: "validate",
-                  rawName: "v-validate",
-                  value: "required|alpha",
-                  expression: "'required|alpha'"
-                }
-              ],
-              staticClass: "w-full mt-4",
-              attrs: { label: "Country", name: "country" },
-              model: {
-                value: _vm.data_local.location.country,
-                callback: function($$v) {
-                  _vm.$set(_vm.data_local.location, "country", $$v)
-                },
-                expression: "data_local.location.country"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.errors.has("country"),
-                    expression: "errors.has('country')"
-                  }
-                ],
-                staticClass: "text-danger text-sm"
-              },
-              [_vm._v(_vm._s(_vm.errors.first("country")))]
+      _c("vx-list", { staticClass: "mt-3", attrs: { list: _vm.listPosition } }),
+      _vm._v(" "),
+      _c(
+        "vs-alert",
+        {
+          staticClass: "mb-1",
+          attrs: { icon: "warning", active: "true", color: "warning" }
+        },
+        [
+          _c("span", [
+            _vm._v("The default notifications appear "),
+            _c("code", [_vm._v("bottom-right")]),
+            _vm._v(
+              ", it is not necessary to add the position property if it is the desired position"
             )
-          ],
-          1
-        )
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "vx-row" }, [
-      _c("div", { staticClass: "vx-col w-full" }, [
-        _c(
-          "div",
-          { staticClass: "mt-8 flex flex-wrap items-center justify-end" },
-          [
-            _c(
-              "vs-button",
-              {
-                staticClass: "ml-auto mt-2",
-                attrs: { disabled: !_vm.validateForm },
-                on: { click: _vm.save_changes }
-              },
-              [_vm._v("Save Changes")]
-            ),
-            _vm._v(" "),
-            _c(
-              "vs-button",
-              {
-                staticClass: "ml-4 mt-2",
-                attrs: { type: "border", color: "warning" },
-                on: { click: _vm.reset_data }
-              },
-              [_vm._v("Reset")]
-            )
-          ],
-          1
-        )
-      ])
-    ])
-  ])
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=template&id=7d92312e&":
-/*!***************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=template&id=7d92312e& ***!
-  \***************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "user-edit-tab-info" } }, [
-    _c("div", { staticClass: "vx-row" }, [
+          ])
+        ]
+      ),
+      _vm._v(" "),
       _c(
         "div",
-        { staticClass: "vx-col w-full md:w-1/2" },
+        { staticClass: "demo-alignment" },
         [
-          _c("vs-input", {
-            directives: [
-              {
-                name: "validate",
-                rawName: "v-validate",
-                value: "url:require_protocol",
-                expression: "'url:require_protocol'"
-              }
-            ],
-            staticClass: "w-full",
-            attrs: {
-              "icon-pack": "feather",
-              icon: "icon-twitter",
-              label: "Twitter",
-              "icon-no-border": "",
-              name: "twitter"
-            },
-            model: {
-              value: _vm.data_local.social_links.twitter,
-              callback: function($$v) {
-                _vm.$set(_vm.data_local.social_links, "twitter", $$v)
-              },
-              expression: "data_local.social_links.twitter"
-            }
-          }),
-          _vm._v(" "),
           _c(
-            "span",
+            "vs-button",
             {
-              directives: [
-                {
-                  name: "show",
-                  rawName: "v-show",
-                  value: _vm.errors.has("twitter"),
-                  expression: "errors.has('twitter')"
+              attrs: { color: "primary", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Position Default",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "primary"
+                  })
                 }
-              ],
-              staticClass: "text-danger text-sm"
+              }
             },
-            [_vm._v(_vm._s(_vm.errors.first("twitter")))]
+            [_vm._v("Position Default")]
           ),
           _vm._v(" "),
-          _c("vs-input", {
-            directives: [
-              {
-                name: "validate",
-                rawName: "v-validate",
-                value: "url:require_protocol",
-                expression: "'url:require_protocol'"
-              }
-            ],
-            staticClass: "w-full mt-4",
-            attrs: {
-              "icon-pack": "feather",
-              icon: "icon-facebook",
-              label: "Facebook",
-              "icon-no-border": "",
-              name: "facebook"
-            },
-            model: {
-              value: _vm.data_local.social_links.facebook,
-              callback: function($$v) {
-                _vm.$set(_vm.data_local.social_links, "facebook", $$v)
-              },
-              expression: "data_local.social_links.facebook"
-            }
-          }),
-          _vm._v(" "),
           _c(
-            "span",
+            "vs-button",
             {
-              directives: [
-                {
-                  name: "show",
-                  rawName: "v-show",
-                  value: _vm.errors.has("facebook"),
-                  expression: "errors.has('facebook')"
+              attrs: { color: "success", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Position top-right",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "success",
+                    position: "top-right"
+                  })
                 }
-              ],
-              staticClass: "text-danger text-sm"
+              }
             },
-            [_vm._v(_vm._s(_vm.errors.first("facebook")))]
+            [_vm._v("Position Top Right")]
           ),
           _vm._v(" "),
-          _c("vs-input", {
-            directives: [
-              {
-                name: "validate",
-                rawName: "v-validate",
-                value: "url:require_protocol",
-                expression: "'url:require_protocol'"
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "danger", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Position top-left",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "danger",
+                    position: "top-left"
+                  })
+                }
               }
-            ],
-            staticClass: "w-full mt-4",
-            attrs: {
-              "icon-pack": "feather",
-              icon: "icon-instagram",
-              label: "Instagram",
-              "icon-no-border": "",
-              name: "instagram"
             },
-            model: {
-              value: _vm.data_local.social_links.instagram,
-              callback: function($$v) {
-                _vm.$set(_vm.data_local.social_links, "instagram", $$v)
-              },
-              expression: "data_local.social_links.instagram"
-            }
-          }),
+            [_vm._v("Position Top Left")]
+          ),
           _vm._v(" "),
           _c(
-            "span",
+            "vs-button",
             {
-              directives: [
-                {
-                  name: "show",
-                  rawName: "v-show",
-                  value: _vm.errors.has("instagram"),
-                  expression: "errors.has('instagram')"
+              attrs: { color: "warning", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Position bottom-left",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "warning",
+                    position: "bottom-left"
+                  })
                 }
-              ],
-              staticClass: "text-danger text-sm"
+              }
             },
-            [_vm._v(_vm._s(_vm.errors.first("instagram")))]
+            [_vm._v("Position Bottom Left")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "dark", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Position bottom-center",
+                    text: "Lorem ipsum dolor sit amet, consectetur",
+                    color: "dark",
+                    position: "bottom-center"
+                  })
+                }
+              }
+            },
+            [_vm._v(" Position Bottom Center")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "success", type: "gradient" },
+              on: {
+                click: function($event) {
+                  return _vm.randomCenter()
+                }
+              }
+            },
+            [_vm._v("Position Top Center Random Color")]
           )
         ],
         1
       ),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "vx-col w-full md:w-1/2" },
-        [
-          _c("vs-input", {
-            directives: [
-              {
-                name: "validate",
-                rawName: "v-validate",
-                value: "url:require_protocol",
-                expression: "'url:require_protocol'"
-              }
-            ],
-            staticClass: "w-full mt-4 md:mt-0",
-            attrs: {
-              "icon-pack": "feather",
-              icon: "icon-github",
-              label: "GitHub",
-              "icon-no-border": "",
-              name: "github"
-            },
-            model: {
-              value: _vm.data_local.social_links.github,
-              callback: function($$v) {
-                _vm.$set(_vm.data_local.social_links, "github", $$v)
-              },
-              expression: "data_local.social_links.github"
-            }
-          }),
-          _vm._v(" "),
-          _c(
-            "span",
-            {
-              directives: [
-                {
-                  name: "show",
-                  rawName: "v-show",
-                  value: _vm.errors.has("github"),
-                  expression: "errors.has('github')"
-                }
-              ],
-              staticClass: "text-danger text-sm"
-            },
-            [_vm._v(_vm._s(_vm.errors.first("github")))]
-          ),
-          _vm._v(" "),
-          _c("vs-input", {
-            directives: [
-              {
-                name: "validate",
-                rawName: "v-validate",
-                value: "url:require_protocol",
-                expression: "'url:require_protocol'"
-              }
-            ],
-            staticClass: "w-full mt-4",
-            attrs: {
-              "icon-pack": "feather",
-              icon: "icon-codepen",
-              label: "CodePen",
-              "icon-no-border": "",
-              name: "codepen"
-            },
-            model: {
-              value: _vm.data_local.social_links.codepen,
-              callback: function($$v) {
-                _vm.$set(_vm.data_local.social_links, "codepen", $$v)
-              },
-              expression: "data_local.social_links.codepen"
-            }
-          }),
-          _vm._v(" "),
-          _c(
-            "span",
-            {
-              directives: [
-                {
-                  name: "show",
-                  rawName: "v-show",
-                  value: _vm.errors.has("codepen"),
-                  expression: "errors.has('codepen')"
-                }
-              ],
-              staticClass: "text-danger text-sm"
-            },
-            [_vm._v(_vm._s(_vm.errors.first("codepen")))]
-          ),
-          _vm._v(" "),
-          _c("vs-input", {
-            directives: [
-              {
-                name: "validate",
-                rawName: "v-validate",
-                value: "url:require_protocol",
-                expression: "'url:require_protocol'"
-              }
-            ],
-            staticClass: "w-full mt-4",
-            attrs: {
-              "icon-pack": "feather",
-              icon: "icon-slack",
-              label: "Slack",
-              "icon-no-border": "",
-              name: "slack"
-            },
-            model: {
-              value: _vm.data_local.social_links.slack,
-              callback: function($$v) {
-                _vm.$set(_vm.data_local.social_links, "slack", $$v)
-              },
-              expression: "data_local.social_links.slack"
-            }
-          }),
-          _vm._v(" "),
-          _c(
-            "span",
-            {
-              directives: [
-                {
-                  name: "show",
-                  rawName: "v-show",
-                  value: _vm.errors.has("slack"),
-                  expression: "errors.has('slack')"
-                }
-              ],
-              staticClass: "text-danger text-sm"
-            },
-            [_vm._v(_vm._s(_vm.errors.first("slack")))]
-          )
-        ],
-        1
-      )
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "vx-row" }, [
-      _c("div", { staticClass: "vx-col w-full" }, [
-        _c(
-          "div",
-          { staticClass: "mt-8 flex flex-wrap items-center justify-end" },
-          [
-            _c(
-              "vs-button",
-              {
-                staticClass: "ml-auto mt-2",
-                attrs: { disabled: !_vm.validateForm },
-                on: { click: _vm.save_changes }
-              },
-              [_vm._v("Save Changes")]
-            ),
-            _vm._v(" "),
-            _c(
-              "vs-button",
-              {
-                staticClass: "ml-4 mt-2",
-                attrs: { type: "border", color: "warning" },
-                on: { click: _vm.reset_data }
-              },
-              [_vm._v("Reset")]
-            )
-          ],
-          1
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          "\n<template>\n  <div class=\"demo-alignment\">\n\n      <vs-button color=\"primary\" type=\"flat\"\n        @click=\"$vs.notify({\n          title:'Position Default',\n          text:'Lorem ipsum dolor sit amet, consectetur',\n          color:'primary'})\">Position Default</vs-button>\n\n      <vs-button color=\"success\" type=\"flat\"\n        @click=\"$vs.notify({\n          title:'Position top-right',\n          text:'Lorem ipsum dolor sit amet, consectetur',\n          color:'success',\n          position:'top-right'})\">Position Top Right</vs-button>\n\n      <vs-button color=\"danger\" type=\"flat\"\n        @click=\"$vs.notify({\n          title:'Position top-left',\n          text:'Lorem ipsum dolor sit amet, consectetur',\n          color:'danger',\n          position:'top-left'})\">Position Top Left</vs-button>\n\n      <vs-button color=\"warning\" type=\"flat\"\n        @click=\"$vs.notify({\n          title:'Position bottom-left',\n          text:'Lorem ipsum dolor sit amet, consectetur',\n          color:'warning',\n          position:'bottom-left'})\">Position Bottom Left</vs-button>\n\n      <vs-button color=\"dark\" type=\"flat\"\n        @click=\"$vs.notify({\n          title:'Position bottom-center',\n          text:'Lorem ipsum dolor sit amet, consectetur',\n          color:'dark',\n          position:'bottom-center'})\"> Position Bottom Center</vs-button>\n\n      <vs-button @click=\"randomCenter()\" color=\"success\" type=\"gradient\">Position Top Center Random Color</vs-button>\n  </div>\n</template>\n\n<script>\nexport default {\n  methods: {\n    randomCenter() {\n      function getRandomInt(min, max) {\n        return Math.floor(Math.random() * (max - min)) + min;\n      }\n      let color = `rgb(${getRandomInt(0,255)},${getRandomInt(0,255)},${getRandomInt(0,255)})`\n      this.$vs.notify({ title: 'Position top-center', text: 'Lorem ipsum dolor sit amet, consectetur', color: color, position: 'top-center' })\n    }\n  }\n}\n</script>\n        "
         )
       ])
-    ])
-  ])
+    ],
+    2
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -2188,197 +1231,142 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/src/store/user-management/moduleUserManagement.js":
-/*!************************************************************************!*\
-  !*** ./resources/js/src/store/user-management/moduleUserManagement.js ***!
-  \************************************************************************/
-/*! exports provided: default */
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue?vue&type=template&id=e19c5b3c&":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue?vue&type=template&id=e19c5b3c& ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _moduleUserManagementState_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./moduleUserManagementState.js */ "./resources/js/src/store/user-management/moduleUserManagementState.js");
-/* harmony import */ var _moduleUserManagementMutations_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./moduleUserManagementMutations.js */ "./resources/js/src/store/user-management/moduleUserManagementMutations.js");
-/* harmony import */ var _moduleUserManagementActions_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./moduleUserManagementActions.js */ "./resources/js/src/store/user-management/moduleUserManagementActions.js");
-/* harmony import */ var _moduleUserManagementGetters_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./moduleUserManagementGetters.js */ "./resources/js/src/store/user-management/moduleUserManagementGetters.js");
-/*=========================================================================================
-  File Name: moduleUserManagement.js
-  Description: Calendar Module
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "vx-card",
+    { attrs: { title: "Time", "code-toggler": "" } },
+    [
+      _c("p", [
+        _vm._v(
+          "You can change the total time that the notification stays on the screen with the "
+        ),
+        _c("code", [_vm._v("time")]),
+        _vm._v(" property. Example: "),
+        _c("code", [_vm._v("time: 4000")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "vs-alert",
+        {
+          staticClass: "mt-5",
+          attrs: { color: "primary", icon: "new_releases", active: "true" }
+        },
+        [
+          _c("p", [
+            _vm._v("By default the notifications have a time of "),
+            _c("strong", [_vm._v("2000")]),
+            _vm._v(" (2s)")
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-alignment" },
+        [
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "primary", type: "flat" },
+              on: {
+                click: function($event) {
+                  return _vm.$vs.notify({
+                    title: "Time default",
+                    text: "Lorem ipsum dolor sit amet consectetur",
+                    color: "primary",
+                    iconPack: "feather",
+                    icon: "icon-clock"
+                  })
+                }
+              }
+            },
+            [_vm._v("Time default")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "primary", type: "flat" },
+              on: {
+                click: function($event) {
+                  _vm.$vs.notify({
+                    time: 4000,
+                    title: "Time 4s (4000)",
+                    text: "Lorem ipsum dolor sit amet consectetur",
+                    color: "primary",
+                    iconPack: "feather",
+                    icon: "icon-clock"
+                  })
+                }
+              }
+            },
+            [_vm._v("Time 4s (4000)")]
+          ),
+          _vm._v(" "),
+          _c(
+            "vs-button",
+            {
+              attrs: { color: "primary", type: "flat" },
+              on: {
+                click: function($event) {
+                  _vm.$vs.notify({
+                    time: 8000,
+                    title: "Time 8s (8000)",
+                    text: "Lorem ipsum dolor sit amet consectetur",
+                    color: "primary",
+                    iconPack: "feather",
+                    icon: "icon-clock"
+                  })
+                }
+              }
+            },
+            [_vm._v("Time 8s (8000)")]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("template", { slot: "codeContainer" }, [
+        _vm._v(
+          "\n<template>\n  <div class=\"demo-alignment\">\n\n    <vs-button @click=\"$vs.notify({\n        title:'Time default',\n        text:'Lorem ipsum dolor sit amet consectetur',\n        color:'primary',\n        iconPack: 'feather',\n        icon: 'icon-clock'\n        })\" color=\"primary\" type=\"flat\">Time default</vs-button>\n\n    <vs-button @click=\"$vs.notify({\n        time:4000,\n        title:'Time 4s (4000)',\n        text:'Lorem ipsum dolor sit amet consectetur',\n        color:'primary',\n        iconPack: 'feather',\n        icon: 'icon-clock'\n        })\" color=\"primary\" type=\"flat\">Time 4s (4000)</vs-button>\n\n    <vs-button @click=\"$vs.notify({\n        time:8000,\n        title:'Time 8s (8000)',\n        text:'Lorem ipsum dolor sit amet consectetur',\n        color:'primary',\n        iconPack: 'feather',\n        icon: 'icon-clock'\n        })\" color=\"primary\" type=\"flat\">Time 8s (8000)</vs-button>\n  </div>\n</template>\n        "
+        )
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
 
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  isRegistered: false,
-  namespaced: true,
-  state: _moduleUserManagementState_js__WEBPACK_IMPORTED_MODULE_0__["default"],
-  mutations: _moduleUserManagementMutations_js__WEBPACK_IMPORTED_MODULE_1__["default"],
-  actions: _moduleUserManagementActions_js__WEBPACK_IMPORTED_MODULE_2__["default"],
-  getters: _moduleUserManagementGetters_js__WEBPACK_IMPORTED_MODULE_3__["default"]
-});
 
 /***/ }),
 
-/***/ "./resources/js/src/store/user-management/moduleUserManagementActions.js":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/src/store/user-management/moduleUserManagementActions.js ***!
-  \*******************************************************************************/
+/***/ "./resources/js/src/views/components/vuesax/notifications/Notifications.vue":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/Notifications.vue ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _axios_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/axios.js */ "./resources/js/src/axios.js");
-function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
-
-/*=========================================================================================
-  File Name: moduleCalendarActions.js
-  Description: Calendar Module Actions
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  // addItem({ commit }, item) {
-  //   return new Promise((resolve, reject) => {
-  //     axios.post("/api/data-list/products/", {item: item})
-  //       .then((response) => {
-  //         commit('ADD_ITEM', Object.assign(item, {id: response.data.id}))
-  //         resolve(response)
-  //       })
-  //       .catch((error) => { reject(error) })
-  //   })
-  // },
-  fetchUsers: function fetchUsers(_ref) {
-    var commit = _ref.commit;
-    return new Promise(function (resolve, reject) {
-      _axios_js__WEBPACK_IMPORTED_MODULE_0__["default"].get("/api/user-management/users").then(function (response) {
-        commit('SET_USERS', response.data);
-        resolve(response);
-      }).catch(function (error) {
-        reject(error);
-      });
-    });
-  },
-  fetchUser: function fetchUser(_ref2, userId) {
-    _objectDestructuringEmpty(_ref2);
-
-    return new Promise(function (resolve, reject) {
-      _axios_js__WEBPACK_IMPORTED_MODULE_0__["default"].get("/api/user-management/users/".concat(userId)).then(function (response) {
-        resolve(response);
-      }).catch(function (error) {
-        reject(error);
-      });
-    });
-  },
-  removeRecord: function removeRecord(_ref3, userId) {
-    var commit = _ref3.commit;
-    return new Promise(function (resolve, reject) {
-      _axios_js__WEBPACK_IMPORTED_MODULE_0__["default"].delete("/api/user-management/users/".concat(userId)).then(function (response) {
-        commit('REMOVE_RECORD', userId);
-        resolve(response);
-      }).catch(function (error) {
-        reject(error);
-      });
-    });
-  }
-});
-
-/***/ }),
-
-/***/ "./resources/js/src/store/user-management/moduleUserManagementGetters.js":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/src/store/user-management/moduleUserManagementGetters.js ***!
-  \*******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/*=========================================================================================
-  File Name: moduleCalendarGetters.js
-  Description: Calendar Module Getters
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
-/* harmony default export */ __webpack_exports__["default"] = ({});
-
-/***/ }),
-
-/***/ "./resources/js/src/store/user-management/moduleUserManagementMutations.js":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/src/store/user-management/moduleUserManagementMutations.js ***!
-  \*********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/*=========================================================================================
-  File Name: moduleCalendarMutations.js
-  Description: Calendar Module Mutations
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
-/* harmony default export */ __webpack_exports__["default"] = ({
-  SET_USERS: function SET_USERS(state, users) {
-    state.users = users;
-  },
-  REMOVE_RECORD: function REMOVE_RECORD(state, itemId) {
-    var userIndex = state.users.findIndex(function (u) {
-      return u.id == itemId;
-    });
-    state.users.splice(userIndex, 1);
-  }
-});
-
-/***/ }),
-
-/***/ "./resources/js/src/store/user-management/moduleUserManagementState.js":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/src/store/user-management/moduleUserManagementState.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/*=========================================================================================
-  File Name: moduleCalendarState.js
-  Description: Calendar Module State
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
-/* harmony default export */ __webpack_exports__["default"] = ({
-  users: []
-});
-
-/***/ }),
-
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEdit.vue":
-/*!*****************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEdit.vue ***!
-  \*****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _UserEdit_vue_vue_type_template_id_480dbf29___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./UserEdit.vue?vue&type=template&id=480dbf29& */ "./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=template&id=480dbf29&");
-/* harmony import */ var _UserEdit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UserEdit.vue?vue&type=script&lang=js& */ "./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Notifications_vue_vue_type_template_id_fd54ff16___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Notifications.vue?vue&type=template&id=fd54ff16& */ "./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=template&id=fd54ff16&");
+/* harmony import */ var _Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Notifications.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -2388,9 +1376,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _UserEdit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _UserEdit_vue_vue_type_template_id_480dbf29___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _UserEdit_vue_vue_type_template_id_480dbf29___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Notifications_vue_vue_type_template_id_fd54ff16___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Notifications_vue_vue_type_template_id_fd54ff16___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2400,54 +1388,261 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/apps/user/user-edit/UserEdit.vue"
+component.options.__file = "resources/js/src/views/components/vuesax/notifications/Notifications.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Notifications.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=template&id=fd54ff16&":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=template&id=fd54ff16& ***!
+  \*****************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_fd54ff16___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Notifications.vue?vue&type=template&id=fd54ff16& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/Notifications.vue?vue&type=template&id=fd54ff16&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_fd54ff16___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_fd54ff16___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _NotificationsDefault_vue_vue_type_template_id_f6bd1088___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NotificationsDefault.vue?vue&type=template&id=f6bd1088& */ "./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=template&id=f6bd1088&");
+/* harmony import */ var _NotificationsDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotificationsDefault.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _NotificationsDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _NotificationsDefault_vue_vue_type_template_id_f6bd1088___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _NotificationsDefault_vue_vue_type_template_id_f6bd1088___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NotificationsDefault.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=template&id=f6bd1088&":
+/*!************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=template&id=f6bd1088& ***!
+  \************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsDefault_vue_vue_type_template_id_f6bd1088___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NotificationsDefault.vue?vue&type=template&id=f6bd1088& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsDefault.vue?vue&type=template&id=f6bd1088&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsDefault_vue_vue_type_template_id_f6bd1088___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsDefault_vue_vue_type_template_id_f6bd1088___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue ***!
+  \*******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _NotificationsFixedAndFunctionClick_vue_vue_type_template_id_aeaf2c70___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NotificationsFixedAndFunctionClick.vue?vue&type=template&id=aeaf2c70& */ "./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=template&id=aeaf2c70&");
+/* harmony import */ var _NotificationsFixedAndFunctionClick_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotificationsFixedAndFunctionClick.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _NotificationsFixedAndFunctionClick_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _NotificationsFixedAndFunctionClick_vue_vue_type_template_id_aeaf2c70___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _NotificationsFixedAndFunctionClick_vue_vue_type_template_id_aeaf2c70___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsFixedAndFunctionClick_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NotificationsFixedAndFunctionClick.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsFixedAndFunctionClick_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=template&id=aeaf2c70&":
+/*!**************************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=template&id=aeaf2c70& ***!
+  \**************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsFixedAndFunctionClick_vue_vue_type_template_id_aeaf2c70___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NotificationsFixedAndFunctionClick.vue?vue&type=template&id=aeaf2c70& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue?vue&type=template&id=aeaf2c70&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsFixedAndFunctionClick_vue_vue_type_template_id_aeaf2c70___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsFixedAndFunctionClick_vue_vue_type_template_id_aeaf2c70___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _NotificationsIcon_vue_vue_type_template_id_41eff3e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NotificationsIcon.vue?vue&type=template&id=41eff3e4& */ "./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=template&id=41eff3e4&");
+/* harmony import */ var _NotificationsIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotificationsIcon.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _NotificationsIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _NotificationsIcon_vue_vue_type_template_id_41eff3e4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _NotificationsIcon_vue_vue_type_template_id_41eff3e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NotificationsIcon.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=template&id=41eff3e4&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=template&id=41eff3e4& ***!
+  \*********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsIcon_vue_vue_type_template_id_41eff3e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NotificationsIcon.vue?vue&type=template&id=41eff3e4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsIcon.vue?vue&type=template&id=41eff3e4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsIcon_vue_vue_type_template_id_41eff3e4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsIcon_vue_vue_type_template_id_41eff3e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue":
 /*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue ***!
   \******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEdit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./UserEdit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEdit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=template&id=480dbf29&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=template&id=480dbf29& ***!
-  \************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEdit_vue_vue_type_template_id_480dbf29___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./UserEdit.vue?vue&type=template&id=480dbf29& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEdit.vue?vue&type=template&id=480dbf29&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEdit_vue_vue_type_template_id_480dbf29___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEdit_vue_vue_type_template_id_480dbf29___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue":
-/*!***************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _UserEditTabAccount_vue_vue_type_template_id_12873ee1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./UserEditTabAccount.vue?vue&type=template&id=12873ee1& */ "./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=template&id=12873ee1&");
-/* harmony import */ var _UserEditTabAccount_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UserEditTabAccount.vue?vue&type=script&lang=js& */ "./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=script&lang=js&");
+/* harmony import */ var _NotificationsPosition_vue_vue_type_template_id_3af7843e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NotificationsPosition.vue?vue&type=template&id=3af7843e& */ "./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=template&id=3af7843e&");
+/* harmony import */ var _NotificationsPosition_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotificationsPosition.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -2457,9 +1652,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _UserEditTabAccount_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _UserEditTabAccount_vue_vue_type_template_id_12873ee1___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _UserEditTabAccount_vue_vue_type_template_id_12873ee1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _NotificationsPosition_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _NotificationsPosition_vue_vue_type_template_id_3af7843e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _NotificationsPosition_vue_vue_type_template_id_3af7843e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2469,66 +1664,64 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue"
+component.options.__file = "resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************/
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabAccount_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./UserEditTabAccount.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabAccount_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsPosition_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NotificationsPosition.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsPosition_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=template&id=12873ee1&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=template&id=12873ee1& ***!
-  \**********************************************************************************************************/
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=template&id=3af7843e&":
+/*!*************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=template&id=3af7843e& ***!
+  \*************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabAccount_vue_vue_type_template_id_12873ee1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./UserEditTabAccount.vue?vue&type=template&id=12873ee1& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabAccount.vue?vue&type=template&id=12873ee1&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabAccount_vue_vue_type_template_id_12873ee1___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsPosition_vue_vue_type_template_id_3af7843e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NotificationsPosition.vue?vue&type=template&id=3af7843e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsPosition.vue?vue&type=template&id=3af7843e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsPosition_vue_vue_type_template_id_3af7843e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabAccount_vue_vue_type_template_id_12873ee1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsPosition_vue_vue_type_template_id_3af7843e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue ***!
-  \*******************************************************************************/
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue ***!
+  \**************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _UserEditTabInformation_vue_vue_type_template_id_3634e460___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./UserEditTabInformation.vue?vue&type=template&id=3634e460& */ "./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=template&id=3634e460&");
-/* harmony import */ var _UserEditTabInformation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UserEditTabInformation.vue?vue&type=script&lang=js& */ "./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _NotificationsTime_vue_vue_type_template_id_e19c5b3c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NotificationsTime.vue?vue&type=template&id=e19c5b3c& */ "./resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue?vue&type=template&id=e19c5b3c&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-
-
+var script = {}
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _UserEditTabInformation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _UserEditTabInformation_vue_vue_type_template_id_3634e460___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _UserEditTabInformation_vue_vue_type_template_id_3634e460___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _NotificationsTime_vue_vue_type_template_id_e19c5b3c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _NotificationsTime_vue_vue_type_template_id_e19c5b3c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2538,107 +1731,24 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue"
+component.options.__file = "resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabInformation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./UserEditTabInformation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabInformation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=template&id=3634e460&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=template&id=3634e460& ***!
-  \**************************************************************************************************************/
+/***/ "./resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue?vue&type=template&id=e19c5b3c&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue?vue&type=template&id=e19c5b3c& ***!
+  \*********************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabInformation_vue_vue_type_template_id_3634e460___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./UserEditTabInformation.vue?vue&type=template&id=3634e460& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabInformation.vue?vue&type=template&id=3634e460&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabInformation_vue_vue_type_template_id_3634e460___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsTime_vue_vue_type_template_id_e19c5b3c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./NotificationsTime.vue?vue&type=template&id=e19c5b3c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/vuesax/notifications/NotificationsTime.vue?vue&type=template&id=e19c5b3c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsTime_vue_vue_type_template_id_e19c5b3c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabInformation_vue_vue_type_template_id_3634e460___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue":
-/*!**************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _UserEditTabSocial_vue_vue_type_template_id_7d92312e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./UserEditTabSocial.vue?vue&type=template&id=7d92312e& */ "./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=template&id=7d92312e&");
-/* harmony import */ var _UserEditTabSocial_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UserEditTabSocial.vue?vue&type=script&lang=js& */ "./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _UserEditTabSocial_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _UserEditTabSocial_vue_vue_type_template_id_7d92312e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _UserEditTabSocial_vue_vue_type_template_id_7d92312e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabSocial_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./UserEditTabSocial.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabSocial_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=template&id=7d92312e&":
-/*!*********************************************************************************************************!*\
-  !*** ./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=template&id=7d92312e& ***!
-  \*********************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabSocial_vue_vue_type_template_id_7d92312e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./UserEditTabSocial.vue?vue&type=template&id=7d92312e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/user/user-edit/UserEditTabSocial.vue?vue&type=template&id=7d92312e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabSocial_vue_vue_type_template_id_7d92312e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserEditTabSocial_vue_vue_type_template_id_7d92312e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NotificationsTime_vue_vue_type_template_id_e19c5b3c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
